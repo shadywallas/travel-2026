@@ -102,6 +102,11 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-hotel-tile svg{width:34px;height:34px}
 .tc-tile-a{background:linear-gradient(135deg,#1e3a8a,#0ea5e9)}
 .tc-tile-b{background:linear-gradient(135deg,#831843,#f472b6)}
+.tc-hotel-photo{position:relative;display:block;width:168px;min-height:112px;flex:none;border-radius:10px;overflow:hidden;background:#e5e7eb}
+.tc-hotel-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tc-hotel-photo:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+.tc-hotel-credit{position:absolute;right:6px;bottom:6px;padding:1px 7px;border-radius:999px;background:rgba(0,0,0,.6);color:#ffffff;font-size:11px;line-height:1.5}
+@media (max-width:600px){.tc-hotel{flex-direction:column}.tc-hotel-photo{width:100%;min-height:0;aspect-ratio:16/9}.tc-hotel-tile{width:100%}}
 .tc-hotel-body{flex:1;min-width:0}
 .tc-hotel-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 2px}
 .tc-hotel-lab{font-size:var(--cds-font-size-caption);font-weight:700;color:#15803d;text-transform:uppercase;letter-spacing:.04em}
@@ -256,7 +261,8 @@ window.dash = (function () {
   <ul class="tc-notes" id="tc-notes">
     <li>Day 1 is Friday 25 December, after the overnight flight from Cairo on Thursday 24 December; the plans end on Friday 1 January and you fly home on Saturday 2 January.</li>
     <li>The number of days per stop is chosen for each route; the bulb note above each plan explains why.</li>
-    <li>Video and photo buttons open TikTok, YouTube Shorts or Google Images search results in a new tab. This page cannot show outside photos or videos inside itself, so hotel cards show a colour tile instead of a photo.</li>
+    <li>On a phone, the TikTok and YouTube buttons open the apps when they are installed, and the website otherwise. On a computer, video and photo buttons open TikTok, YouTube Shorts or Google Images search results in a new tab.</li>
+    <li>Hotel photos come from each hotel’s Booking.com listing; tap a photo to open the listing.</li>
     <li>Hotel picks are suggestions; check prices and New Year availability on the hotel’s website, as many sell out early or require a minimum stay over New Year’s Eve.</li>
     <li>Ratings and plans are Claude’s estimates for late December, based on typical climate averages and well-known activities; prices and opening hours can change over the holidays.</li>
     <li>Visa information comes from third-party visa sites; please confirm with each country’s official embassy or immigration website before booking.</li>
@@ -420,10 +426,33 @@ window.dash = (function () {
   var BED = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19V6M3 14h18v5M21 14a4 4 0 0 0-4-4h-6v4" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="11" r="2" fill="#ffffff"/></svg>';
   var BULB = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z" fill="none" stroke="#8a6500" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
+  // On phones, TikTok and YouTube links open the installed app and fall back to the website.
+  var UA = navigator.userAgent || '';
+  var IS_ANDROID = /Android/i.test(UA);
+  var IS_IOS = /iPad|iPhone|iPod/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var IS_PHONE = IS_ANDROID || IS_IOS;
+  var APP_PACKAGE = { tiktok: 'com.zhiliaoapp.musically', shorts: 'com.google.android.youtube' };
+  function tiktokUrl(q) {
+    if (!IS_PHONE) return 'https://www.tiktok.com/search?q=' + encodeURIComponent(q);
+    // The TikTok app opens /discover/ links; on the web they show or redirect to the search results.
+    var slug = q.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    return 'https://www.tiktok.com/discover/' + slug;
+  }
+  function youtubeUrl(q) {
+    return 'https://www.youtube.com/results?search_query=' + encodeURIComponent(q);
+  }
+  function appHref(url, kind) {
+    if (!IS_ANDROID) return url;
+    return 'intent://' + url.replace(/^https:\/\//, '') + '#Intent;scheme=https;package=' + APP_PACKAGE[kind] +
+      ';S.browser_fallback_url=' + encodeURIComponent(url) + ';end';
+  }
+
   function linkBtn(href, label, kind) {
     var a = document.createElement('a');
-    a.href = href;
-    a.target = '_blank';
+    var inApp = IS_PHONE && !!APP_PACKAGE[kind];
+    a.href = inApp ? appHref(href, kind) : href;
+    // A new tab stops iOS from handing the link to the app, so app links open in place.
+    if (!inApp) a.target = '_blank';
     a.rel = 'noopener noreferrer';
     a.className = 'tc-link tc-link-' + kind;
     a.innerHTML = LINKICON[kind];
@@ -435,8 +464,8 @@ window.dash = (function () {
   function mediaPanel(q) {
     var p = document.createElement('div');
     p.className = 'tc-media';
-    p.appendChild(linkBtn('https://www.tiktok.com/search?q=' + encodeURIComponent(q), 'TikTok videos', 'tiktok'));
-    p.appendChild(linkBtn('https://www.youtube.com/results?search_query=' + encodeURIComponent(q + ' shorts'), 'YouTube Shorts', 'shorts'));
+    p.appendChild(linkBtn(tiktokUrl(q), 'TikTok videos', 'tiktok'));
+    p.appendChild(linkBtn(youtubeUrl(q + ' shorts'), 'YouTube Shorts', 'shorts'));
     p.appendChild(linkBtn('https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(q), 'Photos', 'photos'));
     return p;
   }
@@ -462,12 +491,38 @@ window.dash = (function () {
     });
     parent.appendChild(box);
   }
-  function hotelCard(h, idx) {
-    var c = document.createElement('div');
-    c.className = 'tc-hotel';
+  function hotelTile(idx) {
     var tile = document.createElement('div');
     tile.className = 'tc-hotel-tile ' + (idx % 2 === 0 ? 'tc-tile-a' : 'tc-tile-b');
     tile.innerHTML = BED;
+    return tile;
+  }
+  function hotelPhoto(h, idx) {
+    if (!h.image) return hotelTile(idx);
+    var a = document.createElement('a');
+    a.className = 'tc-hotel-photo';
+    a.href = h.booking_url || h.image;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.setAttribute('aria-label', h.hotel + ' on Booking.com');
+    var img = document.createElement('img');
+    img.alt = h.hotel;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    // If the photo cannot load, show the colour tile instead.
+    img.addEventListener('error', function () { a.replaceWith(hotelTile(idx)); });
+    img.src = h.image;
+    var credit = document.createElement('span');
+    credit.className = 'tc-hotel-credit';
+    credit.textContent = 'Booking.com';
+    a.appendChild(img); a.appendChild(credit);
+    return a;
+  }
+  function hotelCard(h, idx) {
+    var c = document.createElement('div');
+    c.className = 'tc-hotel';
+    var tile = hotelPhoto(h, idx);
     var body = document.createElement('div');
     body.className = 'tc-hotel-body';
     var top = document.createElement('div');
@@ -479,7 +534,7 @@ window.dash = (function () {
     var w = document.createElement('p'); w.className = 'tc-hotel-why'; w.textContent = h.why;
     var links = document.createElement('div'); links.className = 'tc-media tc-media-hotel';
     links.appendChild(linkBtn('https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(h.query + ' ' + h.city), 'Hotel photos', 'photos'));
-    links.appendChild(linkBtn('https://www.tiktok.com/search?q=' + encodeURIComponent(h.query), 'Room tour videos', 'tiktok'));
+    links.appendChild(linkBtn(tiktokUrl(h.query), 'Room tour videos', 'tiktok'));
     links.appendChild(linkBtn('https://www.google.com/search?q=' + encodeURIComponent(h.query + ' ' + h.city + ' official site'), 'Website and prices', 'web'));
     body.appendChild(top); body.appendChild(n); body.appendChild(w); body.appendChild(links);
     c.appendChild(tile); c.appendChild(body);
@@ -625,7 +680,8 @@ window.dash = (function () {
       return { country: String(a.country), day: Number(a.day), kind: String(a.kind), name: String(a.name), query: String(a.query) };
     }) : [];
     var hotels = hotRes.status === 'ok' ? (hotRes.data || []).map(function (h) {
-      return { country: String(h.country), city: String(h.city), order: Number(h.order), hotel: String(h.hotel), style: String(h.style), why: String(h.why), query: String(h.query) };
+      return { country: String(h.country), city: String(h.city), order: Number(h.order), hotel: String(h.hotel), style: String(h.style), why: String(h.why), query: String(h.query),
+        image: h.image == null ? '' : String(h.image), booking_url: h.booking_url == null ? '' : String(h.booking_url) };
     }) : [];
     var ctx = { plans: plans, planStatus: plansRes.status, acts: acts, hotels: hotels };
     var planCountries = {};

@@ -6,7 +6,9 @@
   "hotel": "Rayavadee",
   "style": "Pool villas, Railay",
   "why": "Pool villas between three beaches on the Railay peninsula, with climbing, kayaking and boats on the doorstep.",
-  "query": "Rayavadee"
+  "query": "Rayavadee",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/13206402.jpg?k=64dda1c50f9f7e97cc7f49a817c41d16484945e8b8c221e08fb8f4c0703ae5b1&o=",
+  "booking_url": "https://www.booking.com/hotel/th/rayavadee.html"
  },
  {
   "country": "Thailand",
@@ -15,7 +17,9 @@
   "hotel": "The Peninsula Bangkok",
   "style": "Riverside luxury",
   "why": "River-view rooms on the Chao Phraya, next to ICONSIAM, so you see the New Year fireworks from the river.",
-  "query": "The Peninsula Bangkok"
+  "query": "The Peninsula Bangkok",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/434993345.jpg?k=7a729dd2f098e2ef7dbd892a06eb154ffdc2b4a58fda929327008148b7916ee5&o=",
+  "booking_url": "https://www.booking.com/hotel/th/the-peninsula-bangkok.html"
  },
  {
   "country": "Vietnam (south)",
@@ -24,7 +28,9 @@
   "hotel": "Anantara Mui Ne Resort",
   "style": "Beachfront pool villas",
   "why": "Beachfront resort with pool villas, close to the kite schools and the dunes.",
-  "query": "Anantara Mui Ne Resort"
+  "query": "Anantara Mui Ne Resort",
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max750/601523257.jpg?k=886afcf88c727b29245813959334cd28d8641802a9148e8e180436c348b07201&o=",
+  "booking_url": "https://www.booking.com/hotel/vn/anmien-beach-resort.html"
  },
  {
   "country": "Vietnam (south)",
@@ -33,7 +39,9 @@
   "hotel": "Park Hyatt Saigon",
   "style": "Central luxury",
   "why": "In District 1, a short walk to Nguyen Hue Walking Street for the countdown.",
-  "query": "Park Hyatt Saigon"
+  "query": "Park Hyatt Saigon",
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max750/912159375.jpg?k=7c38ab2d1c4a4523b95f16ae2fbf5bc159ad07b557105580c536bbdf954d671b&o=",
+  "booking_url": "https://www.booking.com/hotel/vn/park-hyatt-saigon.html"
  },
  {
   "country": "Malaysia",
@@ -42,7 +50,9 @@
   "hotel": "The Ritz-Carlton, Langkawi",
   "style": "Villas over the sea",
   "why": "Villas on the water in a rainforest setting, close to Kuah for duty-free shopping.",
-  "query": "The Ritz-Carlton, Langkawi"
+  "query": "The Ritz-Carlton, Langkawi",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/463620124.jpg?k=df839f471c0004a2a629ef997083e250fc6108f419480dd473f2d13fa71a72ee&o=",
+  "booking_url": "https://www.booking.com/hotel/my/the-ritz-carlton-langkawi.html"
  },
  {
   "country": "Malaysia",
@@ -51,7 +61,9 @@
   "hotel": "Four Seasons Hotel Kuala Lumpur",
   "style": "City luxury",
   "why": "Next to the Petronas Towers and Suria KLCC, ideal for shopping and the New Year fireworks.",
-  "query": "Four Seasons Hotel Kuala Lumpur"
+  "query": "Four Seasons Hotel Kuala Lumpur",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/164125773.jpg?k=e8f95c24677104135121de711f0a74914b698c14cf670d0cd9f2438a36b27081&o=",
+  "booking_url": "https://www.booking.com/hotel/my/four-seasons-kuala-lumpur.html"
  },
  {
   "country": "Philippines (Palawan)",
@@ -60,7 +72,9 @@
   "hotel": "Two Seasons Coron Island Resort",
   "style": "Private island",
   "why": "Private-island resort with a house reef; arranges the Coron Island and shipwreck tours.",
-  "query": "Two Seasons Coron Island Resort"
+  "query": "Two Seasons Coron Island Resort",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/576649757.jpg?k=ad2067eb6bc5b6c21d59ceb7eeee74d3d296ca806e7d49bffe84aec24592b71f&o=",
+  "booking_url": "https://www.booking.com/hotel/ph/two-seasons-palawan.html"
  },
  {
   "country": "Philippines (Palawan)",
@@ -69,7 +83,9 @@
   "hotel": "Seda Lio, El Nido",
   "style": "Beachfront",
   "why": "On the beach in the Lio estate near the airport, with easy access to the island tours and Las Cabanas.",
-  "query": "Seda Lio, El Nido"
+  "query": "Seda Lio, El Nido",
+  "image": "https://r-xx.bstatic.com/xdata/images/hotel/max750/905458011.jpg?k=6d4646f55a1d47901d35225c065b07d6f89bb6a2063402759a5f52428abda866&o=",
+  "booking_url": "https://www.booking.com/hotel/ph/seda-lio.html"
  },
  {
   "country": "Maldives",
@@ -78,7 +94,9 @@
   "hotel": "Kaani Beach Hotel",
   "style": "Local-island hotel",
   "why": "Beach-facing hotel on Maafushi with its own excursion desk; good value for active days.",
-  "query": "Kaani Beach Hotel"
+  "query": "Kaani Beach Hotel",
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max750/46500019.jpg?k=bcdcf9cd2855c83abd2158486900320e89d50618ef87ea14978ecde51fba1740&o=",
+  "booking_url": "https://www.booking.com/hotel/mv/kaani-beach.html"
  },
  {
   "country": "Maldives",
@@ -87,6 +105,8 @@
   "hotel": "Velassaru Maldives",
   "style": "Overwater villas",
   "why": "Overwater villas a short speedboat ride from Malé, with a New Year’s Eve gala.",
-  "query": "Velassaru Maldives"
+  "query": "Velassaru Maldives",
+  "image": "https://q-xx.bstatic.com/xdata/images/hotel/max750/916371280.jpg?k=2c47038ac447054c5f756e2295ddf0c74f66c7753d23c0d55211478d267c523d&o=",
+  "booking_url": "https://www.booking.com/hotel/mv/velassaru-maldives.html"
  }
 ]
