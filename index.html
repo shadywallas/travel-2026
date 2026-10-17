@@ -98,6 +98,24 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-split{display:flex;gap:8px;align-items:flex-start;margin:0 0 14px;padding:10px 12px;border-radius:10px;background:#fffbea;border:1px solid #f1e2a6;color:#5c4400;font-size:var(--cds-font-size-caption);line-height:1.5;white-space:normal}
 .tc-split svg{width:16px;height:16px;flex:none;margin-top:1px}
 .tc-monkey-note{background:#fff4ed;border-color:#fed7aa;color:#7c2d12}
+.tc-cards{display:none}
+.tc-sort{display:none;align-items:center;gap:8px;margin:0 0 12px;font-size:var(--cds-font-size-caption);color:#57606a}
+.tc-sort select{font:inherit;font-size:var(--cds-font-size-body);color:#1f2328;padding:6px 10px;border:1px solid #d0d7de;border-radius:8px;background:#ffffff}
+.tc-card{background:#ffffff;border:1px solid #e5e7eb;border-radius:14px;padding:14px}
+.tc-card-demoted{background:#fcfcfd}
+.tc-card-sum[data-act]{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.tc-card-head{display:flex;align-items:center;gap:10px;margin:0 0 10px}
+.tc-flag{font-size:1.6rem;line-height:1}
+.tc-card-name{flex:1;margin:0;font-size:var(--cds-font-size-heading);font-weight:600;color:#1f2328}
+.tc-card .tc-chips{display:flex;flex-wrap:wrap;margin:0 0 12px}
+.tc-card-reason{margin:0 0 10px;color:#8b0000;font-size:var(--cds-font-size-caption);line-height:1.45}
+.tc-rates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.tc-rate{display:flex;flex-direction:column;gap:3px;min-width:0}
+.tc-rate-k{font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#57606a}
+.tc-rate .tc-cell{flex-wrap:wrap;gap:4px 6px}
+.tc-card-foot{display:flex;justify-content:flex-end;margin:12px 0 0}
+.tc-card .tc-detail{position:static;padding:14px 0 0;margin:14px 0 0;border-top:1px solid #eef0f2}
+@media (max-width:700px){.tc-wrap{display:none}.tc-cards{display:grid;gap:12px}.tc-sort{display:flex}}
 .tc-hotel{display:flex;gap:12px;align-items:stretch;background:#ffffff;border:1px solid #e5e7eb;border-radius:12px;padding:10px;margin:0 0 12px;white-space:normal}
 .tc-hotel-tile{width:84px;min-height:84px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:none}
 .tc-hotel-tile svg{width:34px;height:34px}
@@ -191,7 +209,7 @@ window.dash = (function () {
 
 <div class="tc-page">
   <h1 class="tc-title" id="tc-top">New Year trip comparison: 24 Dec to 2 Jan</h1>
-  <p class="tc-sub">Two-stop routes in warm places close to your ideal of about 30°C by day and 23°C at night, with the days split to get the most out of each stop. Open the arrow on any row for the recommended hotels and a day-by-day plan; tap any green or pink activity button to open its videos and photos. Use Demote to move a destination to the bottom section, and Restore to bring it back.</p>
+  <p class="tc-sub">Two-stop routes in warm places close to your ideal of about 30°C by day and 23°C at night, with the days split to get the most out of each stop. Open the arrow on any row (on a phone, tap a destination card) for the recommended hotels and a day-by-day plan; tap any green or pink activity button to open its videos and photos. Use Demote to move a destination to the bottom section, and Restore to bring it back.</p>
 
   <div class="tc-picks" id="tc-picks">
     <div class="tc-pick"><p class="tc-pick-h">Most energy and shopping: Thailand</p><p class="tc-pick-p">Krabi islands and Phi Phi, then Bangkok for shopping and the river fireworks on New Year’s Eve.</p></div>
@@ -215,6 +233,18 @@ window.dash = (function () {
 
   <section id="tc-shortlist">
     <h2 class="tc-h2">Shortlist</h2>
+    <label class="tc-sort" for="tc-sort-select">Sort by
+      <select id="tc-sort-select">
+        <option value="">Default order</option>
+        <option value="monkeys_level">Fewest monkeys</option>
+        <option value="insects_level">Fewest insects</option>
+        <option value="rain_level">Least rain</option>
+        <option value="romantic">Most romantic</option>
+        <option value="active">Most active</option>
+        <option value="shopping">Best shopping</option>
+        <option value="visa_ease">Easiest visa</option>
+      </select>
+    </label>
     <div class="tc-wrap" id="tc-short-wrap">
       <table class="tc-table" id="tc-short" data-source="trips" data-row-key="country">
         <thead><tr>
@@ -235,6 +265,7 @@ window.dash = (function () {
         <tbody id="tc-short-body"><tr><td colspan="13" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
+    <div class="tc-cards" id="tc-short-cards"></div>
   </section>
 
   <section id="tc-demoted">
@@ -261,6 +292,7 @@ window.dash = (function () {
         <tbody id="tc-demoted-body"><tr><td colspan="14" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
+    <div class="tc-cards" id="tc-demoted-cards"></div>
   </section>
 
   <ul class="tc-notes" id="tc-notes">
@@ -322,6 +354,9 @@ window.dash = (function () {
   document.getElementById('tc-leg-play').innerHTML = '<span class="tc-act" style="pointer-events:none">' + '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M10 8.5l5.5 3.5-5.5 3.5z" fill="#ffffff"/></svg><span>Activity</span></span><span>Tap for videos and photos</span>';
   var sortState = { key: null, dir: 1 };
   var openRows = {};
+  // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
+  var CARD_QUERY = window.matchMedia('(max-width: 700px)');
+  var ASC_KEYS = ['rain_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
 
   function moved() {
     var p = dash.params() || {};
@@ -332,8 +367,7 @@ window.dash = (function () {
     return m.indexOf(d.country) >= 0 ? !base : base;
   }
 
-  function addCell(tr, html, text, cls) {
-    var td = document.createElement('td');
+  function cellValue(html, text, cls) {
     var wrap = document.createElement('span');
     wrap.className = 'tc-cell';
     if (html) wrap.innerHTML = html;
@@ -343,13 +377,21 @@ window.dash = (function () {
       t.textContent = text;
       wrap.appendChild(t);
     }
-    td.appendChild(wrap);
+    return wrap;
+  }
+  function addCell(tr, html, text, cls) {
+    var td = document.createElement('td');
+    td.appendChild(cellValue(html, text, cls));
     tr.appendChild(td);
     return td;
   }
 
   function routeCell(tr, route) {
     var td = document.createElement('td');
+    td.appendChild(routeChips(route));
+    tr.appendChild(td);
+  }
+  function routeChips(route) {
     var box = document.createElement('span');
     box.className = 'tc-chips';
     var parts = String(route).split(', ');
@@ -369,26 +411,57 @@ window.dash = (function () {
       }
       box.appendChild(chip);
     });
-    td.appendChild(box);
-    tr.appendChild(td);
+    return box;
   }
 
+  // Each rating as [label, icons, text, text class]; the table and the phone cards list them in different orders.
+  function ratings(d) {
+    return {
+      day: ['Day', thermo(), d.day_c + '°C', 'tc-num'],
+      night: ['Night', thermo(), d.night_c + '°C', 'tc-num'],
+      rain: ['Rain', iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), d.rain],
+      insects: ['Insects', iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects],
+      monkeys: ['Monkeys', iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys],
+      popularity: ['Tourist popularity', iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity],
+      visa: ['Visa (Egyptian passport)', badge(ramp((d.visa_ease - 1) / 4)), d.visa],
+      romantic: ['Romantic', iconRow('star', d.romantic, ramp(d.romantic / 5)), String(d.romantic), 'tc-num'],
+      active: ['Active', iconRow('star', d.active, ramp(d.active / 5)), String(d.active), 'tc-num'],
+      shopping: ['Shopping', iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num']
+    };
+  }
+  var TABLE_ORDER = ['day', 'night', 'rain', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
+  var CARD_ORDER = ['insects', 'monkeys', 'rain', 'popularity', 'day', 'night', 'romantic', 'active', 'shopping', 'visa'];
+
   function ratingCells(tr, d) {
-    addCell(tr, thermo(), d.day_c + '°C', 'tc-num');
-    addCell(tr, thermo(), d.night_c + '°C', 'tc-num');
-    addCell(tr, iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), d.rain);
-    addCell(tr, iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects);
-    var mk = addCell(tr, iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys);
-    if (d.monkeys_note) mk.title = d.monkeys_note;
-    addCell(tr, iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity);
-    addCell(tr, badge(ramp((d.visa_ease - 1) / 4)), d.visa);
-    addCell(tr, iconRow('star', d.romantic, ramp(d.romantic / 5)), String(d.romantic), 'tc-num');
-    addCell(tr, iconRow('star', d.active, ramp(d.active / 5)), String(d.active), 'tc-num');
-    addCell(tr, iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num');
+    var r = ratings(d);
+    TABLE_ORDER.forEach(function (k) {
+      var td = addCell(tr, r[k][1], r[k][2], r[k][3]);
+      if (k === 'monkeys' && d.monkeys_note) td.title = d.monkeys_note;
+    });
+  }
+  function ratingGrid(d) {
+    var r = ratings(d);
+    var grid = document.createElement('div');
+    grid.className = 'tc-rates';
+    CARD_ORDER.forEach(function (k) {
+      var item = document.createElement('div');
+      item.className = 'tc-rate';
+      var label = document.createElement('span');
+      label.className = 'tc-rate-k';
+      label.textContent = r[k][0];
+      item.appendChild(label);
+      item.appendChild(cellValue(r[k][1], r[k][2], r[k][3]));
+      grid.appendChild(item);
+    });
+    return grid;
   }
 
   function actionCell(tr, d, demoted) {
     var td = document.createElement('td');
+    td.appendChild(actionBtn(d, demoted));
+    tr.appendChild(td);
+  }
+  function actionBtn(d, demoted) {
     var b = document.createElement('button');
     b.type = 'button';
     b.className = 'tc-btn ' + (demoted ? 'tc-btn-restore' : 'tc-btn-demote');
@@ -398,31 +471,74 @@ window.dash = (function () {
     var t = document.createElement('span');
     t.textContent = demoted ? 'Restore' : 'Demote';
     b.appendChild(t);
-    td.appendChild(b);
-    tr.appendChild(td);
+    return b;
   }
 
+  function expandBtn(d) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'tc-exp';
+    b.setAttribute('data-act', 'expand');
+    b.setAttribute('data-country', d.country);
+    b.setAttribute('aria-expanded', openRows[d.country] ? 'true' : 'false');
+    b.setAttribute('aria-label', 'Show day-by-day plan');
+    b.innerHTML = CHEVRON;
+    return b;
+  }
   function firstCell(tr, d, hasPlan) {
     var td = document.createElement('td');
     var wrap = document.createElement('span');
     wrap.className = 'tc-cell';
-    if (hasPlan) {
-      var b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'tc-exp';
-      b.setAttribute('data-act', 'expand');
-      b.setAttribute('data-country', d.country);
-      b.setAttribute('aria-expanded', openRows[d.country] ? 'true' : 'false');
-      b.setAttribute('aria-label', 'Show day-by-day plan');
-      b.innerHTML = CHEVRON;
-      wrap.appendChild(b);
-    }
+    if (hasPlan) wrap.appendChild(expandBtn(d));
     var t = document.createElement('span');
     t.className = 'tc-dest';
-    t.textContent = d.country;
+    t.textContent = (d.flag ? d.flag + ' ' : '') + d.country;
     wrap.appendChild(t);
     td.appendChild(wrap);
     tr.appendChild(td);
+  }
+
+  // Phone layout: one card per destination; tapping the card opens its hotels and day plan.
+  function destCard(d, dem, plan, ctx) {
+    var card = document.createElement('article');
+    card.className = 'tc-card' + (dem ? ' tc-card-demoted' : '');
+    card.setAttribute('data-key', d.country);
+    var sum = document.createElement('div');
+    sum.className = 'tc-card-sum';
+    if (plan) {
+      sum.setAttribute('data-act', 'expand');
+      sum.setAttribute('data-country', d.country);
+    }
+    var head = document.createElement('div');
+    head.className = 'tc-card-head';
+    if (d.flag) {
+      var f = document.createElement('span');
+      f.className = 'tc-flag';
+      f.setAttribute('aria-hidden', 'true');
+      f.textContent = d.flag;
+      head.appendChild(f);
+    }
+    var name = document.createElement('h3');
+    name.className = 'tc-card-name';
+    name.textContent = d.country;
+    head.appendChild(name);
+    if (plan) head.appendChild(expandBtn(d));
+    sum.appendChild(head);
+    if (dem) {
+      var why = document.createElement('p');
+      why.className = 'tc-card-reason';
+      why.textContent = 'Why demoted: ' + (d.reason || 'Moved down by you in this view');
+      sum.appendChild(why);
+    }
+    sum.appendChild(routeChips(d.route));
+    sum.appendChild(ratingGrid(d));
+    card.appendChild(sum);
+    var foot = document.createElement('div');
+    foot.className = 'tc-card-foot';
+    foot.appendChild(actionBtn(d, dem));
+    card.appendChild(foot);
+    if (plan && openRows[d.country]) card.appendChild(detailBox(d, ctx, 0));
+    return card;
   }
 
   var openActs = {};
@@ -556,6 +672,12 @@ window.dash = (function () {
     tr.className = 'tc-detail-row';
     var td = document.createElement('td');
     td.colSpan = cols;
+    td.appendChild(detailBox(d, ctx, width));
+    tr.appendChild(td);
+    if (tbody) tbody.appendChild(tr);
+    return tr;
+  }
+  function detailBox(d, ctx, width) {
     var box = document.createElement('div');
     box.className = 'tc-detail';
     box.setAttribute('data-source', 'itinerary activities hotels');
@@ -629,10 +751,7 @@ window.dash = (function () {
         var e = document.createElement('div'); e.className = 'tc-empty'; e.textContent = 'No day plan for this destination yet.'; box.appendChild(e);
       }
     }
-    td.appendChild(box);
-    tr.appendChild(td);
-    if (tbody) tbody.appendChild(tr);
-    return tr;
+    return box;
   }
 
   function statusRow(tbody, cols, status) {
@@ -647,8 +766,31 @@ window.dash = (function () {
     tr.appendChild(td);
     tbody.appendChild(tr);
   }
+  function statusBox(box, status) {
+    var el = document.createElement('div');
+    if (status === 'error' || status === 'connect') {
+      el.innerHTML = '<div class="tc-fail"><span class="tc-dot"></span><span>Failed to load</span></div>';
+    } else {
+      el.className = 'tc-skel-cell dash-skeleton';
+    }
+    box.appendChild(el);
+  }
+  function emptyNote(container, cols, text) {
+    var inTable = container.tagName === 'TBODY';
+    var el = document.createElement(inTable ? 'td' : 'div');
+    el.className = 'tc-empty';
+    el.textContent = text;
+    if (!inTable) { container.appendChild(el); return; }
+    el.colSpan = cols;
+    var tr = document.createElement('tr');
+    tr.appendChild(el);
+    container.appendChild(tr);
+  }
 
   function updateArrows() {
+    var sel = document.getElementById('tc-sort-select');
+    var opt = sortState.key && sel.querySelector('option[value="' + sortState.key + '"]');
+    sel.value = opt ? sortState.key : '';
     document.querySelectorAll('.tc-table th').forEach(function (th) {
       var b = th.querySelector('button');
       var arrow = th.querySelector('.tc-arrow');
@@ -660,15 +802,16 @@ window.dash = (function () {
   }
 
   var lastCtx = null, lastWidth = 0, rowInfo = {};
+  var HOLD_IDS = ['tc-short-wrap', 'tc-demoted-wrap', 'tc-short-cards', 'tc-demoted-cards'];
   function holdHeights() {
-    ['tc-short-wrap', 'tc-demoted-wrap'].forEach(function (id) {
+    HOLD_IDS.forEach(function (id) {
       var el = document.getElementById(id);
       el.style.minHeight = el.offsetHeight + 'px';
     });
   }
   function releaseHeights() {
     requestAnimationFrame(function () {
-      ['tc-short-wrap', 'tc-demoted-wrap'].forEach(function (id) {
+      HOLD_IDS.forEach(function (id) {
         document.getElementById(id).style.minHeight = '';
       });
     });
@@ -680,13 +823,23 @@ window.dash = (function () {
   function draw() {
     var res = dash.data('trips');
     var plansRes = dash.data('itinerary');
+    var cardMode = CARD_QUERY.matches;
     var shortBody = document.getElementById('tc-short-body');
     var demBody = document.getElementById('tc-demoted-body');
+    var shortCards = document.getElementById('tc-short-cards');
+    var demCards = document.getElementById('tc-demoted-cards');
     shortBody.textContent = '';
     demBody.textContent = '';
+    shortCards.textContent = '';
+    demCards.textContent = '';
     if (res.status !== 'ok') {
-      statusRow(shortBody, 13, res.status);
-      statusRow(demBody, 14, res.status);
+      if (cardMode) {
+        statusBox(shortCards, res.status);
+        statusBox(demCards, res.status);
+      } else {
+        statusRow(shortBody, 13, res.status);
+        statusRow(demBody, 14, res.status);
+      }
       updateArrows();
       return;
     }
@@ -709,7 +862,7 @@ window.dash = (function () {
 
     var rows = (res.data || []).map(function (d) {
       return {
-        country: String(d.country), status: String(d.status), route: String(d.route),
+        country: String(d.country), flag: d.flag == null ? '' : String(d.flag), status: String(d.status), route: String(d.route),
         day_c: Number(d.day_c), night_c: Number(d.night_c),
         rain: String(d.rain), rain_level: Number(d.rain_level),
         insects: String(d.insects), insects_level: Number(d.insects_level),
@@ -738,12 +891,17 @@ window.dash = (function () {
     var shortCount = 0, demCount = 0;
     rows.forEach(function (d) {
       var dem = isDemoted(d, m);
+      var plan = hasPlansFor(d.country);
+      rowInfo[d.country] = { d: d, cols: dem ? 14 : 13 };
+      if (dem) demCount++; else shortCount++;
+      if (cardMode) {
+        (dem ? demCards : shortCards).appendChild(destCard(d, dem, plan, ctx));
+        return;
+      }
       var tbody = dem ? demBody : shortBody;
       var tr = document.createElement('tr');
       tr.className = 'tc-row';
       tr.setAttribute('data-key', d.country);
-      var plan = hasPlansFor(d.country);
-      rowInfo[d.country] = { d: d, cols: dem ? 14 : 13 };
       firstCell(tr, d, plan);
       if (dem) {
         var td = document.createElement('td');
@@ -756,10 +914,9 @@ window.dash = (function () {
       actionCell(tr, d, dem);
       tbody.appendChild(tr);
       if (plan && openRows[d.country]) detailRow(tbody, d, dem ? 14 : 13, ctx, Math.max(280, wrapW - 2));
-      if (dem) demCount++; else shortCount++;
     });
-    if (!shortCount) { var e1 = document.createElement('tr'); var c1 = document.createElement('td'); c1.colSpan = 13; c1.className = 'tc-empty'; c1.textContent = 'Everything has been demoted. Use Restore below to bring destinations back.'; e1.appendChild(c1); shortBody.appendChild(e1); }
-    if (!demCount) { var e2 = document.createElement('tr'); var c2 = document.createElement('td'); c2.colSpan = 14; c2.className = 'tc-empty'; c2.textContent = 'Nothing demoted.'; e2.appendChild(c2); demBody.appendChild(e2); }
+    if (!shortCount) emptyNote(cardMode ? shortCards : shortBody, 13, 'Everything has been demoted. Use Restore below to bring destinations back.');
+    if (!demCount) emptyNote(cardMode ? demCards : demBody, 14, 'Nothing demoted.');
     updateArrows();
   }
 
@@ -770,11 +927,16 @@ window.dash = (function () {
         sortState.dir = -sortState.dir;
       } else {
         sortState.key = key;
-        var asc = (key === 'rain_level' || key === 'insects_level' || key === 'monkeys_level' || key === 'country' || key === 'route' || key === 'reason');
-        sortState.dir = asc ? 1 : -1;
+        sortState.dir = ASC_KEYS.indexOf(key) >= 0 ? 1 : -1;
       }
       render();
     });
+  });
+  document.getElementById('tc-sort-select').addEventListener('change', function (ev) {
+    var key = ev.target.value;
+    sortState.key = key || null;
+    sortState.dir = ASC_KEYS.indexOf(key) >= 0 ? 1 : -1;
+    render();
   });
 
   document.querySelector('.tc-page').addEventListener('click', function (ev) {
@@ -795,10 +957,22 @@ window.dash = (function () {
     } else if (el.getAttribute('data-act') === 'expand') {
       ev.preventDefault();
       openRows[country] = !openRows[country];
+      var info = rowInfo[country];
+      var card = el.closest('.tc-card');
+      if (card) {
+        var cardBtn = card.querySelector('.tc-card-head .tc-exp');
+        if (cardBtn) cardBtn.setAttribute('aria-expanded', openRows[country] ? 'true' : 'false');
+        var shown = card.querySelector('.tc-detail');
+        if (openRows[country]) {
+          if (!shown && info && lastCtx) card.appendChild(detailBox(info.d, lastCtx, 0));
+        } else if (shown) {
+          shown.remove();
+        }
+        return;
+      }
       el.setAttribute('aria-expanded', openRows[country] ? 'true' : 'false');
       var row = el.closest('tr');
       var after = row && row.nextElementSibling;
-      var info = rowInfo[country];
       if (openRows[country]) {
         if (row && info && lastCtx && !(after && after.classList.contains('tc-detail-row'))) {
           row.insertAdjacentElement('afterend', detailRow(null, info.d, info.cols, lastCtx, lastWidth));

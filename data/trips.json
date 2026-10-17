@@ -1,6 +1,7 @@
 [
  {
   "country": "Thailand",
+  "flag": "🇹🇭",
   "status": "shortlist",
   "route": "Krabi 5 days, Bangkok 3 days",
   "day_c": 31,
@@ -24,6 +25,7 @@
  },
  {
   "country": "Vietnam (south)",
+  "flag": "🇻🇳",
   "status": "shortlist",
   "route": "Mui Ne 3 days, Ho Chi Minh City 5 days",
   "day_c": 31,
@@ -47,6 +49,7 @@
  },
  {
   "country": "Malaysia",
+  "flag": "🇲🇾",
   "status": "shortlist",
   "route": "Langkawi 4 days, Kuala Lumpur 4 days",
   "day_c": 31,
@@ -70,6 +73,7 @@
  },
  {
   "country": "Philippines (Palawan)",
+  "flag": "🇵🇭",
   "status": "shortlist",
   "route": "Coron 3 days, El Nido 5 days",
   "day_c": 30,
@@ -93,6 +97,7 @@
  },
  {
   "country": "Maldives",
+  "flag": "🇲🇻",
   "status": "shortlist",
   "route": "Maafushi 5 days, Resort island 3 days",
   "day_c": 30,
@@ -116,6 +121,7 @@
  },
  {
   "country": "Zanzibar, Tanzania",
+  "flag": "🇹🇿",
   "status": "demoted",
   "route": "Stone Town and beaches",
   "day_c": 31,
@@ -139,6 +145,7 @@
  },
  {
   "country": "Sri Lanka south coast",
+  "flag": "🇱🇰",
   "status": "demoted",
   "route": "Galle, Mirissa and Bentota",
   "day_c": 30,
@@ -162,6 +169,7 @@
  },
  {
   "country": "Mauritius",
+  "flag": "🇲🇺",
   "status": "demoted",
   "route": "Island resorts",
   "day_c": 30,
@@ -185,6 +193,7 @@
  },
  {
   "country": "Phu Quoc, Vietnam",
+  "flag": "🇻🇳",
   "status": "demoted",
   "route": "Single island",
   "day_c": 30,
