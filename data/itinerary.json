@@ -1,0 +1,322 @@
+[
+ {
+  "country": "Thailand",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Krabi",
+  "plan": "Arrive in Krabi and take the boat to Railay. Easy first evening on Railay West beach.",
+  "romantic": "Sunset on Railay West, then dinner by the sea."
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Krabi",
+  "plan": "Four Islands longtail tour: Phra Nang Cave Beach, the Tup Island sandbar and snorkeling at Chicken Island.",
+  "romantic": "Walk the sandbar together at low tide."
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Krabi",
+  "plan": "Beginner rock climbing on Railay’s limestone cliffs, then the short hike to the Princess Lagoon viewpoint.",
+  "romantic": "Couples Thai massage after the climb."
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Krabi",
+  "plan": "Speedboat day to the Phi Phi Islands: Maya Bay, Pileh Lagoon and snorkeling stops.",
+  "romantic": "Quiet evening at your pool villa."
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Krabi",
+  "plan": "Sea-kayak into the Hong Islands lagoon, or swim at the jungle Emerald Pool and hot springs.",
+  "romantic": "Private longtail boat at sunset, just the two of you."
+ },
+ {
+  "country": "Thailand",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Bangkok",
+  "plan": "Morning flight to Bangkok. River boat to Wat Arun and Wat Pho, then the Jodd Fairs night market.",
+  "romantic": "Cocktails at a rooftop sky bar."
+ },
+ {
+  "country": "Thailand",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Bangkok",
+  "plan": "Grand Palace in the morning, then shopping at ICONSIAM by the river.",
+  "romantic": "New Year’s Eve dinner cruise on the Chao Phraya with the riverside fireworks."
+ },
+ {
+  "country": "Thailand",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Bangkok",
+  "plan": "Shopping at Siam Paragon and CentralWorld, then Chinatown (Yaowarat) street food.",
+  "romantic": "Farewell dinner at a riverside restaurant."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Mui Ne",
+  "plan": "Land in Ho Chi Minh City and take a private car to Mui Ne on the expressway (about three to four hours).",
+  "romantic": "Grilled seafood dinner on the beach road."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Mui Ne",
+  "plan": "Sunrise jeep or quad-bike ride on the White Sand Dunes, then the Fairy Stream walk and the fishing village.",
+  "romantic": "Sunset together on the Red Sand Dunes."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Mui Ne",
+  "plan": "Kitesurfing lesson in the morning wind, then Ta Cu Mountain by cable car in the afternoon.",
+  "romantic": "Couples spa at the resort."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Ho Chi Minh City",
+  "plan": "Drive back to Ho Chi Minh City. Evening walk around District 1 and the Ben Thanh street-food market.",
+  "romantic": "Rooftop cocktails above the city."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Ho Chi Minh City",
+  "plan": "Half-day trip to the Cu Chi Tunnels, then the Central Post Office and the War Remnants Museum.",
+  "romantic": "Dinner cruise on the Saigon River."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Ho Chi Minh City",
+  "plan": "Mekong Delta day trip: sampan boats through the coconut canals, local workshops and fruit orchards.",
+  "romantic": "Quiet evening at a café in Thao Dien."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Ho Chi Minh City",
+  "plan": "Motorbike street-food tour with a local guide, then the New Year’s Eve celebrations.",
+  "romantic": "Countdown on Nguyen Hue Walking Street, with fireworks over the river."
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Ho Chi Minh City",
+  "plan": "Shopping at Saigon Centre, Takashimaya and Vincom, then the boutiques of Thao Dien.",
+  "romantic": "Farewell dinner in a garden restaurant."
+ },
+ {
+  "country": "Malaysia",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Langkawi",
+  "plan": "Arrive via Kuala Lumpur and take the short flight to Langkawi. Relax on Pantai Cenang.",
+  "romantic": "Sunset beachfront dinner."
+ },
+ {
+  "country": "Malaysia",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Langkawi",
+  "plan": "SkyCab cable car and the Sky Bridge, then swim at the Seven Wells waterfall.",
+  "romantic": "Sunset at the quiet Tanjung Rhu beach."
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Langkawi",
+  "plan": "Jet-ski island tour, or island hopping to Pregnant Maiden Lake with eagle feeding.",
+  "romantic": "Sunset dinner cruise around the islands."
+ },
+ {
+  "country": "Malaysia",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Langkawi",
+  "plan": "Kilim Geoforest mangroves by kayak, then duty-free shopping in Kuah.",
+  "romantic": "Couples spa at the resort."
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Kuala Lumpur",
+  "plan": "Fly to Kuala Lumpur. Evening in Bukit Bintang and the Jalan Alor food street.",
+  "romantic": "Rooftop bar facing the Petronas Towers."
+ },
+ {
+  "country": "Malaysia",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Kuala Lumpur",
+  "plan": "Batu Caves in the morning, then the Petronas Twin Towers skybridge and shopping at Pavilion and Suria KLCC.",
+  "romantic": "Evening fountain show at KLCC Park."
+ },
+ {
+  "country": "Malaysia",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Kuala Lumpur",
+  "plan": "Sunway Lagoon theme and water park, then the New Year’s Eve celebrations.",
+  "romantic": "New Year’s Eve fireworks at the Petronas Towers."
+ },
+ {
+  "country": "Malaysia",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Kuala Lumpur",
+  "plan": "Merdeka Square and Central Market, then a final shopping round at Mid Valley Megamall.",
+  "romantic": "Farewell dinner with a skyline view."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Coron",
+  "plan": "Fly from Manila to Busuanga (Coron) and transfer to the resort. Easy first evening.",
+  "romantic": "Sunset drinks on the resort jetty."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Coron",
+  "plan": "Coron Island tour: Kayangan Lake, Twin Lagoon and Barracuda Lake.",
+  "romantic": "Night soak in the Maquinit saltwater hot springs."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Coron",
+  "plan": "Snorkel the Japanese World War II shipwrecks and Siete Pecados reef, then climb Mount Tapyas for sunset.",
+  "romantic": "Candlelit dinner at the resort."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "El Nido",
+  "plan": "Morning fast ferry from Coron to El Nido (about three and a half hours; book early). Afternoon at Las Cabanas beach.",
+  "romantic": "Sunset at Las Cabanas."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "El Nido",
+  "plan": "Island Tour A: kayak the Big Lagoon, Small Lagoon and Secret Lagoon.",
+  "romantic": "Dinner at a beach bar with lanterns in the sand."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "El Nido",
+  "plan": "Island Tour C: Hidden Beach, Secret Beach and the Matinloc Shrine viewpoint.",
+  "romantic": "Book a private boat so you have the beaches to yourselves."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "El Nido",
+  "plan": "Nacpan Beach and the Las Cabanas zipline over the sea, then New Year’s Eve in El Nido.",
+  "romantic": "New Year’s Eve dinner at your resort."
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "El Nido",
+  "plan": "Taraw Cliff via ferrata climb in the morning for the view, then a lazy beach afternoon.",
+  "romantic": "Final sunset at Marimegmeg beach."
+ },
+ {
+  "country": "Maldives",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Maafushi",
+  "plan": "Land in Malé and take the speedboat to Maafushi, a lively local island with lots of excursions.",
+  "romantic": "Sunset on the tourist beach (dress modestly in the village; it is a local community)."
+ },
+ {
+  "country": "Maldives",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Maafushi",
+  "plan": "Snorkeling trip with turtles and a sandbank picnic.",
+  "romantic": "Private picnic on the sandbank."
+ },
+ {
+  "country": "Maldives",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Maafushi",
+  "plan": "Snorkel with nurse sharks and stingrays, or an introductory scuba dive.",
+  "romantic": "Dolphin-watching cruise at sunset."
+ },
+ {
+  "country": "Maldives",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Maafushi",
+  "plan": "Jet ski and parasailing in the morning; night fishing in the evening.",
+  "romantic": "Stargazing on the beach."
+ },
+ {
+  "country": "Maldives",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Maafushi",
+  "plan": "Resort day pass with lunch and reef snorkeling, or a second dive.",
+  "romantic": "Sunset drinks at the resort bar."
+ },
+ {
+  "country": "Maldives",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Resort island",
+  "plan": "Speedboat to the resort and check into an overwater villa. House-reef snorkeling.",
+  "romantic": "Private candlelit dinner on the beach."
+ },
+ {
+  "country": "Maldives",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Resort island",
+  "plan": "Kayaking and paddle-boarding over the lagoon, then the New Year’s Eve gala.",
+  "romantic": "New Year’s Eve gala dinner at the resort."
+ },
+ {
+  "country": "Maldives",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Resort island",
+  "plan": "Spa morning and a final swim before flying home the next day.",
+  "romantic": "Final sunset from your villa deck."
+ }
+]

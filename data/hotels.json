@@ -1,0 +1,92 @@
+[
+ {
+  "country": "Thailand",
+  "city": "Krabi",
+  "order": 1,
+  "hotel": "Rayavadee",
+  "style": "Pool villas, Railay",
+  "why": "Pool villas between three beaches on the Railay peninsula, with climbing, kayaking and boats on the doorstep.",
+  "query": "Rayavadee"
+ },
+ {
+  "country": "Thailand",
+  "city": "Bangkok",
+  "order": 2,
+  "hotel": "The Peninsula Bangkok",
+  "style": "Riverside luxury",
+  "why": "River-view rooms on the Chao Phraya, next to ICONSIAM, so you see the New Year fireworks from the river.",
+  "query": "The Peninsula Bangkok"
+ },
+ {
+  "country": "Vietnam (south)",
+  "city": "Mui Ne",
+  "order": 1,
+  "hotel": "Anantara Mui Ne Resort",
+  "style": "Beachfront pool villas",
+  "why": "Beachfront resort with pool villas, close to the kite schools and the dunes.",
+  "query": "Anantara Mui Ne Resort"
+ },
+ {
+  "country": "Vietnam (south)",
+  "city": "Ho Chi Minh City",
+  "order": 2,
+  "hotel": "Park Hyatt Saigon",
+  "style": "Central luxury",
+  "why": "In District 1, a short walk to Nguyen Hue Walking Street for the countdown.",
+  "query": "Park Hyatt Saigon"
+ },
+ {
+  "country": "Malaysia",
+  "city": "Langkawi",
+  "order": 1,
+  "hotel": "The Ritz-Carlton, Langkawi",
+  "style": "Villas over the sea",
+  "why": "Villas on the water in a rainforest setting, close to Kuah for duty-free shopping.",
+  "query": "The Ritz-Carlton, Langkawi"
+ },
+ {
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "order": 2,
+  "hotel": "Four Seasons Hotel Kuala Lumpur",
+  "style": "City luxury",
+  "why": "Next to the Petronas Towers and Suria KLCC, ideal for shopping and the New Year fireworks.",
+  "query": "Four Seasons Hotel Kuala Lumpur"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "city": "Coron",
+  "order": 1,
+  "hotel": "Two Seasons Coron Island Resort",
+  "style": "Private island",
+  "why": "Private-island resort with a house reef; arranges the Coron Island and shipwreck tours.",
+  "query": "Two Seasons Coron Island Resort"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "city": "El Nido",
+  "order": 2,
+  "hotel": "Seda Lio, El Nido",
+  "style": "Beachfront",
+  "why": "On the beach in the Lio estate near the airport, with easy access to the island tours and Las Cabanas.",
+  "query": "Seda Lio, El Nido"
+ },
+ {
+  "country": "Maldives",
+  "city": "Maafushi",
+  "order": 1,
+  "hotel": "Kaani Beach Hotel",
+  "style": "Local-island hotel",
+  "why": "Beach-facing hotel on Maafushi with its own excursion desk; good value for active days.",
+  "query": "Kaani Beach Hotel"
+ },
+ {
+  "country": "Maldives",
+  "city": "Resort island",
+  "order": 2,
+  "hotel": "Velassaru Maldives",
+  "style": "Overwater villas",
+  "why": "Overwater villas a short speedboat ride from Malé, with a New Year’s Eve gala.",
+  "query": "Velassaru Maldives"
+ }
+]
