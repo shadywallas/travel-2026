@@ -43,7 +43,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-leg{display:inline-flex;align-items:center;gap:6px}
 .tc-ramp{display:inline-block;width:110px;height:8px;border-radius:4px;background:linear-gradient(90deg,#8b0000,#d97706,#15803d)}
 .tc-wrap{overflow-x:auto;border:1px solid #e5e7eb;border-radius:12px;background:#ffffff}
-.tc-table{border-collapse:collapse;width:100%;min-width:1460px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
+.tc-table{border-collapse:collapse;width:100%;min-width:1660px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
 .tc-table th{position:sticky;top:0;background:#f6f8fa;text-align:left;padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:600;white-space:nowrap;z-index:1}
 .tc-table th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:#1f2328}
 .tc-table th button:focus-visible,.tc-btn:focus-visible,.tc-exp:focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:6px}
@@ -239,6 +239,8 @@ window.dash = (function () {
         <option value="monkeys_level">Fewest monkeys</option>
         <option value="insects_level">Fewest insects</option>
         <option value="rain_level">Least rain</option>
+        <option value="humidity_pct">Least humid</option>
+        <option value="feels_c">Coolest feels-like</option>
         <option value="romantic">Most romantic</option>
         <option value="active">Most active</option>
         <option value="shopping">Best shopping</option>
@@ -251,7 +253,9 @@ window.dash = (function () {
           <th data-field="country"><button type="button" data-sort="country">Destination <span class="tc-arrow"></span></button></th>
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="day_c"><button type="button" data-sort="day_c">Day <span class="tc-arrow"></span></button></th>
+          <th data-field="feels_c"><button type="button" data-sort="feels_c">Feels like <span class="tc-arrow"></span></button></th>
           <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
+          <th data-field="humidity_pct"><button type="button" data-sort="humidity_pct">Humidity <span class="tc-arrow"></span></button></th>
           <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
           <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
@@ -262,7 +266,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-short-body"><tr><td colspan="13" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-short-body"><tr><td colspan="15" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-short-cards"></div>
@@ -278,7 +282,9 @@ window.dash = (function () {
           <th data-field="reason"><button type="button" data-sort="reason">Why demoted <span class="tc-arrow"></span></button></th>
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="day_c"><button type="button" data-sort="day_c">Day <span class="tc-arrow"></span></button></th>
+          <th data-field="feels_c"><button type="button" data-sort="feels_c">Feels like <span class="tc-arrow"></span></button></th>
           <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
+          <th data-field="humidity_pct"><button type="button" data-sort="humidity_pct">Humidity <span class="tc-arrow"></span></button></th>
           <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
           <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
@@ -289,7 +295,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-demoted-body"><tr><td colspan="14" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-demoted-body"><tr><td colspan="16" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-demoted-cards"></div>
@@ -302,6 +308,7 @@ window.dash = (function () {
     <li>Hotel photos come from each hotel’s Booking.com listing; tap a photo to open the listing.</li>
     <li>Hotel picks are suggestions; check prices and New Year availability on the hotel’s website, as many sell out early or require a minimum stay over New Year’s Eve.</li>
     <li>Monkey ratings (0 to 5) are for the places in each plan, not the whole country; open a plan to see where monkeys are likely. Where they are common, keep food, drinks and plastic bags out of sight and do not feed them.</li>
+    <li>Humidity is the average relative humidity in late December. Feels like is the typical afternoon temperature once humidity is taken into account (the heat index), so it is a few degrees above the day temperature.</li>
     <li>Ratings and plans are Claude’s estimates for late December, based on typical climate averages and well-known activities; prices and opening hours can change over the holidays.</li>
     <li>Visa information comes from third-party visa sites; please confirm with each country’s official embassy or immigration website before booking.</li>
     <li>Demote and Restore choices are remembered in this browser.</li>
@@ -335,8 +342,12 @@ window.dash = (function () {
   function badge(color) {
     return '<svg class="tc-badge" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" style="fill:' + color + '"/><path d="M7.5 12.5l3 3 6-6.5" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   }
-  function thermo() {
-    return '<svg class="tc-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 14.8V5a2 2 0 0 0-4 0v9.8a4 4 0 1 0 4 0z" fill="none" stroke="#d97706" stroke-width="1.8"/><circle cx="12" cy="17.8" r="2" fill="#d97706"/></svg>';
+  function thermo(color) {
+    color = color || '#d97706';
+    return '<svg class="tc-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 14.8V5a2 2 0 0 0-4 0v9.8a4 4 0 1 0 4 0z" fill="none" stroke="' + color + '" stroke-width="1.8"/><circle cx="12" cy="17.8" r="2" fill="' + color + '"/></svg>';
+  }
+  function humid() {
+    return '<svg class="tc-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5C8.5 7.1 6 10.5 6 13.7a6 6 0 0 0 12 0c0-3.2-2.5-6.6-6-11.2z" fill="none" stroke="#0369a1" stroke-width="1.8"/><path d="M9 14.5c1-.8 2-.8 3 0s2 .8 3 0" fill="none" stroke="#0369a1" stroke-width="1.6" stroke-linecap="round"/></svg>';
   }
   var CHEVRON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="#1f2328" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var DOWN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -356,7 +367,7 @@ window.dash = (function () {
   var openRows = {};
   // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
   var CARD_QUERY = window.matchMedia('(max-width: 700px)');
-  var ASC_KEYS = ['rain_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
+  var ASC_KEYS = ['humidity_pct', 'feels_c', 'rain_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
 
   function moved() {
     var p = dash.params() || {};
@@ -418,7 +429,9 @@ window.dash = (function () {
   function ratings(d) {
     return {
       day: ['Day', thermo(), d.day_c + '°C', 'tc-num'],
+      feels: ['Feels like', thermo('#b42318'), d.feels_c + '°C', 'tc-num'],
       night: ['Night', thermo(), d.night_c + '°C', 'tc-num'],
+      humidity: ['Humidity', humid(), d.humidity_pct + '%', 'tc-num'],
       rain: ['Rain', iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), d.rain],
       insects: ['Insects', iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects],
       monkeys: ['Monkeys', iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys],
@@ -429,8 +442,8 @@ window.dash = (function () {
       shopping: ['Shopping', iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num']
     };
   }
-  var TABLE_ORDER = ['day', 'night', 'rain', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
-  var CARD_ORDER = ['insects', 'monkeys', 'rain', 'popularity', 'day', 'night', 'romantic', 'active', 'shopping', 'visa'];
+  var TABLE_ORDER = ['day', 'feels', 'night', 'humidity', 'rain', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
+  var CARD_ORDER = ['insects', 'monkeys', 'rain', 'popularity', 'day', 'night', 'feels', 'humidity', 'romantic', 'active', 'shopping', 'visa'];
 
   function ratingCells(tr, d) {
     var r = ratings(d);
@@ -837,8 +850,8 @@ window.dash = (function () {
         statusBox(shortCards, res.status);
         statusBox(demCards, res.status);
       } else {
-        statusRow(shortBody, 13, res.status);
-        statusRow(demBody, 14, res.status);
+        statusRow(shortBody, 15, res.status);
+        statusRow(demBody, 16, res.status);
       }
       updateArrows();
       return;
@@ -864,6 +877,7 @@ window.dash = (function () {
       return {
         country: String(d.country), flag: d.flag == null ? '' : String(d.flag), status: String(d.status), route: String(d.route),
         day_c: Number(d.day_c), night_c: Number(d.night_c),
+        feels_c: Number(d.feels_c), humidity_pct: Number(d.humidity_pct),
         rain: String(d.rain), rain_level: Number(d.rain_level),
         insects: String(d.insects), insects_level: Number(d.insects_level),
         monkeys: String(d.monkeys), monkeys_level: Number(d.monkeys_level),
@@ -892,7 +906,7 @@ window.dash = (function () {
     rows.forEach(function (d) {
       var dem = isDemoted(d, m);
       var plan = hasPlansFor(d.country);
-      rowInfo[d.country] = { d: d, cols: dem ? 14 : 13 };
+      rowInfo[d.country] = { d: d, cols: dem ? 16 : 15 };
       if (dem) demCount++; else shortCount++;
       if (cardMode) {
         (dem ? demCards : shortCards).appendChild(destCard(d, dem, plan, ctx));
@@ -913,10 +927,10 @@ window.dash = (function () {
       ratingCells(tr, d);
       actionCell(tr, d, dem);
       tbody.appendChild(tr);
-      if (plan && openRows[d.country]) detailRow(tbody, d, dem ? 14 : 13, ctx, Math.max(280, wrapW - 2));
+      if (plan && openRows[d.country]) detailRow(tbody, d, dem ? 16 : 15, ctx, Math.max(280, wrapW - 2));
     });
-    if (!shortCount) emptyNote(cardMode ? shortCards : shortBody, 13, 'Everything has been demoted. Use Restore below to bring destinations back.');
-    if (!demCount) emptyNote(cardMode ? demCards : demBody, 14, 'Nothing demoted.');
+    if (!shortCount) emptyNote(cardMode ? shortCards : shortBody, 15, 'Everything has been demoted. Use Restore below to bring destinations back.');
+    if (!demCount) emptyNote(cardMode ? demCards : demBody, 16, 'Nothing demoted.');
     updateArrows();
   }
 
