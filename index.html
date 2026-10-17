@@ -43,7 +43,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-leg{display:inline-flex;align-items:center;gap:6px}
 .tc-ramp{display:inline-block;width:110px;height:8px;border-radius:4px;background:linear-gradient(90deg,#8b0000,#d97706,#15803d)}
 .tc-wrap{overflow-x:auto;border:1px solid #e5e7eb;border-radius:12px;background:#ffffff}
-.tc-table{border-collapse:collapse;width:100%;min-width:1320px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
+.tc-table{border-collapse:collapse;width:100%;min-width:1460px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
 .tc-table th{position:sticky;top:0;background:#f6f8fa;text-align:left;padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:600;white-space:nowrap;z-index:1}
 .tc-table th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:#1f2328}
 .tc-table th button:focus-visible,.tc-btn:focus-visible,.tc-exp:focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:6px}
@@ -97,6 +97,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-empty{color:#57606a;font-size:var(--cds-font-size-caption);padding:16px;text-align:center}
 .tc-split{display:flex;gap:8px;align-items:flex-start;margin:0 0 14px;padding:10px 12px;border-radius:10px;background:#fffbea;border:1px solid #f1e2a6;color:#5c4400;font-size:var(--cds-font-size-caption);line-height:1.5;white-space:normal}
 .tc-split svg{width:16px;height:16px;flex:none;margin-top:1px}
+.tc-monkey-note{background:#fff4ed;border-color:#fed7aa;color:#7c2d12}
 .tc-hotel{display:flex;gap:12px;align-items:stretch;background:#ffffff;border:1px solid #e5e7eb;border-radius:12px;padding:10px;margin:0 0 12px;white-space:normal}
 .tc-hotel-tile{width:84px;min-height:84px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:none}
 .tc-hotel-tile svg{width:34px;height:34px}
@@ -153,7 +154,8 @@ window.dash = (function () {
   function fire() { callbacks.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } }); }
   Object.keys(files).forEach(function (id) {
     store[id] = { status: 'loading', data: [] };
-    fetch(files[id]).then(function (r) {
+    // Revalidate on every load so edits to the JSON files are never hidden by a cached copy.
+    fetch(files[id], { cache: 'no-cache' }).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     }).then(function (rows) {
@@ -203,6 +205,7 @@ window.dash = (function () {
     <span class="tc-leg" id="tc-leg-star"></span>
     <span class="tc-leg" id="tc-leg-drop"></span>
     <span class="tc-leg" id="tc-leg-bug"></span>
+    <span class="tc-leg" id="tc-leg-monkey"></span>
     <span class="tc-leg" id="tc-leg-people"></span>
     <span class="tc-leg" id="tc-leg-visa"></span>
     <span class="tc-leg" id="tc-leg-pin"></span>
@@ -221,6 +224,7 @@ window.dash = (function () {
           <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
           <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
+          <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
           <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
@@ -228,7 +232,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-short-body"><tr><td colspan="12" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-short-body"><tr><td colspan="13" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
   </section>
@@ -246,6 +250,7 @@ window.dash = (function () {
           <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
           <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
+          <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
           <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
@@ -253,7 +258,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-demoted-body"><tr><td colspan="13" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-demoted-body"><tr><td colspan="14" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
   </section>
@@ -264,6 +269,7 @@ window.dash = (function () {
     <li>On a phone, the TikTok and YouTube buttons open the apps when they are installed, and the website otherwise. On a computer, video and photo buttons open TikTok, YouTube Shorts or Google Images search results in a new tab.</li>
     <li>Hotel photos come from each hotel’s Booking.com listing; tap a photo to open the listing.</li>
     <li>Hotel picks are suggestions; check prices and New Year availability on the hotel’s website, as many sell out early or require a minimum stay over New Year’s Eve.</li>
+    <li>Monkey ratings (0 to 5) are for the places in each plan, not the whole country; open a plan to see where monkeys are likely. Where they are common, keep food, drinks and plastic bags out of sight and do not feed them.</li>
     <li>Ratings and plans are Claude’s estimates for late December, based on typical climate averages and well-known activities; prices and opening hours can change over the holidays.</li>
     <li>Visa information comes from third-party visa sites; please confirm with each country’s official embassy or immigration website before booking.</li>
     <li>Demote and Restore choices are remembered in this browser.</li>
@@ -280,6 +286,7 @@ window.dash = (function () {
     star: '<path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.3l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z"/>',
     drop: '<path d="M12 2.5C8.5 7.1 6 10.5 6 13.7a6 6 0 0 0 12 0c0-3.2-2.5-6.6-6-11.2z"/>',
     bug: '<ellipse cx="12" cy="14.5" rx="5" ry="6"/><circle cx="12" cy="6.3" r="3"/><path d="M2.5 10h4M17.5 10h4M2.5 15h4M17.5 15h4M4 20.5l3.5-2M20 20.5l-3.5-2" fill="none" stroke-width="1.8" stroke-linecap="round"/>',
+    monkey: '<circle cx="4.6" cy="11" r="3.1"/><circle cx="19.4" cy="11" r="3.1"/><circle cx="12" cy="11.5" r="7.6"/><circle cx="9.3" cy="10.3" r="1.25" fill="#ffffff" stroke="none"/><circle cx="14.7" cy="10.3" r="1.25" fill="#ffffff" stroke="none"/><ellipse cx="12" cy="15" rx="3.6" ry="2.4" fill="#ffffff" fill-opacity=".45" stroke="none"/>',
     people: '<circle cx="12" cy="7.5" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z"/>',
     pin: '<path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>',
     heart: '<path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.3 3 4.5 6.7 4.5c2.1 0 3.6 1.2 5.3 3 1.7-1.8 3.2-3 5.3-3 3.7 0 5.8 3.8 4.3 7.2C19.5 16.4 12 21 12 21z"/>',
@@ -306,6 +313,7 @@ window.dash = (function () {
   document.getElementById('tc-leg-star').innerHTML = iconRow('star', 4, ramp(0.8)) + '<span>Romantic, active, shopping (more stars = better)</span>';
   document.getElementById('tc-leg-drop').innerHTML = icon('drop', ramp(0.5)) + '<span>Rain (more drops = more rain)</span>';
   document.getElementById('tc-leg-bug').innerHTML = icon('bug', ramp(0.5)) + '<span>Insects (more bugs = more insects)</span>';
+  document.getElementById('tc-leg-monkey').innerHTML = icon('monkey', ramp(0.5)) + '<span>Monkeys, 0 to 5 (more faces = more monkeys)</span>';
   document.getElementById('tc-leg-people').innerHTML = icon('people', ramp(0.8)) + '<span>Tourist popularity</span>';
   document.getElementById('tc-leg-visa').innerHTML = badge(ramp(1)) + '<span>Visa ease</span>';
   document.getElementById('tc-leg-pin').innerHTML = icon('pin', '#1e3a8a') + '<span>City and days there</span>';
@@ -370,6 +378,8 @@ window.dash = (function () {
     addCell(tr, thermo(), d.night_c + '°C', 'tc-num');
     addCell(tr, iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), d.rain);
     addCell(tr, iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects);
+    var mk = addCell(tr, iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys);
+    if (d.monkeys_note) mk.title = d.monkeys_note;
     addCell(tr, iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity);
     addCell(tr, badge(ramp((d.visa_ease - 1) / 4)), d.visa);
     addCell(tr, iconRow('star', d.romantic, ramp(d.romantic / 5)), String(d.romantic), 'tc-num');
@@ -565,6 +575,15 @@ window.dash = (function () {
         sp.appendChild(spt);
         box.appendChild(sp);
       }
+      if (d.monkeys_note) {
+        var mn = document.createElement('p');
+        mn.className = 'tc-split tc-monkey-note';
+        mn.innerHTML = icon('monkey', '#9a3412');
+        var mnt = document.createElement('span');
+        mnt.textContent = 'Monkeys (' + d.monkeys_level + ' of 5): ' + d.monkeys_note;
+        mn.appendChild(mnt);
+        box.appendChild(mn);
+      }
       var rows = ctx.plans.filter(function (p) { return p.country === d.country; })
         .sort(function (a, b) { return a.day - b.day; });
       var currentCity = null, grid = null, idx = -1;
@@ -666,8 +685,8 @@ window.dash = (function () {
     shortBody.textContent = '';
     demBody.textContent = '';
     if (res.status !== 'ok') {
-      statusRow(shortBody, 12, res.status);
-      statusRow(demBody, 13, res.status);
+      statusRow(shortBody, 13, res.status);
+      statusRow(demBody, 14, res.status);
       updateArrows();
       return;
     }
@@ -694,6 +713,8 @@ window.dash = (function () {
         day_c: Number(d.day_c), night_c: Number(d.night_c),
         rain: String(d.rain), rain_level: Number(d.rain_level),
         insects: String(d.insects), insects_level: Number(d.insects_level),
+        monkeys: String(d.monkeys), monkeys_level: Number(d.monkeys_level),
+        monkeys_note: d.monkeys_note == null ? '' : String(d.monkeys_note),
         popularity: String(d.popularity), popularity_level: Number(d.popularity_level),
         visa: String(d.visa), visa_ease: Number(d.visa_ease),
         romantic: Number(d.romantic), active: Number(d.active), shopping: Number(d.shopping),
@@ -722,7 +743,7 @@ window.dash = (function () {
       tr.className = 'tc-row';
       tr.setAttribute('data-key', d.country);
       var plan = hasPlansFor(d.country);
-      rowInfo[d.country] = { d: d, cols: dem ? 13 : 12 };
+      rowInfo[d.country] = { d: d, cols: dem ? 14 : 13 };
       firstCell(tr, d, plan);
       if (dem) {
         var td = document.createElement('td');
@@ -734,11 +755,11 @@ window.dash = (function () {
       ratingCells(tr, d);
       actionCell(tr, d, dem);
       tbody.appendChild(tr);
-      if (plan && openRows[d.country]) detailRow(tbody, d, dem ? 13 : 12, ctx, Math.max(280, wrapW - 2));
+      if (plan && openRows[d.country]) detailRow(tbody, d, dem ? 14 : 13, ctx, Math.max(280, wrapW - 2));
       if (dem) demCount++; else shortCount++;
     });
-    if (!shortCount) { var e1 = document.createElement('tr'); var c1 = document.createElement('td'); c1.colSpan = 12; c1.className = 'tc-empty'; c1.textContent = 'Everything has been demoted. Use Restore below to bring destinations back.'; e1.appendChild(c1); shortBody.appendChild(e1); }
-    if (!demCount) { var e2 = document.createElement('tr'); var c2 = document.createElement('td'); c2.colSpan = 13; c2.className = 'tc-empty'; c2.textContent = 'Nothing demoted.'; e2.appendChild(c2); demBody.appendChild(e2); }
+    if (!shortCount) { var e1 = document.createElement('tr'); var c1 = document.createElement('td'); c1.colSpan = 13; c1.className = 'tc-empty'; c1.textContent = 'Everything has been demoted. Use Restore below to bring destinations back.'; e1.appendChild(c1); shortBody.appendChild(e1); }
+    if (!demCount) { var e2 = document.createElement('tr'); var c2 = document.createElement('td'); c2.colSpan = 14; c2.className = 'tc-empty'; c2.textContent = 'Nothing demoted.'; e2.appendChild(c2); demBody.appendChild(e2); }
     updateArrows();
   }
 
@@ -749,7 +770,7 @@ window.dash = (function () {
         sortState.dir = -sortState.dir;
       } else {
         sortState.key = key;
-        var asc = (key === 'rain_level' || key === 'insects_level' || key === 'country' || key === 'route' || key === 'reason');
+        var asc = (key === 'rain_level' || key === 'insects_level' || key === 'monkeys_level' || key === 'country' || key === 'route' || key === 'reason');
         sortState.dir = asc ? 1 : -1;
       }
       render();

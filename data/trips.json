@@ -9,6 +9,8 @@
   "rain_level": 1,
   "insects": "Medium",
   "insects_level": 3,
+  "monkeys": "High",
+  "monkeys_level": 4,
   "popularity": "Very high",
   "popularity_level": 5,
   "visa": "E-visa needed",
@@ -17,7 +19,8 @@
   "active": 5,
   "shopping": 5,
   "reason": "",
-  "split_why": "Krabi gets five days because its island trips are the highlight; three days in Bangkok are enough for the temples, shopping and New Year’s Eve on the river."
+  "split_why": "Krabi gets five days because its island trips are the highlight; three days in Bangkok are enough for the temples, shopping and New Year’s Eve on the river.",
+  "monkeys_note": "Long-tailed macaques on Railay’s viewpoint trail and beaches, and at Monkey Beach on many Phi Phi boat tours (ask to skip that stop). Bangkok’s temples and malls have none."
  },
  {
   "country": "Vietnam (south)",
@@ -29,6 +32,8 @@
   "rain_level": 1,
   "insects": "Medium",
   "insects_level": 3,
+  "monkeys": "Very low",
+  "monkeys_level": 1,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Easy e-visa",
@@ -37,7 +42,8 @@
   "active": 4,
   "shopping": 3,
   "reason": "",
-  "split_why": "Three days cover Mui Ne’s dunes and kitesurfing. Ho Chi Minh City gets five days because it is also the base for the Cu Chi Tunnels and the Mekong Delta."
+  "split_why": "Three days cover Mui Ne’s dunes and kitesurfing. Ho Chi Minh City gets five days because it is also the base for the Cu Chi Tunnels and the Mekong Delta.",
+  "monkeys_note": "Rare on this route: Mui Ne, Ho Chi Minh City, the Cu Chi Tunnels and the Mekong Delta are not monkey areas. Avoid Can Gio’s Monkey Island, which is not in the plan."
  },
  {
   "country": "Malaysia",
@@ -49,6 +55,8 @@
   "rain_level": 3,
   "insects": "Medium",
   "insects_level": 3,
+  "monkeys": "Very high",
+  "monkeys_level": 5,
   "popularity": "Medium to high",
   "popularity_level": 4,
   "visa": "Visa-free",
@@ -57,7 +65,8 @@
   "active": 4,
   "shopping": 5,
   "reason": "",
-  "split_why": "Kept even on purpose: Langkawi’s outdoor activities fill four days, and Kuala Lumpur needs four for Batu Caves, shopping and New Year’s Eve."
+  "split_why": "Kept even on purpose: Langkawi’s outdoor activities fill four days, and Kuala Lumpur needs four for Batu Caves, shopping and New Year’s Eve.",
+  "monkeys_note": "Batu Caves has many bold macaques on the stairs that grab food and bags. In Langkawi, macaques are common at Tanjung Rhu, the Seven Wells waterfall, the Kilim mangroves and in rainforest resort grounds, so keep balcony doors closed."
  },
  {
   "country": "Philippines (Palawan)",
@@ -69,6 +78,8 @@
   "rain_level": 2,
   "insects": "Medium",
   "insects_level": 3,
+  "monkeys": "Low",
+  "monkeys_level": 2,
   "popularity": "Medium to high",
   "popularity_level": 4,
   "visa": "Embassy visa (hardest)",
@@ -77,7 +88,8 @@
   "active": 5,
   "shopping": 1,
   "reason": "",
-  "split_why": "Reversed and rebalanced: Coron first, where three days cover its lakes and shipwrecks, then five days in El Nido, which has more island tours and a livelier New Year’s Eve."
+  "split_why": "Reversed and rebalanced: Coron first, where three days cover its lakes and shipwrecks, then five days in El Nido, which has more island tours and a livelier New Year’s Eve.",
+  "monkeys_note": "Long-tailed macaques live in Palawan’s forests and are sometimes seen on island tours and the Taraw Cliff climb, but beaches and resorts in Coron and El Nido rarely have them."
  },
  {
   "country": "Maldives",
@@ -89,6 +101,8 @@
   "rain_level": 1,
   "insects": "Low",
   "insects_level": 1,
+  "monkeys": "None",
+  "monkeys_level": 0,
   "popularity": "Very high",
   "popularity_level": 5,
   "visa": "Free on arrival",
@@ -97,7 +111,8 @@
   "active": 3,
   "shopping": 1,
   "reason": "",
-  "split_why": "Five active days on Maafushi, where excursions are close and good value, then three romantic days at a resort for New Year’s Eve."
+  "split_why": "Five active days on Maafushi, where excursions are close and good value, then three romantic days at a resort for New Year’s Eve.",
+  "monkeys_note": "No monkeys anywhere in the Maldives. The only close animal contact is by choice: turtles, nurse sharks and stingrays on the snorkel trips."
  },
  {
   "country": "Zanzibar, Tanzania",
@@ -109,6 +124,8 @@
   "rain_level": 2,
   "insects": "Medium to high",
   "insects_level": 4,
+  "monkeys": "Medium",
+  "monkeys_level": 3,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Easy e-visa",
@@ -117,7 +134,8 @@
   "active": 3,
   "shopping": 2,
   "reason": "Insects medium to high (malaria area)",
-  "split_why": ""
+  "split_why": "",
+  "monkeys_note": "Red colobus monkeys in Jozani Forest, which you can skip, and Sykes’ monkeys in some beach-hotel gardens. Stone Town has none."
  },
  {
   "country": "Sri Lanka south coast",
@@ -129,6 +147,8 @@
   "rain_level": 2,
   "insects": "Medium to high",
   "insects_level": 4,
+  "monkeys": "High",
+  "monkeys_level": 4,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Easy online ETA",
@@ -137,7 +157,8 @@
   "active": 5,
   "shopping": 2,
   "reason": "Insects medium to high (mosquitoes)",
-  "split_why": ""
+  "split_why": "",
+  "monkeys_note": "Toque macaques and langurs are common in south-coast gardens, on hotel roofs and along the Bentota river."
  },
  {
   "country": "Mauritius",
@@ -149,6 +170,8 @@
   "rain_level": 3,
   "insects": "Low to medium",
   "insects_level": 2,
+  "monkeys": "Low",
+  "monkeys_level": 2,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Visa-free",
@@ -157,7 +180,8 @@
   "active": 4,
   "shopping": 3,
   "reason": "Mostly romantic, too few activities, shopping no different from Egypt",
-  "split_why": ""
+  "split_why": "",
+  "monkeys_note": "Long-tailed macaques live in the forests and gorges and sometimes visit hotel gardens near them; beach areas see few."
  },
  {
   "country": "Phu Quoc, Vietnam",
@@ -169,6 +193,8 @@
   "rain_level": 1,
   "insects": "Medium",
   "insects_level": 3,
+  "monkeys": "Very low",
+  "monkeys_level": 1,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Easy e-visa",
@@ -177,6 +203,7 @@
   "active": 3,
   "shopping": 2,
   "reason": "Not your style; replaced by the southern Vietnam route",
-  "split_why": ""
+  "split_why": "",
+  "monkeys_note": "Few wild monkeys; mostly at the safari park, which you can skip."
  }
 ]

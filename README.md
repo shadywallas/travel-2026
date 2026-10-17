@@ -5,7 +5,7 @@ A small static website comparing warm two-stop routes for 24 Dec to 2 Jan, with 
 ## Files
 
 - `index.html` - the page
-- `data/trips.json` - destinations, ratings and routes
+- `data/trips.json` - destinations, ratings (including monkey exposure, 0 to 5) and routes
 - `data/itinerary.json` - day-by-day plans
 - `data/activities.json` - activity names and the search words used for video and photo links
 - `data/hotels.json` - recommended hotel per stop, with its Booking.com listing (`booking_url`) and photo (`image`)
