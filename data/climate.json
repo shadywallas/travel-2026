@@ -1,0 +1,20 @@
+[
+ {
+  "country": "Japan",
+  "city": "Ishigaki",
+  "high_c": 23.0,
+  "low_c": 18.4,
+  "humidity_pct": 71,
+  "rainy_days": 14.8,
+  "source": "https://en.wikipedia.org/wiki/Ishigaki,_Okinawa"
+ },
+ {
+  "country": "Japan",
+  "city": "Naha",
+  "high_c": 21.5,
+  "low_c": 16.8,
+  "humidity_pct": 67,
+  "rainy_days": 10.7,
+  "source": "https://en.wikipedia.org/wiki/Naha"
+ }
+]

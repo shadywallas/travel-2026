@@ -22,8 +22,8 @@
   "active": 5,
   "shopping": 5,
   "reason": "",
-  "split_why": "The split stays at five and three because it already matches the flights (in through Krabi, home from Bangkok after the countdown), and Krabi now needs only two outings off Railay.",
-  "monkeys_note": "You stay on Railay, where shy dusky leaf monkeys and some long-tailed macaques use Phra Nang beach and the path beside Rayavadee, so keep villa doors shut and never leave food or bags on the sand. The plan skips the Princess Lagoon trail, Phi Phi’s Monkey Beach, Tiger Cave Temple and the monkey cave that rafting tours often add; Bangkok has none."
+  "split_why": "The split stays at five and three because it matches the flights (in through Krabi, home from Bangkok after the countdown). Krabi days 1 to 4 are dry land only (rafting, cooking, boat sightseeing), and the swims move to day 5.",
+  "monkeys_note": "You stay in Ao Nang, where long-tailed macaques are rare in town, and the Railay boat trip on day 4 stays on the boat and the viewpoint path with no Monkey Trail or Phra Nang cave steps. The plan skips Phi Phi’s Monkey Beach, Tiger Cave Temple and any rafting-tour monkey cave stops; Bangkok has none."
  },
  {
   "country": "Vietnam (south)",
@@ -48,7 +48,7 @@
   "active": 4,
   "shopping": 3,
   "reason": "",
-  "split_why": "The split stays the same because the two drives are needed either way, and Ho Chi Minh City holds New Year’s Eve, New Year’s Day and the flight home, so moving days would only cut beach time.",
+  "split_why": "The split stays at three days in Mui Ne and five in Ho Chi Minh City because the one drive each way is needed either way, and Ho Chi Minh City holds New Year’s Eve, New Year’s Day and the flight home. Mui Ne comes first with no swimming on days 1 to 4; swimming is left to the hotel pool in Ho Chi Minh City from day 5.",
   "monkeys_note": "None of the places in this plan are known for monkeys. Ta Cu Mountain and Can Gio’s Monkey Island have them, so both are left out."
  },
  {
@@ -74,8 +74,8 @@
   "active": 5,
   "shopping": 5,
   "reason": "",
-  "split_why": "Kept at four and four because every split needs the same two domestic flights, Day 1 is mostly travel so Langkawi needs four days to give three usable ones, and Kuala Lumpur has to hold New Year’s Eve and the flight home.",
-  "monkeys_note": "No monkey hotspot is visited, but the Ritz-Carlton itself has frequent long-tailed macaques and dusky leaf monkeys, sometimes on balconies, so keep doors shut and leave no food outside. A few macaques also visit the SkyCab top-station café, so keep snacks packed away and take the SkyGlide lift."
+  "split_why": "Four and four because both stops need the same two domestic flights, Day 1 is mostly travel so Langkawi needs four days to give three usable ones, and Kuala Lumpur has to hold New Year’s Eve and the flight home. Langkawi comes first because its four dry-land days (no swimming on days 1 to 4) fit before the hotel pool swim on day 5.",
+  "monkeys_note": "No monkey hotspot is visited. Macaques are seen near the SkyCab top-station café, so keep snacks packed away and take the SkyGlide lift, not the forest trail. Telaga Tujuh is viewed from the car park and viewpoint only, and Batu Caves is skipped."
  },
  {
   "country": "Philippines (Palawan)",
@@ -100,8 +100,34 @@
   "active": 4,
   "shopping": 1,
   "reason": "",
-  "split_why": "Kept at three and five days: the Coron resort covers the beach day without extra travel, a 40-minute flight replaces the long ferry, and El Nido’s land activities are all short drives from Seda Lio.",
-  "monkeys_note": "Long-tailed macaques are sometimes seen on Miniloc Island, where the Big and Small Lagoons are, so stay in the kayak and keep food sealed on the boat. The plan drops Tour C, whose Matinloc Shrine stop has monkeys; no monkeys are reported at the Coron resort, Mount Tapyas, Taraw Cliff, Las Cabanas or Nacpan."
+  "split_why": "Kept at three and five days: Coron town days are all on land (no swimming on days 1 to 4), then a ferry to El Nido, where the island-hopping swims and Nacpan fall on days 5 to 8. Hotels are good-value 3 to 4 star town hotels instead of a private-island resort.",
+  "monkeys_note": "Long-tailed macaques are sometimes seen on Miniloc Island, where the Big and Small Lagoons are, so stay in the kayak and keep food sealed on the boat. The plan uses shared Tour A only and drops Tour C, whose Matinloc Shrine stop has monkeys; no monkeys are reported in Coron town, Mount Tapyas, Calauit, Taraw Cliff, Las Cabanas or Nacpan."
+ },
+ {
+  "country": "Japan",
+  "flag": "🇯🇵",
+  "status": "shortlist",
+  "route": "Ishigaki 4 days, Naha 4 days",
+  "day_c": 22,
+  "night_c": 18,
+  "feels_c": 22,
+  "humidity_pct": 69,
+  "rain": "Medium",
+  "rain_level": 3,
+  "insects": "Low",
+  "insects_level": 1,
+  "monkeys": "None",
+  "monkeys_level": 0,
+  "popularity": "High",
+  "popularity_level": 4,
+  "visa": "Embassy visa (5 working days)",
+  "visa_ease": 2,
+  "romantic": 4,
+  "active": 4,
+  "shopping": 4,
+  "reason": "",
+  "split_why": "Most of Japan is cold in late December, so the plan stays in subtropical Okinawa. Ishigaki comes first because days 1 to 4 are the no-swim days and it has the best sightseeing without getting in the water (glass-bottom boat, Taketomi, mangrove paddling, stargazing). Naha comes second so you spend New Year’s Eve in Japan’s biggest Okinawan city, with toshikoshi soba and a midnight shrine visit, and fly home from Naha with no extra hop.",
+  "monkeys_note": "There are no wild monkeys on Okinawa’s main island or on Ishigaki, so nothing in the plan needs avoiding."
  },
  {
   "country": "Maldives",

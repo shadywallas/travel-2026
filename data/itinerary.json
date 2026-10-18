@@ -4,47 +4,47 @@
   "day": 1,
   "date": "Fri 25 Dec",
   "city": "Krabi",
-  "plan": "Land at Krabi airport, drive 20 minutes to Rayavadee’s pier and take the 20-minute resort speedboat to Railay. Easy first evening walk along Railay West beach, with no swim.",
-  "romantic": "Sunset on Railay West beach, then a quiet first dinner at the resort."
+  "plan": "Land at Krabi airport and take a taxi or minibus 40 minutes to Ao Nang and the Centara Ao Nang Beach Resort. Easy evening stroll on Ao Nang beach and the promenade, no swim.",
+  "romantic": "Sunset from Ao Nang beach, then dinner at a seafront restaurant."
  },
  {
   "country": "Thailand",
   "day": 2,
   "date": "Sat 26 Dec",
   "city": "Krabi",
-  "plan": "The one boat day: a private Rayavadee speedboat to the Hong Islands, leaving early to beat the crowds. Kayak into the Hong lagoon when the tide allows, climb the 419-step viewpoint, then swim from Hong Island’s sandy beach.",
-  "romantic": "A picnic lunch for two on Hong Island’s beach, with the boat to yourselves."
+  "plan": "White-water rafting on the Song Phraek river in Phang Nga: hotel pickup, about 1.5 hours by road, then the 5 km course of Class II-III rapids with an optional 30-minute ATV ride at the camp. Rafting is the only time in the water this day and counts as an activity, so no swim or beach time.",
+  "romantic": "Quiet dinner at a rooftop restaurant in Ao Nang, back and dry."
  },
  {
   "country": "Thailand",
   "day": 3,
   "date": "Sun 27 Dec",
   "city": "Krabi",
-  "plan": "White-water rafting on the Song Phraek river in Phang Nga: resort boat to the mainland, then about 1.5 hours by road. Run the 5 km course of Class II-III rapids, with an optional 30-minute ATV ride at the camp.",
-  "romantic": "Couples massage at Rayavadee Spa back at the resort."
+  "plan": "Morning Thai cooking class with a market visit near Ao Nang, then Wat Kaew Korawaram and the Krabi Town riverside. Evening at the Ao Nang Landmark night market. No swim.",
+  "romantic": "A couples Thai massage in the afternoon, then a sunset walk on the Ao Nang promenade."
  },
  {
   "country": "Thailand",
   "day": 4,
   "date": "Mon 28 Dec",
   "city": "Krabi",
-  "plan": "A slow day on Railay. Rayavadee’s Monday Thai cooking class (11:30-14:00) covers spring rolls, tom yum goong and red curry, then a free afternoon at the villa.",
-  "romantic": "Candlelit dinner at The Grotto, set under the cliff on Phra Nang beach."
+  "plan": "Private longtail boat from Ao Nang to Railay for sightseeing only: stay dry, walk the Railay East boardwalk and climb to the Railay viewpoint. Beach walk at Phra Nang for the views, no swim.",
+  "romantic": "Sunset longtail ride back along the limestone cliffs, with no swim."
  },
  {
   "country": "Thailand",
   "day": 5,
   "date": "Tue 29 Dec",
   "city": "Krabi",
-  "plan": "Private half-day beginner rock-climbing class on Railay’s limestone walls, starting early before the heat. Afternoon swim at Phra Nang Cave Beach, a short walk from the villa.",
-  "romantic": "A private dinner on the sand under the stars, set up by the resort."
+  "plan": "Swims allowed from today. Speedboat day to the Hong Islands with kayaking in the lagoon, snorkelling stops and a swim off the beach, with lunch included.",
+  "romantic": "A picnic with a swim at Hong Island beach, then a beachfront dinner at Ao Nang."
  },
  {
   "country": "Thailand",
   "day": 6,
   "date": "Wed 30 Dec",
   "city": "Bangkok",
-  "plan": "Morning flight to Bangkok (about 1 hour 20 minutes) and check in at The Peninsula. Late-afternoon go-karting at Topkart Bangkok near Chidlom.",
+  "plan": "Morning flight from Krabi to Bangkok (about 1 hour 20 minutes) and check in at Hilton Garden Inn Bangkok Riverside. Late-afternoon go-karting at Topkart Bangkok near Chidlom.",
   "romantic": "Watch the city lights come on from the glass floor of Mahanakhon SkyWalk."
  },
  {
@@ -52,8 +52,8 @@
   "day": 7,
   "date": "Thu 31 Dec",
   "city": "Bangkok",
-  "plan": "Grand Palace and the Emerald Buddha at the 8:30 opening, then the Reclining Buddha at Wat Pho, a short walk away. Rest in the afternoon, then end the year on the riverfront beside ICONSIAM, Bangkok’s main countdown spot.",
-  "romantic": "New Year’s Eve gala on The Peninsula’s riverside lawn, facing the ICONSIAM fireworks at midnight."
+  "plan": "Grand Palace and the Emerald Buddha at the 8:30 opening, then the Reclining Buddha at Wat Pho, a short walk away. Rest in the afternoon, then an early dinner and the countdown on the riverfront beside ICONSIAM, Bangkok’s main New Year spot.",
+  "romantic": "Midnight fireworks over the Chao Phraya, watched from the ICONSIAM riverside terrace."
  },
  {
   "country": "Thailand",
@@ -68,15 +68,15 @@
   "day": 1,
   "date": "Fri 25 Dec",
   "city": "Mui Ne",
-  "plan": "Land in Ho Chi Minh City and take a private car to Mui Ne on the expressway (about three to four hours). Check in at the Anantara and take an easy walk on the resort beach.",
-  "romantic": "Christmas dinner at a private Dining by Design table on the resort’s sand."
+  "plan": "Land in Ho Chi Minh City and take a private car to Mui Ne on the expressway (about three to four hours). Check in at Pandanus Resort and take an easy walk on the beach and the resort gardens (no swim).",
+  "romantic": "Christmas seafood dinner at a candlelit table on the Mui Ne beach road."
  },
  {
   "country": "Vietnam (south)",
   "day": 2,
   "date": "Sat 26 Dec",
   "city": "Mui Ne",
-  "plan": "Sunrise jeep tour to the White Sand Dunes with a quad-bike ride, then the fishing village and the ankle-deep Fairy Stream walk. Rest at the resort in the afternoon.",
+  "plan": "Sunrise jeep tour to the White Sand Dunes with a quad-bike ride, then the fishing village and the ankle-deep Fairy Stream walk (wading only, no swim). Rest at the resort in the afternoon.",
   "romantic": "Sandboard down the Red Sand Dunes, then watch the sunset together from the top."
  },
  {
@@ -84,23 +84,23 @@
   "day": 3,
   "date": "Sun 27 Dec",
   "city": "Mui Ne",
-  "plan": "Morning at the Po Sah Inu Cham Towers, then the resort’s Spice Spoons cooking class with a local market visit. Optional swim in front of the resort if the sea is calm.",
-  "romantic": "Couples massage at the Anantara Spa."
+  "plan": "Morning at the Po Sah Inu Cham Towers, then a local cooking class with a market visit. Beach walk only, no swim.",
+  "romantic": "Couples massage at a Mui Ne spa."
  },
  {
   "country": "Vietnam (south)",
   "day": 4,
   "date": "Mon 28 Dec",
   "city": "Ho Chi Minh City",
-  "plan": "Drive back to Ho Chi Minh City (about three to four hours) and rest at the Park Hyatt. In the evening, the XO Foodie Tour by motorbike picks you up at the hotel.",
-  "romantic": "Nightcap at the Saigon Saigon Rooftop Bar at the Caravelle, across the square from the hotel."
+  "plan": "Take a shared limousine van back to Ho Chi Minh City (about four hours) and check in at Silverland Sakyo. In the evening, the XO Foodie Tour by motorbike picks you up at the hotel.",
+  "romantic": "Nightcap at the Saigon Saigon Rooftop Bar at the Caravelle, a short walk from the hotel."
  },
  {
   "country": "Vietnam (south)",
   "day": 5,
   "date": "Tue 29 Dec",
   "city": "Ho Chi Minh City",
-  "plan": "Morning at the Independence Palace and the War Remnants Museum. In the afternoon, race go-karts at TGC Speedway in The Global City (about 25 minutes away), with a two-seat kart option.",
+  "plan": "Morning at the Independence Palace and the War Remnants Museum. In the afternoon, race go-karts at TGC Speedway in The Global City (about 25 minutes away), with a two-seat kart option. Swim in the hotel pool before dinner.",
   "romantic": "Riverside dinner on the wooden deck of The Deck Saigon in Thao Dien, ten minutes from the track."
  },
  {
@@ -108,7 +108,7 @@
   "day": 6,
   "date": "Wed 30 Dec",
   "city": "Ho Chi Minh City",
-  "plan": "Photo stop at the pink Tan Dinh Church, then the view from Landmark 81 SkyView, the tallest building in Vietnam. Slow afternoon at the hotel.",
+  "plan": "Photo stop at the pink Tan Dinh Church, then the view from Landmark 81 SkyView, the tallest building in Vietnam. Slow afternoon with a swim in the hotel pool.",
   "romantic": "Saigon Princess dinner cruise on the Saigon River."
  },
  {
@@ -124,7 +124,7 @@
   "day": 8,
   "date": "Fri 1 Jan",
   "city": "Ho Chi Minh City",
-  "plan": "New Year’s Day shopping at Saigon Centre and Takashimaya, then the Central Post Office and the Dong Khoi boutiques.",
+  "plan": "New Year’s Day shopping at Saigon Centre and Takashimaya, then the Central Post Office and the Dong Khoi boutiques. Airport transfer for the flight home on 2 Jan.",
   "romantic": "Coffee together in a book café on Nguyen Van Binh Book Street, beside the Post Office."
  },
  {
@@ -132,47 +132,47 @@
   "day": 1,
   "date": "Fri 25 Dec",
   "city": "Langkawi",
-  "plan": "Land in Kuala Lumpur and take the 1-hour flight to Langkawi. The Ritz-Carlton is about 10 minutes from the airport, so settle in and walk the resort’s private beach, with no swim planned.",
-  "romantic": "Late Christmas dinner on the overwater decks of Hai Yan, the resort’s Chinese restaurant."
+  "plan": "Land in Kuala Lumpur and take the 1-hour flight to Langkawi. Check in at the Mercure Pantai Cenang, then walk Pantai Cenang beach at sunset (no swim).",
+  "romantic": "Late Christmas dinner at a beachfront restaurant on Pantai Cenang, watching the sun go down over the sand."
  },
  {
   "country": "Malaysia",
   "day": 2,
   "date": "Sat 26 Dec",
   "city": "Langkawi",
-  "plan": "SkyCab cable car and the Sky Bridge at the 9:30 opening, 10 minutes from the hotel, using the SkyGlide lift instead of the forest trail. Late-afternoon go-karting on the 1.3 km track at Morac Adventure Park near the airport, about 15 minutes away.",
-  "romantic": "Watch the evening fire show from beanbags at Kalut Cafe and Bar on Pantai Cenang, a few minutes from the track."
+  "plan": "SkyCab cable car and the Sky Bridge at the 9:30 opening, using the SkyGlide lift instead of the forest trail. Late-afternoon go-karting on the 1.3 km track at Morac Adventure Park near the airport.",
+  "romantic": "Watch the evening fire show from beanbags at Kalut Cafe and Bar on Pantai Cenang, a few minutes from the hotel."
  },
  {
   "country": "Malaysia",
   "day": 3,
   "date": "Sun 27 Dec",
   "city": "Langkawi",
-  "plan": "Paint your own batik piece at Atma Alam Batik Art Village in Padang Matsirat, about 15 minutes away. At 5 pm board the Tropical Charters sunset cruise from the Resorts World Langkawi marina, and skip the net swim.",
-  "romantic": "Barbecue dinner on deck as the sun sets over the Andaman Sea."
+  "plan": "Paint your own batik piece at Atma Alam Batik Art Village in Padang Matsirat, about 15 minutes away. At 5 pm board the Crystal Yacht sunset cruise (no swim, stay on deck).",
+  "romantic": "Barbecue buffet dinner on deck as the sun sets over the Andaman Sea."
  },
  {
   "country": "Malaysia",
   "day": 4,
   "date": "Mon 28 Dec",
   "city": "Langkawi",
-  "plan": "A slow day at the resort. Morning swim at the Ritz-Carlton’s private sandy beach, the only swim day of the trip, when the beach staff say it is safe.",
-  "romantic": "Couples treatment in one of the resort spa’s overwater pavilions."
+  "plan": "Underwater World Langkawi aquarium on Pantai Cenang, then drive to the Telaga Tujuh waterfalls viewpoint (look only, no swim). Walk the sand at Tanjung Rhu in the late afternoon (no swim).",
+  "romantic": "Couples massage at a spa on Pantai Cenang, then sunset at Tanjung Rhu beach."
  },
  {
   "country": "Malaysia",
   "day": 5,
   "date": "Tue 29 Dec",
   "city": "Kuala Lumpur",
-  "plan": "Fly to Kuala Lumpur, about 1 hour. Free traditional dance show at the Malaysia Tourism Centre (MaTiC) on Jalan Ampang at 3 pm, then dinner at the Jalan Alor food street.",
-  "romantic": "Sunset drinks at Marini’s on 57, the rooftop bar facing the Petronas Towers."
+  "plan": "Fly to Kuala Lumpur, about 1 hour. Swim in the Traders Hotel pool, now that the no-swim days are over. Free traditional dance show at the Malaysia Tourism Centre (MaTiC) on Jalan Ampang at 3 pm, then dinner at the Jalan Alor food street.",
+  "romantic": "Sunset drinks at SkyBar, the pool bar atop Traders Hotel facing the Petronas Towers."
  },
  {
   "country": "Malaysia",
   "day": 6,
   "date": "Wed 30 Dec",
   "city": "Kuala Lumpur",
-  "plan": "Full-day white-water rafting on the Selangor River at Kuala Kubu Bharu, about 1 hour away, with hotel pickup and lunch. The rapids are grade 2 to 4, and a guide steers each raft.",
+  "plan": "Half-day white-water rafting on the Selangor River at Kuala Kubu Bharu, about 1 hour away by car, with lunch. The rapids are grade 2 to 4, and a guide steers each raft.",
   "romantic": "Evening walk in KLCC Park to watch the Lake Symphony fountain show at 8, 9 or 10 pm."
  },
  {
@@ -180,7 +180,7 @@
   "day": 7,
   "date": "Thu 31 Dec",
   "city": "Kuala Lumpur",
-  "plan": "LaZat Malaysian cooking class with a wet-market tour in Taman Tun Dr Ismail, from 8:30 to about 13:30, roughly 25 minutes away. Rest at the hotel in the afternoon.",
+  "plan": "LaZat Malaysian cooking class with a wet-market tour in Taman Tun Dr Ismail, from 8:30 to about 13:30, roughly 25 minutes away. Rest at the hotel pool in the afternoon.",
   "romantic": "New Year’s Eve countdown and fireworks over the Petronas Towers at the KLCC Park Esplanade, a short walk from the hotel."
  },
  {
@@ -188,39 +188,39 @@
   "day": 8,
   "date": "Fri 1 Jan",
   "city": "Kuala Lumpur",
-  "plan": "Late start. Merdeka Square and the newly reopened Sultan Abdul Samad Building gallery, 15 minutes by car, then Aquaria KLCC, a short walk from the hotel.",
-  "romantic": "Afternoon tea with live piano in the Four Seasons Lounge, served 3 to 5:30 pm."
+  "plan": "Late start. Merdeka Square and the Sultan Abdul Samad Building, 15 minutes by car, then Aquaria KLCC, a short walk from the hotel. Evening Petronas Towers Skybridge and Observation Deck. Airport transfer for the flight home on 2 Jan.",
+  "romantic": "Sunset from the Petronas Observation Deck, then a last stroll through KLCC Park."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 1,
   "date": "Fri 25 Dec",
   "city": "Coron",
-  "plan": "Fly Manila to Busuanga, landing by early afternoon, then take the resort van and boat to Two Seasons Coron Island. Easy first evening on the resort beach.",
-  "romantic": "Christmas dinner on the resort’s beach."
+  "plan": "Fly Manila to Busuanga, then a van to Coron town and check in at Asia Grand View Hotel. Easy evening walk along the Coron waterfront (no swim) and a seafood Christmas dinner overlooking the bay.",
+  "romantic": "Christmas dinner at a waterfront seafood restaurant, with the lights of Coron Bay."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 2,
   "date": "Sat 26 Dec",
   "city": "Coron",
-  "plan": "A slow day at the resort with no boat trips. Swim from the white-sand beach, walk out to the sandbar and laze by the big pool.",
-  "romantic": "Couples massage at the resort spa."
+  "plan": "Early climb up Mount Tapyas (about 720 steps) for the view over Coron Bay, then the public market and a paluto lunch, where you pick seafood at the market and have it cooked nearby. Afternoon rest, then a sunset stroll on the Coron waterfront (no swim).",
+  "romantic": "Sunset from the cross at the top of Mount Tapyas."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 3,
   "date": "Sun 27 Dec",
   "city": "Coron",
-  "plan": "Morning resort boat to Coron town and an early climb up Mount Tapyas (about 720 steps) for the view over Coron Bay. Then the public market and a paluto lunch, where you pick seafood at the market and have it cooked nearby. Back on the afternoon resort boat.",
-  "romantic": "Take in the view over Coron Bay together from the cross at the top of Mount Tapyas."
+  "plan": "Full-day Calauit Safari tour: the giraffes, zebras and Calauit wildlife preserve by boat and van, with lunch. Land and boat sightseeing only, no swim.",
+  "romantic": "Candlelit dinner at a rooftop restaurant in Coron town."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 4,
   "date": "Mon 28 Dec",
   "city": "El Nido",
-  "plan": "Resort boat and van to Busuanga airport, then the 40-minute AirSWIFT flight to El Nido, which lands about 5 minutes from Seda Lio. Easy afternoon walk on Lio Beach.",
+  "plan": "Morning fast ferry from Coron to El Nido, then a van to Cadlao Resort. Late-afternoon walk on Lio Beach and Kalye Artisano (beach walk only, no swim).",
   "romantic": "An evening stroll through Kalye Artisano in the Lio estate to pick a handmade keepsake for each other."
  },
  {
@@ -228,23 +228,23 @@
   "day": 5,
   "date": "Tue 29 Dec",
   "city": "El Nido",
-  "plan": "Your one boat day: a private Tour A boat to kayak the Big Lagoon and Small Lagoon, then a beach stop at Seven Commandos. Skip the snorkel stops.",
-  "romantic": "Lunch served on your private boat in a quiet cove."
+  "plan": "Island Tour A by shared boat: kayak the Big Lagoon and Small Lagoon, then swim and snorkel at Seven Commandos Beach. Swimming is fine from today.",
+  "romantic": "Lunch on the boat on a quiet beach, then a swim together at Seven Commandos."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 6,
   "date": "Wed 30 Dec",
   "city": "El Nido",
-  "plan": "Morning Filipino cooking class in El Nido (adobo and kinilaw). In the late afternoon, zipline from the hill above Las Cabanas Beach to Depeldet Island, then stay for sunset.",
-  "romantic": "Stargazing on Lio Beach before the late moonrise."
+  "plan": "Morning Filipino cooking class in El Nido (adobo and kinilaw). In the late afternoon, zipline from the hill above Las Cabanas Beach, then stay for sunset and a swim.",
+  "romantic": "Sunset and a swim at Las Cabanas Beach."
  },
  {
   "country": "Philippines (Palawan)",
   "day": 7,
   "date": "Thu 31 Dec",
   "city": "El Nido",
-  "plan": "Morning Taraw Cliff via ferrata: a harnessed climb with a rope bridge and views over Bacuit Bay. Rest at Seda Lio, then spend New Year’s Eve in El Nido town.",
+  "plan": "Morning Taraw Cliff via ferrata: a harnessed climb with a rope bridge and views over Bacuit Bay. Rest at the hotel pool, then spend New Year’s Eve in El Nido town.",
   "romantic": "Countdown on a rooftop above El Nido town, with fireworks over Bacuit Bay."
  },
  {
@@ -252,8 +252,72 @@
   "day": 8,
   "date": "Fri 1 Jan",
   "city": "El Nido",
-  "plan": "Ride a scooter (or take a private tricycle) north from Lio to Nacpan Beach for a swim and lunch at a beach shack. Expect holiday opening hours today.",
+  "plan": "Take a private tricycle north to Nacpan Beach for a swim and lunch at a beach shack. Expect holiday opening hours. Back at the hotel, pack for the 2 Jan flight.",
   "romantic": "Toast the new year with fresh coconuts in a hammock at Nacpan."
+ },
+ {
+  "country": "Japan",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Ishigaki",
+  "plan": "Land in Naha after the overnight flights, then take the 1-hour domestic flight to Ishigaki and a taxi to the hotel. Easy first evening: walk the Euglena Mall arcade and Yaeyama market area, then dinner of Yaeyama soba and Ishigaki beef. Beach views only, no swim.",
+  "romantic": "Sunset at Fusaki Beach, facing the west coast, with a walk on the sand and no swim."
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Ishigaki",
+  "plan": "Private sightseeing taxi for the north coast: Kabira Bay by glass-bottom boat (stay dry, no swim), Tamatorizaki lookout and Hirakubozaki lighthouse, with a beach stop for views only, no swim.",
+  "romantic": "Night stargazing tour on Ishigaki, one of Japan’s best dark-sky islands."
+ },
+ {
+  "country": "Japan",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Ishigaki",
+  "plan": "Ferry to Taketomi island (10 minutes). Cycle between white-coral lanes and red-tile houses, ride a water-buffalo cart and look for star-shaped sand at Kaiji beach, with no swim.",
+  "romantic": "Sunset from Nishi pier on Taketomi before the last ferry back."
+ },
+ {
+  "country": "Japan",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Ishigaki",
+  "plan": "Guided mangrove kayak on the Nagura river, paddling only, with no swim. Then browse Ishigaki shops for Yaeyama pottery, minsaa weaving and black pearls.",
+  "romantic": "Dinner at a Yaeyama folk-music izakaya with live sanshin."
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Naha",
+  "plan": "Morning flight from Ishigaki to Naha and a monorail ride to the hotel. Walk Tsuboya pottery street and Makishi Public Market, then Okinawa soba for lunch. Swimming is allowed from today, but the sea is only about 22 °C, so Naminoue beach is a quick dip at best.",
+  "romantic": "Sunset at Naminoue shrine cliff, then dinner of Okinawan food with live sanshin."
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Naha",
+  "plan": "Day trip by fast ferry from Tomari port to Zamami island in the Kerama Islands (about 50 minutes). Snorkel with a guide for green sea turtles at Furuzamami beach in a rented wetsuit; the sea is about 22 °C, cool but fine in a wetsuit. Humpback whale season starts around late December, but sightings are not guaranteed.",
+  "romantic": "Snorkel with sea turtles together, then a quiet sunset on the deck for the ferry home."
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Naha",
+  "plan": "Morning karate lesson at a Naha dojo (Okinawa is the birthplace of karate). Free afternoon on Kokusai Street for souvenirs. New Year’s Eve: a toshikoshi soba dinner, then the midnight countdown and first shrine visit (hatsumode) at Naminoue shrine.",
+  "romantic": "Toshikoshi soba for two, then the midnight countdown at Naminoue shrine on the clifftop."
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Naha",
+  "plan": "Late start. Visit Shuri Castle Park and Shikinaen royal garden (check opening, since some places close on 1 Jan), then free time. Pack for the flight home on 2 Jan, with the airport transfer in the morning.",
+  "romantic": "Sunset at Senagajima Umikaji Terrace beside the airport, watching planes land over the sea."
  },
  {
   "country": "Maldives",

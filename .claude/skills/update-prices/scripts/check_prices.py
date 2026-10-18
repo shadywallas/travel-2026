@@ -196,7 +196,7 @@ def main():
     if base:
         changes = {}
         for rev in sorted(set(base.values())):
-            changes.update(plan_changes(rev, [c for c in priced if base[c] == rev]))
+            changes.update(plan_changes(rev, [c for c in priced if base.get(c) == rev]))
         print("\nPlan changes since each destination's last price commit (prices for these need checking):")
         print("  baselines: " + ", ".join(f"{c} {rev}" for c, rev in base.items()))
         if not changes:
