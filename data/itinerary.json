@@ -320,6 +320,70 @@
   "romantic": "Sunset at Senagajima Umikaji Terrace beside the airport, watching planes land over the sea."
  },
  {
+  "country": "China",
+  "day": 1,
+  "date": "Fri 25 Dec",
+  "city": "Beijing",
+  "plan": "Land at Beijing Capital after the overnight flight and take the Airport Express and a taxi to the Novotel Beijing Peace near Wangfujing. Cold, about −5 to 3 °C, so wear a down coat, hat and gloves. After a rest, the Forbidden City (book the ticket online a week ahead; closed Mondays) and Jingshan Park for the view over the roofs.",
+  "romantic": "Sunset over the Forbidden City from Jingshan hill, then Peking duck dinner in Wangfujing."
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "date": "Sat 26 Dec",
+  "city": "Beijing",
+  "plan": "Universal Beijing Resort all day: Harry Potter, Transformers, Kung Fu Panda and Minion Land. It is about −5 to 3 °C, so dress in layers; Christmas week is busy, so arrive at opening. Metro Line 1 and Line 7 to the Universal Studios line takes about 70 minutes from Wangfujing.",
+  "romantic": "The castle in the Wizarding World lit up at dusk, with hot chocolate in hand."
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "date": "Sun 27 Dec",
+  "city": "Beijing",
+  "plan": "Giant pandas first: Beijing Zoo panda house (Metro Line 4, opens 7:30; the pandas are indoors in winter and on view all day, most active at feeding time). Then taxi to the Mutianyu Great Wall: cable car up, walk the watchtowers (steps are icy, wear grip shoes), toboggan down. Cold and windy, about −5 to 3 °C. The wall closes about 17:00, so leave the zoo by 10:00.",
+  "romantic": "Quiet watchtower walk with the wall winding over the hills."
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "date": "Mon 28 Dec",
+  "city": "Zhangjiajie",
+  "plan": "Morning flight Beijing to Zhangjiajie (about 2 hours 30 minutes), taxi to the Pullman Zhangjiajie. Zhangjiajie can be foggy or icy in late December, about 2 to 10 °C, colder on the peaks; check the cable-car status in the morning. Afternoon at Tianmen Mountain: cable car up, the glass skywalk on the cliff and the Tianmen Cave, back down by sunset (the cable car and skywalk close in strong wind or ice).",
+  "romantic": "Sunset above the clouds from the Tianmen Mountain cliff walk."
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "date": "Tue 29 Dec",
+  "city": "Zhangjiajie",
+  "plan": "Full day in Zhangjiajie National Forest Park (Wulingyuan): Bailong Elevator, Yuanjiajie’s Avatar Hallelujah Mountain, and the Tianzi Mountain cable car down. The pillars can be fogged in or icy, so wear grip shoes and carry a rain jacket; skip the monkey-heavy Golden Whip Stream. Fog is common; if it clears you see the stone forest, and in fog the pillars appear and vanish.",
+  "romantic": "Misty stone pillars from the Yuanjiajie viewpoint, with hot tea afterwards."
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "date": "Wed 30 Dec",
+  "city": "Shanghai",
+  "plan": "Morning flight Zhangjiajie to Shanghai (about 2 hours 30 minutes), taxi to the Mercure Shanghai Yuyuan Garden. About 3 to 10 °C. Afternoon at the teamLab slot: teamLab Borderless Shanghai closed in Feb 2024 and teamLab Massless Beijing ended in March 2025, so check teamlab.art in November and swap in an immersive digital art museum in Shanghai if no teamLab is open. Evening on the Bund and a Huangpu river night cruise.",
+  "romantic": "Walk the Bund at night, with the Pudong skyline across the water."
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "date": "Thu 31 Dec",
+  "city": "Shanghai",
+  "plan": "Shanghai Disneyland all day (Metro Line 11, about 1 hour from the old town; arrive for opening, about 3 to 10 °C, bring layers). Ride Tron, Pirates of the Caribbean and Soaring over the Horizon, and stay for the evening castle fireworks. Metro back and a New Year’s Eve countdown on the Bund or a rooftop bar near Nanjing Road (the Bund can be closed by crowd control, so have the rooftop as plan B).",
+  "romantic": "Evening fireworks over Enchanted Storybook Castle, then the midnight countdown together."
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "date": "Fri 1 Jan",
+  "city": "Shanghai",
+  "plan": "Slow New Year’s Day: Yu Garden and the old town, a xiaolongbao (soup dumpling) class, then Tianzifang and Xintiandi shopping. Pack for the flight home on 2 Jan (taxi or maglev to Pudong airport on the day, costed here).",
+  "romantic": "Sunset coffee in Xintiandi on the first evening of the year."
+ },
+ {
   "country": "Maldives",
   "day": 1,
   "date": "Fri 25 Dec",

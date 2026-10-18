@@ -110,6 +110,39 @@
   "booking_url": "https://www.booking.com/hotel/jp/jal-city-naha.html"
  },
  {
+  "country": "China",
+  "city": "Beijing",
+  "order": 1,
+  "hotel": "Novotel Beijing Peace",
+  "style": "4-star, Wangfujing",
+  "why": "Well-reviewed 4-star beside Wangfujing with a metro station, a short walk to the Forbidden City and breakfast included.",
+  "query": "Novotel Beijing Peace",
+  "image": "",
+  "booking_url": "https://www.booking.com/hotel/cn/novotel-beijing-peace.html"
+ },
+ {
+  "country": "China",
+  "city": "Zhangjiajie",
+  "order": 2,
+  "hotel": "Pullman Zhangjiajie",
+  "style": "4-star, Zhangjiajie",
+  "why": "Upscale 4-star at good-value rates with breakfast, a short taxi from the Tianmen Mountain cable car and the park gates (hotel name and rate not verified).",
+  "query": "Pullman Zhangjiajie",
+  "image": "",
+  "booking_url": "https://www.booking.com/hotel/cn/pullman-zhangjiajie.html"
+ },
+ {
+  "country": "China",
+  "city": "Shanghai",
+  "order": 3,
+  "hotel": "Mercure Shanghai Yuyuan Garden",
+  "style": "4-star, old town",
+  "why": "4-star by Yu Garden with Metro Line 10 and 14, a short ride to the Bund and Line 11 for Disneyland.",
+  "query": "Mercure Shanghai Yuyuan Garden",
+  "image": "",
+  "booking_url": "https://www.booking.com/hotel/cn/mercure-shanghai-yuyuan-garden.html"
+ },
+ {
   "country": "Maldives",
   "city": "Maafushi",
   "order": 1,

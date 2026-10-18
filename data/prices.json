@@ -1720,6 +1720,366 @@
   "source": ""
  },
  {
+  "country": "China",
+  "day": 0,
+  "category": "flights",
+  "item": "Open-jaw economy, Cairo–Beijing 24 Dec and Shanghai–Cairo 2 Jan, 1 stop, for two (about $800 each, holiday period)",
+  "usd": 1600,
+  "source": "https://www.skyscanner.com.sg/routes/cai/bjsa/cairo-to-beijing.html"
+ },
+ {
+  "country": "China",
+  "day": 0,
+  "category": "visa",
+  "item": "China L tourist visa for Egyptian passports, 2 × (reduced embassy fee plus visa-centre service fee), single entry; embassy notice says fees are reduced until 31 Dec 2026",
+  "usd": 100,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "category": "accommodation",
+  "item": "Novotel Beijing Peace Superior room, breakfast included, Christmas night rate",
+  "usd": 100,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "category": "transport",
+  "item": "Beijing airport to hotel: Airport Express and taxi, for two",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "category": "activity",
+  "item": "Forbidden City, 2 × CNY 40 (low season) plus audio guides",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "category": "food",
+  "item": "Lunch and Peking duck dinner for two, Wangfujing",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Novotel Beijing Peace Superior room, breakfast included",
+  "usd": 95,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "category": "transport",
+  "item": "Metro Line 7 and Universal Studios line, return, for two",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "category": "activity",
+  "item": "Universal Beijing one-day tickets, peak holiday tier, 2 × CNY 748 (about $105 each at 7.1)",
+  "usd": 210,
+  "source": "https://www.trvlogue.com/en/universal-studios-beijing-tickets-2026"
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "category": "food",
+  "item": "Park lunch and dinner for two",
+  "usd": 70,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "accommodation",
+  "item": "Novotel Beijing Peace Superior room, breakfast included",
+  "usd": 95,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "transport",
+  "item": "Dongzhimen bus (Mubus) to Mutianyu, 2 × CNY 80 return",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "activity",
+  "item": "Mutianyu entry 2 × CNY 40 and cable car one way 2 × CNY 100",
+  "usd": 40,
+  "source": "https://www.chinatravel.com/great-wall-of-china/mutianyu-great-wall"
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "activity",
+  "item": "Mutianyu toboggan down, 2 × about CNY 100",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "transport",
+  "item": "Taxi Beijing Zoo to Mutianyu (about CNY 350) and metro to the zoo",
+  "usd": 55,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "activity",
+  "item": "Beijing Zoo entry 2 × CNY 15 plus panda house 2 × CNY 5",
+  "usd": 6,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "activity",
+  "item": "Mutianyu entry 2 × CNY 40 and cable car one way 2 × CNY 100",
+  "usd": 40,
+  "source": "https://www.chinatravel.com/great-wall-of-china/mutianyu-great-wall"
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "activity",
+  "item": "Mutianyu toboggan down, 2 × about CNY 100",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "transport",
+  "item": "Return taxi or Mubus from Mutianyu to Beijing",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "category": "food",
+  "item": "Lunch at the wall and hutong dinner for two",
+  "usd": 55,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "category": "accommodation",
+  "item": "Pullman Zhangjiajie Deluxe room, breakfast included",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "category": "transport",
+  "item": "Flight Beijing–Zhangjiajie, 2 × about CNY 1,000",
+  "usd": 280,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "category": "transport",
+  "item": "Zhangjiajie airport to hotel by taxi, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "category": "activity",
+  "item": "Tianmen Mountain ticket and cable car, 2 × about CNY 330 (skywalk included)",
+  "usd": 95,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "category": "food",
+  "item": "Lunch and Tujia-style dinner for two",
+  "usd": 55,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "category": "accommodation",
+  "item": "Pullman Zhangjiajie Deluxe room, breakfast included",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "category": "transport",
+  "item": "Taxi to the Wulingyuan park gate and back, for two",
+  "usd": 35,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "category": "activity",
+  "item": "Zhangjiajie National Forest Park entry, 2 × about CNY 225",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "category": "activity",
+  "item": "Bailong Elevator 2 × CNY 76 and Tianzi Mountain cable car 2 × CNY 76",
+  "usd": 45,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "category": "food",
+  "item": "Packed lunch and dinner for two",
+  "usd": 55,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "accommodation",
+  "item": "Mercure Shanghai Yuyuan Garden Superior room, breakfast included",
+  "usd": 120,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "transport",
+  "item": "Flight Zhangjiajie–Shanghai, 2 × about CNY 900",
+  "usd": 250,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "transport",
+  "item": "Hongqiao airport to hotel by taxi, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "activity",
+  "item": "teamLab ticket, 2 × about CNY 230 (last Shanghai price; if no teamLab is open, an immersive digital art museum of similar price)",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "activity",
+  "item": "Huangpu river night cruise, 2 tickets",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "category": "food",
+  "item": "Lunch and dinner for two",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "category": "accommodation",
+  "item": "Mercure Shanghai Yuyuan Garden Superior room, breakfast included, New Year’s Eve rate",
+  "usd": 175,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "category": "transport",
+  "item": "Metro Line 11 return plus taxi back from the park, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "category": "activity",
+  "item": "Shanghai Disneyland one-day tickets, peak-plus tier, 2 × CNY 799 (about $112 each at 7.1)",
+  "usd": 225,
+  "source": "https://wanderinchina.com/destinations/shanghai/disneyland/tickets/"
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "category": "food",
+  "item": "Park lunch and dinner for two on New Year’s Eve",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "category": "accommodation",
+  "item": "Mercure Shanghai Yuyuan Garden Superior room, breakfast included, New Year’s Day rate",
+  "usd": 125,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "category": "transport",
+  "item": "Taxi or maglev to Pudong airport on 2 Jan, for two",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "category": "activity",
+  "item": "Soup dumpling class, 2 places",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "category": "activity",
+  "item": "Yu Garden 2 × CNY 40",
+  "usd": 11,
+  "source": ""
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "category": "food",
+  "item": "Lunch and dinner for two",
+  "usd": 60,
+  "source": ""
+ },
+ {
   "country": "Maldives",
   "day": 0,
   "category": "flights",

@@ -728,6 +728,174 @@
   "query": "Senagajima Umikaji Terrace sunset"
  },
  {
+  "country": "China",
+  "day": 1,
+  "kind": "activity",
+  "name": "Forbidden City",
+  "query": "Forbidden City Beijing"
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "kind": "activity",
+  "name": "Jingshan Park viewpoint",
+  "query": "Jingshan Park Beijing view"
+ },
+ {
+  "country": "China",
+  "day": 1,
+  "kind": "romantic",
+  "name": "Forbidden City sunset from Jingshan",
+  "query": "Jingshan Park sunset Forbidden City"
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "kind": "activity",
+  "name": "Universal Beijing Resort",
+  "query": "Universal Studios Beijing"
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "kind": "activity",
+  "name": "Harry Potter Wizarding World Beijing",
+  "query": "Universal Beijing Wizarding World"
+ },
+ {
+  "country": "China",
+  "day": 2,
+  "kind": "romantic",
+  "name": "Hogwarts castle at dusk",
+  "query": "Universal Beijing Hogwarts castle night"
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "kind": "activity",
+  "name": "Giant pandas at Beijing Zoo",
+  "query": "Beijing Zoo giant panda house"
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "kind": "activity",
+  "name": "Mutianyu Great Wall and toboggan",
+  "query": "Mutianyu Great Wall toboggan"
+ },
+ {
+  "country": "China",
+  "day": 3,
+  "kind": "romantic",
+  "name": "Mutianyu watchtower walk",
+  "query": "Mutianyu Great Wall winter"
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "kind": "activity",
+  "name": "Tianmen Mountain cable car",
+  "query": "Tianmen Mountain cable car Zhangjiajie"
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "kind": "activity",
+  "name": "Tianmen glass skywalk",
+  "query": "Tianmen Mountain glass skywalk"
+ },
+ {
+  "country": "China",
+  "day": 4,
+  "kind": "romantic",
+  "name": "Tianmen cliff sunset",
+  "query": "Tianmen Mountain sunset"
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "kind": "activity",
+  "name": "Bailong Elevator",
+  "query": "Bailong Elevator Zhangjiajie"
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "kind": "activity",
+  "name": "Yuanjiajie Avatar Hallelujah Mountain",
+  "query": "Yuanjiajie Avatar Hallelujah Mountain"
+ },
+ {
+  "country": "China",
+  "day": 5,
+  "kind": "romantic",
+  "name": "Misty pillars viewpoint",
+  "query": "Zhangjiajie National Forest Park mist"
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "kind": "activity",
+  "name": "teamLab or immersive digital art museum",
+  "query": "teamLab Shanghai"
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "kind": "activity",
+  "name": "Huangpu river night cruise",
+  "query": "Huangpu river night cruise Shanghai"
+ },
+ {
+  "country": "China",
+  "day": 6,
+  "kind": "romantic",
+  "name": "Bund at night",
+  "query": "The Bund Shanghai night"
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "kind": "activity",
+  "name": "Shanghai Disneyland",
+  "query": "Shanghai Disneyland"
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "kind": "romantic",
+  "name": "Disney castle fireworks",
+  "query": "Shanghai Disneyland fireworks castle"
+ },
+ {
+  "country": "China",
+  "day": 7,
+  "kind": "romantic",
+  "name": "New Year’s Eve countdown on the Bund",
+  "query": "Shanghai Bund New Year countdown"
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "kind": "activity",
+  "name": "Soup dumpling class",
+  "query": "Shanghai xiaolongbao cooking class"
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "kind": "activity",
+  "name": "Yu Garden and old town",
+  "query": "Yu Garden Shanghai"
+ },
+ {
+  "country": "China",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Xintiandi sunset coffee",
+  "query": "Xintiandi Shanghai evening"
+ },
+ {
   "country": "Maldives",
   "day": 1,
   "kind": "activity",
