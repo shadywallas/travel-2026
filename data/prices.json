@@ -3,9 +3,9 @@
   "country": "Thailand",
   "day": 0,
   "category": "flights",
-  "item": "Multi-city economy, Cairo–Krabi 24 Dec and Bangkok–Cairo 2 Jan, 1 stop, for two",
-  "usd": 2300,
-  "source": "https://ae.trip.com/flights/cairo-to-krabi/airfares-cai-kbv"
+  "item": "Open-jaw economy, Cairo–Chiang Mai 24 Dec and Bangkok–Cairo 2 Jan, 1 stop, for two (about $950 each, holiday period; early-December round trips on the page are about AED 2,400 each)",
+  "usd": 1900,
+  "source": "https://ae.trip.com/flights/cairo-to-chiang-mai/airfares-cai-cnx"
  },
  {
   "country": "Thailand",
@@ -19,16 +19,32 @@
   "country": "Thailand",
   "day": 1,
   "category": "accommodation",
-  "item": "Centara Ao Nang Beach Resort & Spa Krabi Superior room, breakfast included, Christmas night rate",
-  "usd": 140,
+  "item": "U Chiang Mai Superior room, breakfast included, Christmas night rate",
+  "usd": 135,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 1,
   "category": "transport",
-  "item": "Taxi from Krabi Airport to Ao Nang",
-  "usd": 25,
+  "item": "Taxi from Chiang Mai airport to the old city",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 1,
+  "category": "activity",
+  "item": "Wat Chedi Luang and Wat Phra Singh entry, about 2 × 140 baht",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 1,
+  "category": "transport",
+  "item": "Grab to the Night Bazaar and back",
+  "usd": 5,
   "source": ""
  },
  {
@@ -36,156 +52,148 @@
   "day": 1,
   "category": "food",
   "item": "Light lunch on arrival",
-  "usd": 20,
+  "usd": 15,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 1,
   "category": "food",
-  "item": "Seafront dinner in Ao Nang",
-  "usd": 50,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "accommodation",
-  "item": "Centara Ao Nang Beach Resort & Spa Krabi Superior room, breakfast included",
-  "usd": 110,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "activity",
-  "item": "Song Phraek white-water rafting with hotel pickup, 2 × about 1,200 baht",
-  "usd": 70,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "activity",
-  "item": "Rafting camp ATV ride, 30 minutes, 2 × about 800 baht",
+  "item": "Riverside dinner on the Ping River",
   "usd": 45,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 2,
+  "category": "accommodation",
+  "item": "U Chiang Mai Superior room, breakfast included",
+  "usd": 120,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "activity",
+  "item": "Elephant Nature Park half-day programme with pickup and lunch, 2 × 2,500 baht",
+  "usd": 149,
+  "source": "https://goasia.cc/en/article/elephant-nature-park-chiang-mai"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "activity",
+  "item": "Couples Lanna massage, 60 minutes, old city",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "activity",
+  "item": "Wat Sri Suphan entry, 2 × 50 baht",
+  "usd": 3,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "transport",
+  "item": "Grab to Wualai Road and back",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
   "category": "food",
-  "item": "Lunch at the rafting camp and dinner at a rooftop restaurant",
-  "usd": 85,
+  "item": "Street-food dinner at the Saturday Night Walking Street (lunch included at the park)",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 3,
   "category": "accommodation",
-  "item": "Centara Ao Nang Beach Resort & Spa Krabi Superior room, breakfast included",
-  "usd": 110,
+  "item": "U Chiang Mai Superior room, breakfast included",
+  "usd": 120,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 3,
   "category": "activity",
-  "item": "Thai cooking class with market visit, 2 × about 1,000 baht",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "activity",
-  "item": "Couples Thai massage (60 min), Ao Nang",
-  "usd": 40,
-  "source": ""
+  "item": "Half-day organic farm cooking class with market visit and pickup, 2 × about 1,500 baht",
+  "usd": 90,
+  "source": "https://www.byklo.rent/en/blog/chiang-mai-cooking-class-guide/"
  },
  {
   "country": "Thailand",
   "day": 3,
   "category": "transport",
-  "item": "Grab to Krabi Town and back",
-  "usd": 20,
+  "item": "Red songthaew to Doi Suthep and back, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "activity",
+  "item": "Wat Phra That Doi Suthep entry, 2 × 30 baht",
+  "usd": 2,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 3,
   "category": "food",
-  "item": "Lunch from the class, and dinner at the night market",
-  "usd": 50,
+  "item": "Snack at Doi Suthep and street-food dinner at the Sunday Walking Street (lunch is the class)",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 4,
   "category": "accommodation",
-  "item": "Centara Ao Nang Beach Resort & Spa Krabi Superior room, breakfast included",
-  "usd": 110,
+  "item": "U Chiang Mai Superior room, breakfast included",
+  "usd": 120,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 4,
   "category": "activity",
-  "item": "Private longtail boat Ao Nang to Railay and back, sightseeing only, about 2 hours",
-  "usd": 60,
-  "source": ""
+  "item": "Pongyang zipline and jungle coaster package with hotel transfers, 2 × $73.45",
+  "usd": 147,
+  "source": "https://www.headout.com/zh-hans/pongyang-jungle-coaster-zipline-c-6110/"
  },
  {
   "country": "Thailand",
   "day": 4,
-  "category": "activity",
-  "item": "Sunset longtail ride along the cliffs, shared with the return",
-  "usd": 0,
+  "category": "transport",
+  "item": "Grab to the Old Chiang Mai Cultural Center and back",
+  "usd": 8,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 4,
   "category": "food",
-  "item": "Lunch at Railay East and dinner in Ao Nang",
-  "usd": 90,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "accommodation",
-  "item": "Centara Ao Nang Beach Resort & Spa Krabi Superior room, breakfast included",
-  "usd": 110,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "activity",
-  "item": "Hong Islands speedboat and kayak tour with lunch, for two",
-  "usd": 105,
-  "source": "https://www.travelocity.com/things-to-do/hong-island-speed-boat-tour-by-sea-eagle.a517665.activity-details"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "activity",
-  "item": "Than Bok Khorani national park fee, 2 × 300 baht",
+  "item": "Lunch at Pongyang",
   "usd": 20,
-  "source": "https://www.travelocity.com/things-to-do/hong-island-speed-boat-tour-by-sea-eagle.a517665.activity-details"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "food",
-  "item": "Picnic drinks and dinner on Ao Nang beach",
-  "usd": 70,
   "source": ""
  },
  {
   "country": "Thailand",
-  "day": 6,
+  "day": 4,
+  "category": "food",
+  "item": "Khantoke dinner and Lanna dance show, 2 × 570 baht",
+  "usd": 34,
+  "source": "https://www.trazy.com/spot/3478/old-chiang-mai-cultural-center"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
   "category": "accommodation",
   "item": "Hilton Garden Inn Bangkok Riverside King room, breakfast included",
   "usd": 120,
@@ -193,17 +201,65 @@
  },
  {
   "country": "Thailand",
-  "day": 6,
+  "day": 5,
   "category": "transport",
-  "item": "Taxi from Ao Nang to Krabi Airport",
-  "usd": 25,
+  "item": "Grab from the hotel to Chiang Mai airport",
+  "usd": 6,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "transport",
+  "item": "Morning flight Chiang Mai to Bangkok, economy with checked bags, for two",
+  "usd": 120,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "transport",
+  "item": "Grab from the airport to the hotel",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "transport",
+  "item": "Cross-river ferries and Grab to Rajadamnern Stadium and back",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "activity",
+  "item": "Wat Arun entry, 2 × 200 baht",
+  "usd": 12,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "activity",
+  "item": "Rajadamnern Stadium Muay Thai, Club Class, 2 × 1,800 baht",
+  "usd": 107,
+  "source": "https://muaythaistadiums.com/rajadamnern-stadium-seating-guide/"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "food",
+  "item": "Lunch near the hotel and dinner near the stadium",
+  "usd": 55,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 6,
-  "category": "transport",
-  "item": "Morning flight Krabi to Bangkok, economy with checked bags, for two",
+  "category": "accommodation",
+  "item": "Hilton Garden Inn Bangkok Riverside King room, breakfast included",
   "usd": 130,
   "source": ""
  },
@@ -211,7 +267,7 @@
   "country": "Thailand",
   "day": 6,
   "category": "transport",
-  "item": "Grab from the airport to the hotel, and BTS rides",
+  "item": "Grab to Dream World and back (about 45 minutes each way), and BTS to Chong Nonsi",
   "usd": 30,
   "source": ""
  },
@@ -219,24 +275,24 @@
   "country": "Thailand",
   "day": 6,
   "category": "activity",
-  "item": "Topkart Bangkok go-karting, 2 sessions",
-  "usd": 50,
-  "source": ""
+  "item": "Dream World one-day ticket with all rides and Snow Town, 2 × 1,490 baht",
+  "usd": 89,
+  "source": "https://platform.magpie.travel/things-to-do/dream-world-bangkok-1-day-ticket/e3e3920c-6d91-4db2-8075-0726fc10d9cb"
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "activity",
-  "item": "Mahanakhon SkyWalk, 2 tickets",
-  "usd": 60,
-  "source": ""
+  "item": "Mahanakhon SkyWalk, 2 × 1,336 baht",
+  "usd": 80,
+  "source": "https://www.trvlogue.com/en/mahanakhon-skywalk-bangkok-tickets"
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "food",
-  "item": "Lunch near the airport and street-food dinner",
-  "usd": 65,
+  "item": "Park lunch and street-food dinner",
+  "usd": 60,
   "source": ""
  },
  {
@@ -292,15 +348,23 @@
   "day": 8,
   "category": "accommodation",
   "item": "Hilton Garden Inn Bangkok Riverside King room, breakfast included",
-  "usd": 110,
+  "usd": 120,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 8,
+  "category": "activity",
+  "item": "Maeklong railway market and Damnoen Saduak floating market half-day tour with pickup and longtail boat, 2 × $63",
+  "usd": 126,
+  "source": "https://www.travelocity.com/things-to-do/floating-market-damnoen-saduak-and-meklong-railway-market-half-day-tour.a829677.activity-details"
+ },
+ {
+  "country": "Thailand",
+  "day": 8,
   "category": "transport",
-  "item": "BTS Skytrain and Grab to Siam and Chinatown",
-  "usd": 20,
+  "item": "Grab and tuk-tuk to Yaowarat and back",
+  "usd": 15,
   "source": ""
  },
  {
@@ -315,28 +379,20 @@
   "country": "Thailand",
   "day": 8,
   "category": "food",
-  "item": "Lunch at ICONSIAM and Yaowarat street food",
-  "usd": 70,
+  "item": "Lunch on the market tour and Yaowarat street-food dinner",
+  "usd": 55,
   "source": ""
  },
  {
-  "country": "Thailand",
-  "day": 8,
-  "category": "food",
-  "item": "Farewell dinner at a riverside restaurant",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 0,
   "category": "flights",
-  "item": "Cairo–Ho Chi Minh City return, economy, 1 stop via Gulf hub, peak dates, 2 × ~$1,150",
-  "usd": 2300,
-  "source": "https://www.kayak.com/flight-routes/Cairo-CAI/Ho-Chi-Minh-City-SGN"
+  "item": "Open-jaw economy, Cairo–Hanoi 24 Dec and Ho Chi Minh City–Cairo 2 Jan, 1 stop via Doha or Dubai, holiday peak, 2 × about $1,100 (off-peak returns from about $520)",
+  "usd": 2200,
+  "source": "https://www.expedia.com/lp/flights/cai/han/cairo-to-hanoi"
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 0,
   "category": "visa",
   "item": "Vietnam e-visa (official portal), single entry, up to 90 days, 2 × $25",
@@ -344,271 +400,279 @@
   "source": "https://vietcetera.com/en/vietnam-visa-immigration-master-guide-2026-comprehensive-legal-practical-framework"
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 1,
   "category": "accommodation",
-  "item": "Pandanus Resort, Deluxe room, breakfast included, Christmas night",
+  "item": "La Siesta Classic Ma May, Deluxe room, breakfast included, Christmas night",
   "usd": 110,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 1,
   "category": "transport",
-  "item": "Private 7-seat car, Tan Son Nhat airport to Mui Ne by expressway",
-  "usd": 140,
-  "source": "https://www.vietnamdrive.com/transfers/hcm/ho-chi-minh-city-to-mui-ne/"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 1,
-  "category": "food",
-  "item": "Lunch or snacks on the drive to Mui Ne",
+  "item": "Hotel car, Noi Bai airport to the Old Quarter",
   "usd": 20,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
+  "day": 1,
+  "category": "activity",
+  "item": "Old Quarter street food walking tour, small group, 2 × $25 (dinner)",
+  "usd": 50,
+  "source": "https://www.cookly.me/en-ca/do/1619-hanoi-street-food-walking-tour-around-hanoi-old-quarter/in/hanoi"
+ },
+ {
+  "country": "Vietnam",
   "day": 1,
   "category": "food",
-  "item": "Grilled seafood dinner on the Mui Ne beach road, with drinks",
-  "usd": 50,
+  "item": "Lunch in the Old Quarter and egg coffee by the lake",
+  "usd": 25,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
+  "day": 1,
+  "category": "activity",
+  "item": "Ngoc Son Temple entry, 2 × 50,000 VND",
+  "usd": 4,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
   "day": 2,
   "category": "accommodation",
-  "item": "Pandanus Resort, Deluxe room, breakfast included",
+  "item": "La Siesta Classic Ma May, Deluxe room, breakfast included",
   "usd": 95,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 2,
   "category": "activity",
-  "item": "Private sunrise jeep tour: dunes, Fairy Stream, fishing village (first option)",
-  "usd": 30,
-  "source": "https://www.travelocity.com/things-to-do/sunrise-or-sunset-private-jeep-tour-of-sand-dunes-mui-ne-vietnam.a50114096.activity-details"
+  "item": "Ha Long Bay day cruise with limousine van and lunch, 2 × about $75",
+  "usd": 150,
+  "source": "https://halongbayluxcruises.com/?p=7425"
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 2,
   "category": "activity",
-  "item": "Quad-bike ride at the White Sand Dunes, 2 × $20",
+  "item": "Ha Long Bay entrance fee, 2 × 310,000 VND (often not in the cruise price)",
+  "usd": 24,
+  "source": "https://halongbayluxcruises.com/?p=9525"
+ },
+ {
+  "country": "Vietnam",
+  "day": 2,
+  "category": "activity",
+  "item": "Kayak or bamboo boat at Luon Cave, two people",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 2,
+  "category": "food",
+  "item": "Dinner in the Old Quarter (lunch is on the cruise)",
   "usd": 40,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 2,
-  "category": "activity",
-  "item": "Entry fees at the White Sand Dunes and Fairy Stream",
-  "usd": 5,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 2,
-  "category": "transport",
-  "item": "Grab or taxi to the Red Sand Dunes for sunset and back",
-  "usd": 10,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 2,
-  "category": "food",
-  "item": "Lunch and dinner at local restaurants in Mui Ne",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 3,
   "category": "accommodation",
-  "item": "Pandanus Resort, Deluxe room, breakfast included",
+  "item": "La Siesta Classic Ma May, Deluxe room, breakfast included",
   "usd": 95,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 3,
   "category": "activity",
-  "item": "Po Sah Inu Cham Towers entry, 2 × 25,000 VND",
-  "usd": 5,
-  "source": ""
+  "item": "Ninh Binh group day tour: Hoa Lu, Trang An boat, Mua Cave, bicycles, entry fees and lunch, 2 × $52",
+  "usd": 104,
+  "source": "https://www.travelocity.com/things-to-do/the-best-ninh-binh-day-tour-hoa-lu-trang-an-mua-cave.a5265632.activity-details"
  },
  {
-  "country": "Vietnam (south)",
-  "day": 3,
-  "category": "activity",
-  "item": "Local cooking class with market visit, 2 × $30",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 3,
-  "category": "activity",
-  "item": "Couples massage, 60 minutes, at a Mui Ne spa",
-  "usd": 50,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 3,
-  "category": "transport",
-  "item": "Grab to the Cham Towers, class and spa",
-  "usd": 15,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 3,
   "category": "food",
-  "item": "Lunch (cooking class meal) and dinner at a Mui Ne restaurant",
-  "usd": 60,
+  "item": "Light dinner in the Old Quarter (lunch is on the tour)",
+  "usd": 35,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 4,
+  "category": "accommodation",
+  "item": "La Siesta Classic Ma May, Deluxe room, breakfast included",
+  "usd": 95,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "activity",
+  "item": "Cooking class in a villa with market visit and hotel pickup, 2 × $34 (lunch)",
+  "usd": 68,
+  "source": "https://www.travelocity.com/things-to-do/hanoi-cooking-class-in-a-local-villa-with-market-tour.a5252734.activity-details"
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "activity",
+  "item": "Temple of Literature 2 × 70,000 VND and Hoa Lo Prison 2 × 50,000 VND",
+  "usd": 9,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "activity",
+  "item": "Thang Long water puppet show, VIP seats, 2 × 200,000 VND",
+  "usd": 15,
+  "source": "https://www.vietnamtourism.com/en/thang-long-water-puppet-theatre-in-hanoi-showtimes-tickets-and-how-long-it-lasts"
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "activity",
+  "item": "Rooftop cocktails over Hoan Kiem Lake, two each",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "transport",
+  "item": "Grab between the temple, prison and Train Street",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 4,
+  "category": "food",
+  "item": "Coffee on Train Street and dinner in the Old Quarter",
+  "usd": 45,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 5,
   "category": "accommodation",
   "item": "Silverland Sakyo Hotel & Spa, Deluxe room, breakfast included (from 2.85M VND, about $108)",
   "usd": 108,
   "source": "https://sakyo.silverlandhotels.com/"
  },
  {
-  "country": "Vietnam (south)",
-  "day": 4,
+  "country": "Vietnam",
+  "day": 5,
   "category": "transport",
-  "item": "Shared limousine van Mui Ne to Ho Chi Minh City, 2 seats, plus Grab to the hotel",
-  "usd": 35,
+  "item": "Hotel car to Noi Bai airport",
+  "usd": 20,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 4,
+  "country": "Vietnam",
+  "day": 5,
+  "category": "transport",
+  "item": "Flight Hanoi–Ho Chi Minh City with a checked bag, 2 × about $85",
+  "usd": 170,
+  "source": "https://www.kiwi.com:443/us/cheap-flights/hanoi-vietnam/ho-chi-minh-city-vietnam/"
+ },
+ {
+  "country": "Vietnam",
+  "day": 5,
+  "category": "transport",
+  "item": "Grab from Tan Son Nhat airport to District 1, plus rides to the palace and museum",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 5,
+  "category": "activity",
+  "item": "Independence Palace 2 × 65,000 VND and War Remnants Museum 2 × 40,000 VND",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
+  "day": 5,
   "category": "activity",
   "item": "XO Tours Foodie motorbike tour, 2 × $82, food and drinks included (dinner)",
   "usd": 165,
   "source": "https://xotours.vn"
  },
  {
-  "country": "Vietnam (south)",
-  "day": 4,
+  "country": "Vietnam",
+  "day": 5,
   "category": "activity",
   "item": "Rooftop cocktails at Saigon Saigon Rooftop Bar, two each",
   "usd": 40,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 4,
+  "country": "Vietnam",
+  "day": 5,
   "category": "food",
-  "item": "Lunch on the road back to Ho Chi Minh City",
+  "item": "Lunch at a District 1 restaurant",
   "usd": 25,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "accommodation",
   "item": "Silverland Sakyo Hotel & Spa, Deluxe room, breakfast included",
   "usd": 108,
   "source": "https://sakyo.silverlandhotels.com/"
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "activity",
-  "item": "Independence Palace entry, 2 × 65,000 VND",
-  "usd": 5,
-  "source": ""
+  "item": "Cu Chi Tunnels half-day small-group tour with hotel pickup and entry, 2 × $39",
+  "usd": 78,
+  "source": "https://mekongsmile.com/?p=64482"
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
-  "category": "activity",
-  "item": "War Remnants Museum entry, 2 × 40,000 VND",
-  "usd": 5,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "activity",
   "item": "TGC Speedway go-karting, two karts, about 10 minutes",
   "usd": 60,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "transport",
-  "item": "Grab rides to the palace, museum, track and Thao Dien",
+  "item": "Grab to the go-kart track, Thao Dien and back",
   "usd": 25,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "food",
   "item": "Lunch at a District 1 restaurant",
-  "usd": 30,
+  "usd": 25,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 5,
+  "country": "Vietnam",
+  "day": 6,
   "category": "food",
   "item": "Dinner at The Deck Saigon, with a drink each",
   "usd": 70,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
-  "day": 6,
-  "category": "accommodation",
-  "item": "Silverland Sakyo Hotel & Spa, Deluxe room, breakfast included",
-  "usd": 108,
-  "source": "https://sakyo.silverlandhotels.com/"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 6,
-  "category": "activity",
-  "item": "Landmark 81 SkyView tickets, 2 × about $13",
-  "usd": 25,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 6,
-  "category": "activity",
-  "item": "Saigon Princess dinner cruise, set menu, plus a drink each",
-  "usd": 110,
-  "source": "https://en.travelsense.asia/dining-experiences-ho-chi-minh-city"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 6,
-  "category": "transport",
-  "item": "Grab to Tan Dinh, Landmark 81 and the cruise pier",
-  "usd": 10,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 6,
-  "category": "food",
-  "item": "Lunch near Tan Dinh Church (dinner is on the cruise)",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "accommodation",
   "item": "Silverland Sakyo Hotel & Spa, Deluxe room, breakfast included, New Year’s Eve rate",
@@ -616,7 +680,7 @@
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "activity",
   "item": "AO Show tickets, 2 × about $45",
@@ -624,23 +688,23 @@
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "transport",
-  "item": "Grab to the Opera House and back",
-  "usd": 10,
+  "item": "Grab to Ben Thanh, Tan Dinh Church and the Opera House",
+  "usd": 15,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "food",
-  "item": "Lunch at a District 1 restaurant",
+  "item": "Lunch in Ben Thanh Market",
   "usd": 20,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "food",
   "item": "Early dinner near the Opera House",
@@ -648,7 +712,7 @@
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 7,
   "category": "food",
   "item": "Drinks during the New Year’s Eve countdown on Nguyen Hue",
@@ -656,7 +720,7 @@
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 8,
   "category": "accommodation",
   "item": "Silverland Sakyo Hotel & Spa, Deluxe room, breakfast included",
@@ -664,15 +728,31 @@
   "source": "https://sakyo.silverlandhotels.com/"
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 8,
-  "category": "transport",
-  "item": "Grab between Saigon Centre, Dong Khoi and Nguyen Van Binh",
-  "usd": 15,
+  "category": "activity",
+  "item": "Mekong Delta group day tour to My Tho and Ben Tre with lunch and boats, 2 × about $40",
+  "usd": 80,
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
+  "day": 8,
+  "category": "activity",
+  "item": "Saigon Princess dinner cruise, set menu, plus a drink each (dinner)",
+  "usd": 110,
+  "source": "https://en.travelsense.asia/dining-experiences-ho-chi-minh-city"
+ },
+ {
+  "country": "Vietnam",
+  "day": 8,
+  "category": "transport",
+  "item": "Grab to the Saigon Princess pier and back",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Vietnam",
   "day": 8,
   "category": "transport",
   "item": "Grab to Tan Son Nhat airport for the flight home on 2 Jan",
@@ -680,28 +760,20 @@
   "source": ""
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "day": 8,
   "category": "food",
-  "item": "Lunch at a mall or café",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 8,
-  "category": "food",
-  "item": "Farewell dinner at a garden restaurant",
-  "usd": 70,
+  "item": "Snacks and drinks on the Mekong tour (lunch is included)",
+  "usd": 10,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 0,
   "category": "flights",
-  "item": "Return economy Cairo–Kuala Lumpur, one stop (Air Arabia via Sharjah): sample fare AED 2,667 per adult for 23–28 Dec, two adults, peak dates",
-  "usd": 1450,
-  "source": "https://flights.airarabia.com/en-eg/flights-from-cairo-to-kuala-lumpur"
+  "item": "Open-jaw economy for two, one stop: Cairo–Penang on 24 Dec and Kuala Lumpur–Cairo on 2 Jan (Qatar Airways via Doha or Emirates via Dubai), about $775 each at holiday dates (estimate; Expedia shows Penang–Cairo from $308 one way off-peak)",
+  "usd": 1550,
+  "source": ""
  },
  {
   "country": "Malaysia",
@@ -715,15 +787,7 @@
   "country": "Malaysia",
   "day": 1,
   "category": "transport",
-  "item": "Flight Kuala Lumpur to Langkawi, economy with bags, two",
-  "usd": 120,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 1,
-  "category": "transport",
-  "item": "Grab rides: airport to hotel, then Pantai Cenang and back",
+  "item": "Grab, Penang airport to the hotel, plus short rides in George Town",
   "usd": 20,
   "source": ""
  },
@@ -731,23 +795,31 @@
   "country": "Malaysia",
   "day": 1,
   "category": "accommodation",
-  "item": "Mercure Langkawi Pantai Cenang, standard room, breakfast, Christmas night (estimate)",
-  "usd": 135,
+  "item": "JEN Penang Georgetown by Shangri-La, Deluxe room, breakfast, Christmas night (estimate)",
+  "usd": 105,
+  "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 1,
+  "category": "activity",
+  "item": "Trishaw ride through the heritage streets, about 1 hour, one trishaw for two (about RM 60)",
+  "usd": 15,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 1,
   "category": "food",
-  "item": "Light lunch at the airport on arrival",
-  "usd": 20,
+  "item": "Hawker lunch and street food on Kimberley Street",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 1,
   "category": "food",
-  "item": "Christmas beachfront dinner on Pantai Cenang",
+  "item": "Christmas dinner at a Nyonya restaurant",
   "usd": 60,
   "source": ""
  },
@@ -755,143 +827,143 @@
   "country": "Malaysia",
   "day": 2,
   "category": "accommodation",
-  "item": "Mercure Langkawi Pantai Cenang, standard room, breakfast (estimate)",
-  "usd": 120,
+  "item": "JEN Penang Georgetown by Shangri-La, Deluxe room, breakfast (estimate)",
+  "usd": 95,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "activity",
-  "item": "SkyCab cable car, standard gondola, two adults",
-  "usd": 40,
-  "source": "https://www.travelswithsun.com/langkawi-sky-bridge/"
+  "item": "Nazlina Spice Station cooking class with market tour, 2 × RM 250 at about RM 4.2 per US dollar (lunch included)",
+  "usd": 120,
+  "source": "https://vulcanpost.com/736447/nazlina-spice-station-malay-cuisine-cooking-class-penang"
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "activity",
-  "item": "Sky Bridge entry with SkyGlide ride, two adults",
-  "usd": 10,
-  "source": "https://www.travelswithsun.com/langkawi-sky-bridge/"
- },
- {
-  "country": "Malaysia",
-  "day": 2,
-  "category": "activity",
-  "item": "Morac go-karting, 10-minute single-seater session, 2 × RM 85 at about RM 4.2 per US dollar",
-  "usd": 40,
-  "source": "https://moracadventurepark.com/pricing/"
+  "item": "Penang Hill funicular return, normal lane, 2 × RM 30",
+  "usd": 15,
+  "source": "https://www.travelswithsun.com/penang-hill/"
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "transport",
-  "item": "Grab rides: SkyCab, Morac Adventure Park, Pantai Cenang and back",
-  "usd": 45,
+  "item": "Grab rides: cooking class, Penang Hill lower station and back",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "food",
-  "item": "Lunch and dinner at local restaurants",
-  "usd": 75,
+  "item": "Dinner at David Brown’s on Penang Hill",
+  "usd": 70,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 3,
   "category": "accommodation",
-  "item": "Mercure Langkawi Pantai Cenang, standard room, breakfast (estimate)",
-  "usd": 120,
+  "item": "JEN Penang Georgetown by Shangri-La, Deluxe room, breakfast (estimate)",
+  "usd": 95,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 3,
   "category": "activity",
-  "item": "Atma Alam batik painting, about 2 × RM 30",
+  "item": "Cheong Fatt Tze Blue Mansion guided tour, 2 × RM 25",
+  "usd": 12,
+  "source": "https://www.travelswithsun.com/cheong-fatt-tze-mansion-penang/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
+  "category": "activity",
+  "item": "The TOP Komtar admission with Rainbow Skywalk and observatory, 2 × $24",
+  "usd": 48,
+  "source": "https://www.expedia.com/things-to-do/the-top-komtar-penang-skywalk-admission-ticket.a1294744.activity-details"
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
+  "category": "transport",
+  "item": "Grab rides: Chew Jetty, Blue Mansion, Komtar, Gurney Drive and back",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
+  "category": "food",
+  "item": "Hawker lunch in George Town",
   "usd": 15,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 3,
-  "category": "activity",
-  "item": "Crystal Yacht sunset dinner cruise with BBQ buffet, two adults",
-  "usd": 125,
-  "source": "https://crystalyacht.com/st_tour/sunset-dinner-cruise/"
- },
- {
-  "country": "Malaysia",
-  "day": 3,
-  "category": "transport",
-  "item": "Grab rides to the batik village and back (cruise pickup is free)",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 3,
   "category": "food",
-  "item": "Lunch at a beach café",
-  "usd": 25,
+  "item": "Seafood and satay dinner at Gurney Drive hawker centre",
+  "usd": 35,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 4,
   "category": "accommodation",
-  "item": "Mercure Langkawi Pantai Cenang, standard room, breakfast (estimate)",
-  "usd": 120,
+  "item": "JEN Penang Georgetown by Shangri-La, Deluxe room, breakfast (estimate)",
+  "usd": 95,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 4,
   "category": "activity",
-  "item": "Underwater World Langkawi tickets, two adults (estimate)",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 4,
-  "category": "activity",
-  "item": "Couples massage at a Pantai Cenang spa, about 60 minutes (estimate)",
-  "usd": 60,
-  "source": ""
+  "item": "ESCAPE Penang entry tickets, 2 × $56 (GlobalTix on Expedia)",
+  "usd": 112,
+  "source": "https://www.expedia.com/things-to-do/escape-penang.a893133.activity-details"
  },
  {
   "country": "Malaysia",
   "day": 4,
   "category": "transport",
-  "item": "Grab rides: Underwater World, Telaga Tujuh, Tanjung Rhu and back",
-  "usd": 50,
+  "item": "Grab rides: George Town to Teluk Bahang, Batu Ferringhi and back (about 40 minutes each way)",
+  "usd": 35,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 4,
   "category": "food",
-  "item": "Lunch and dinner at local restaurants",
-  "usd": 80,
+  "item": "Lunch at the park",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 4,
+  "category": "food",
+  "item": "Sunset seafood dinner at Batu Ferringhi",
+  "usd": 55,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 5,
   "category": "transport",
-  "item": "Flight Langkawi to Kuala Lumpur, economy with bags, two",
-  "usd": 110,
+  "item": "Flight Penang to Kuala Lumpur, economy with bags, two (estimate; Expedia shows from $20 one way without bags)",
+  "usd": 100,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 5,
   "category": "transport",
-  "item": "Grab to Langkawi airport, then KLIA to the hotel",
+  "item": "Grab to Penang airport, then KLIA to the hotel",
   "usd": 40,
   "source": ""
  },
@@ -902,6 +974,14 @@
   "item": "Traders Hotel, Kuala Lumpur, Deluxe Room, breakfast (estimate)",
   "usd": 160,
   "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "category": "activity",
+  "item": "Aquaria KLCC off-peak foreign adult tickets, 2 × RM 58 at about RM 4.2 per US dollar",
+  "usd": 30,
+  "source": "https://www.redbus.my/things-to-do/malaysia/kuala-lumpur/aquaria-klcc"
  },
  {
   "country": "Malaysia",
@@ -930,25 +1010,33 @@
  {
   "country": "Malaysia",
   "day": 6,
-  "category": "activity",
-  "item": "Selangor River white-water rafting with lunch, 2 × RM 190 at about RM 4.2 per US dollar",
-  "usd": 90,
-  "source": "https://malaysia-whitewater-rafting.com/raftingKKB.php"
- },
- {
-  "country": "Malaysia",
-  "day": 6,
   "category": "transport",
-  "item": "Grab to Kuala Kubu Bharu and back (about 1 hour each way)",
-  "usd": 70,
+  "item": "Grab Kuala Lumpur to Awana SkyWay station and back (about 1 hour each way)",
+  "usd": 50,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 6,
+  "category": "activity",
+  "item": "Awana SkyWay standard gondola return, 2 × RM 19",
+  "usd": 9,
+  "source": "https://www.rwgenting.com/gettinghere/awanaskyway/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 6,
+  "category": "activity",
+  "item": "Genting SkyWorlds 1-day ticket, non-Malaysian adults, 2 × $41.59",
+  "usd": 83,
+  "source": "https://www.pelago.com/en/activity/plvac-genting-skyworlds/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 6,
   "category": "food",
-  "item": "Dinner at a local restaurant",
-  "usd": 45,
+  "item": "Lunch in the theme park and dinner back in Kuala Lumpur",
+  "usd": 80,
   "source": ""
  },
  {
@@ -963,23 +1051,39 @@
   "country": "Malaysia",
   "day": 7,
   "category": "activity",
-  "item": "LaZat Malaysian cooking class with market tour, 2 × RM 450 at about RM 4.2 per US dollar",
-  "usd": 215,
-  "source": "https://www.lazatcooking.com/cooking-class"
+  "item": "Petronas Twin Towers Skybridge and Observation Deck, two adults",
+  "usd": 60,
+  "source": "https://goasia.cc/en/article/petronas-twin-towers"
  },
  {
   "country": "Malaysia",
   "day": 7,
   "category": "transport",
-  "item": "Grab to Taman Tun Dr Ismail and back, holiday surge",
-  "usd": 30,
+  "item": "Grab rides: Merdeka Square, Central Market and back, holiday surge",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 7,
+  "category": "activity",
+  "item": "Couples massage in Bukit Bintang, about 60 minutes (estimate)",
+  "usd": 60,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 7,
   "category": "food",
-  "item": "New Year’s Eve dinner at a mid-range restaurant near KLCC (class lunch is included)",
+  "item": "Lunch on Petaling Street",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 7,
+  "category": "food",
+  "item": "New Year’s Eve dinner at a mid-range restaurant near KLCC",
   "usd": 120,
   "source": ""
  },
@@ -995,24 +1099,16 @@
   "country": "Malaysia",
   "day": 8,
   "category": "activity",
-  "item": "Aquaria KLCC off-peak foreign adult tickets, 2 × RM 58 at about RM 4.2 per US dollar",
-  "usd": 30,
-  "source": "https://www.redbus.my/things-to-do/malaysia/kuala-lumpur/aquaria-klcc"
- },
- {
-  "country": "Malaysia",
-  "day": 8,
-  "category": "activity",
-  "item": "Petronas Twin Towers Skybridge and Observation Deck, two adults",
-  "usd": 60,
-  "source": "https://goasia.cc/en/article/petronas-twin-towers"
+  "item": "Selangor River white-water rafting with lunch, 2 × RM 190 at about RM 4.2 per US dollar",
+  "usd": 90,
+  "source": "https://malaysia-whitewater-rafting.com/raftingKKB.php"
  },
  {
   "country": "Malaysia",
   "day": 8,
   "category": "transport",
-  "item": "Grab rides: Merdeka Square, Aquaria and back",
-  "usd": 20,
+  "item": "Grab to Kuala Kubu Bharu and back (about 1 hour each way)",
+  "usd": 70,
   "source": ""
  },
  {
@@ -1027,20 +1123,12 @@
   "country": "Malaysia",
   "day": 8,
   "category": "food",
-  "item": "Lunch near Central Market",
-  "usd": 30,
+  "item": "Farewell dinner at a rooftop restaurant (rafting lunch is included)",
+  "usd": 90,
   "source": ""
  },
  {
-  "country": "Malaysia",
-  "day": 8,
-  "category": "food",
-  "item": "Farewell dinner at a local restaurant",
-  "usd": 70,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 0,
   "category": "flights",
   "item": "Cairo–Manila return, economy, one stop in the Gulf, 24 Dec to 2 Jan, peak dates",
@@ -1048,23 +1136,7 @@
   "source": "https://www.momondo.com/flights/cairo/manila"
  },
  {
-  "country": "Philippines (Palawan)",
-  "day": 0,
-  "category": "flights",
-  "item": "Manila to Busuanga (Coron), 25 Dec, Philippine Airlines, with bags",
-  "usd": 210,
-  "source": "https://flights.philippineairlines.com/en/flights-from-manila-to-coron-busuanga"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 0,
-  "category": "flights",
-  "item": "El Nido to Clark flight on 2 Jan, plus car to Manila airport (no El Nido–Manila flights)",
-  "usd": 355,
-  "source": "https://suroy.ph/palawan-trip-cost/"
- },
- {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 0,
   "category": "visa",
   "item": "Philippine visa via Cairo embassy (no e-visa for Egyptians), single entry US$40 each",
@@ -1072,7 +1144,7 @@
   "source": "https://www.philippines-egypt.com/visas"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 0,
   "category": "visa",
   "item": "eTravel arrival registration within 72 hours of arrival (free)",
@@ -1080,300 +1152,324 @@
   "source": "https://ottawape.dfa.gov.ph/index.php/2016-04-13-06-16-59/advisories/3088-advisory-no-5-2025-etravel-for-passengers-arriving-in-and-departing-from-the-philippines"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 1,
   "category": "accommodation",
-  "item": "Asia Grand View Hotel, standard double with breakfast; Christmas rate (estimate from US$97 to 112 listings plus holiday uplift)",
-  "usd": 130,
-  "source": ""
+  "item": "The Bellevue Resort, superior room with breakfast; Christmas night rate (estimate from US$116 to 144 listings plus holiday uplift)",
+  "usd": 180,
+  "source": "https://www.kayak.com/Panglao-Hotels-The-Bellevue-Resort.471299.ksp"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 1,
   "category": "transport",
-  "item": "Busuanga airport van to Coron town (estimate)",
-  "usd": 20,
-  "source": ""
+  "item": "Flight Manila to Bohol-Panglao on 25 Dec, Philippine Airlines with a checked bag, 2 × about US$96",
+  "usd": 192,
+  "source": "https://www.travelocity.com/lp/flight-routes/philippine-airlines-from-ninoy-aquino-intl-to-bohol-intl/pr/mnl/tag"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 1,
-  "category": "food",
-  "item": "Lunch in transit at Manila or Busuanga airport",
+  "category": "transport",
+  "item": "Terminal transfer at Manila airport and van from Panglao airport to the resort (estimate)",
   "usd": 25,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 1,
   "category": "food",
-  "item": "Christmas seafood dinner for two at a Coron waterfront restaurant (estimate)",
-  "usd": 55,
+  "item": "Lunch in transit at Manila airport (estimate)",
+  "usd": 25,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
+  "day": 1,
+  "category": "food",
+  "item": "Christmas seafood dinner for two on Alona Beach (estimate)",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
   "day": 2,
   "category": "accommodation",
-  "item": "Asia Grand View Hotel, standard double with breakfast; peak rate (estimate)",
-  "usd": 120,
-  "source": ""
+  "item": "The Bellevue Resort, superior room with breakfast; peak rate (estimate)",
+  "usd": 150,
+  "source": "https://www.kayak.com/Panglao-Hotels-The-Bellevue-Resort.471299.ksp"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 2,
   "category": "activity",
-  "item": "Mount Tapyas entrance (estimate)",
-  "usd": 5,
-  "source": ""
+  "item": "Shared Bohol countryside tour with hotel pickup and Loboc River buffet lunch, 2 × US$61 (tarsier and Chocolate Hills fees may be extra)",
+  "usd": 122,
+  "source": "https://www.expedia.com/things-to-do/shared-tour-bohol-countryside-wonders-and-loboc-river-lunch.a50525386.activity-details"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 2,
-  "category": "transport",
-  "item": "Tricycles to Mount Tapyas and the market and back (estimate)",
+  "category": "activity",
+  "item": "Tarsier sanctuary and Chocolate Hills entrance fees if not included (estimate)",
   "usd": 10,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
+  "day": 2,
+  "category": "activity",
+  "item": "Chocolate Hills ATV ride, two ATVs for about 30 minutes (estimate)",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
   "day": 2,
   "category": "food",
-  "item": "Paluto lunch at the market and dinner in Coron town (estimate)",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 3,
-  "category": "accommodation",
-  "item": "Asia Grand View Hotel, standard double with breakfast; peak rate (estimate)",
-  "usd": 120,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 3,
-  "category": "activity",
-  "item": "Calauit Safari full-day tour for two with boat, van and lunch (estimate; confirm with a Coron operator)",
-  "usd": 120,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 3,
-  "category": "transport",
-  "item": "Tricycle to and from the pier (estimate)",
-  "usd": 0,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 3,
-  "category": "food",
-  "item": "Rooftop dinner in Coron town (estimate)",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 4,
-  "category": "accommodation",
-  "item": "Cadlao Resort and Restaurant, standard room with breakfast; peak rate (estimate from Kayak US$125 cheapest)",
-  "usd": 150,
-  "source": "https://www.kayak.com/El-Nido-Hotels-Cadlao-Resort-And-Restaurant.660951.ksp"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 4,
-  "category": "transport",
-  "item": "Coron to El Nido fast ferry (Jomalia), terminal fees",
-  "usd": 110,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 4,
-  "category": "transport",
-  "item": "Van from El Nido port to the resort",
-  "usd": 15,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 4,
-  "category": "activity",
-  "item": "El Nido eco-tourism development fee, PHP 400 each, valid 10 days",
-  "usd": 15,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 4,
-  "category": "food",
-  "item": "Lunch after the ferry and dinner near Lio (estimate)",
-  "usd": 60,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 5,
-  "category": "accommodation",
-  "item": "Cadlao Resort and Restaurant, standard room with breakfast; peak rate (estimate)",
-  "usd": 150,
-  "source": "https://www.kayak.com/El-Nido-Hotels-Cadlao-Resort-And-Restaurant.660951.ksp"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 5,
-  "category": "activity",
-  "item": "Island Tour A, shared boat, lunch included",
-  "usd": 60,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 5,
-  "category": "activity",
-  "item": "Big Lagoon environmental fee and two-seat kayak rental",
-  "usd": 15,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 5,
-  "category": "transport",
-  "item": "Tricycle to the tour boats in town and back",
-  "usd": 10,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 5,
-  "category": "food",
-  "item": "Dinner at a beach bar (lunch is on the boat)",
+  "item": "Dinner in Panglao (lunch is on the river boat) (estimate)",
   "usd": 40,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
-  "day": 6,
+  "country": "Philippines",
+  "day": 3,
   "category": "accommodation",
-  "item": "Cadlao Resort and Restaurant, standard room with breakfast; peak rate (estimate)",
-  "usd": 160,
-  "source": "https://www.kayak.com/El-Nido-Hotels-Cadlao-Resort-And-Restaurant.660951.ksp"
+  "item": "The Bellevue Resort, superior room with breakfast; peak rate (estimate)",
+  "usd": 150,
+  "source": "https://www.kayak.com/Panglao-Hotels-The-Bellevue-Resort.471299.ksp"
  },
  {
-  "country": "Philippines (Palawan)",
-  "day": 6,
-  "category": "activity",
-  "item": "Filipino cooking class for two (estimate)",
-  "usd": 60,
+  "country": "Philippines",
+  "day": 3,
+  "category": "transport",
+  "item": "Private car with driver Panglao–Danao and back, full day (estimate, about PHP 4,500)",
+  "usd": 80,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
-  "day": 6,
+  "country": "Philippines",
+  "day": 3,
   "category": "activity",
-  "item": "Las Cabanas zipline over the sea, return seated ride",
+  "item": "EAT Danao: The Plunge 2 × PHP 700, Suislide 2 × PHP 350, Sky Ride 2 × PHP 250, entrance 2 × PHP 40 = PHP 2,680 at about PHP 58 to US$1",
+  "usd": 46,
+  "source": "https://www.bohol-philippines.com/attractions/danao-adventure-park/"
+ },
+ {
+  "country": "Philippines",
+  "day": 3,
+  "category": "food",
+  "item": "Lunch at Danao and sunset dinner at Bohol Bee Farm (estimate)",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 4,
+  "category": "accommodation",
+  "item": "Seda Ayala Center Cebu, deluxe room with breakfast; peak rate (estimate from US$75 to 119 listings)",
+  "usd": 120,
+  "source": "https://ph.trip.com/hotels/cebu-city-hotel-detail-1867629/seda-ayala-center-cebu"
+ },
+ {
+  "country": "Philippines",
+  "day": 4,
+  "category": "transport",
+  "item": "Car from Panglao to Tagbilaran port and taxi from Cebu pier to the hotel (estimate)",
   "usd": 30,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 6,
-  "category": "transport",
-  "item": "Tricycle to Las Cabanas and back",
-  "usd": 15,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 6,
-  "category": "food",
-  "item": "Dinner in El Nido town (estimate)",
-  "usd": 55,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
+  "day": 4,
+  "category": "transport",
+  "item": "OceanJet Tagbilaran–Cebu tourist class, 2 × PHP 920 plus terminal fees",
+  "usd": 35,
+  "source": "https://pamasahe.com/posts/oceanjet-announces-second-fuel-surcharge-reduction-starting-june-20"
+ },
+ {
+  "country": "Philippines",
+  "day": 4,
+  "category": "transport",
+  "item": "Taxis around the old town and a return taxi to Tops Lookout with waiting time (estimate)",
+  "usd": 35,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 4,
+  "category": "activity",
+  "item": "Fort San Pedro, Temple of Leah and Tops Lookout entrance fees for two (estimate)",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 4,
+  "category": "food",
+  "item": "Lunch and lechon dinner (estimate)",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 5,
+  "category": "accommodation",
+  "item": "Seda Ayala Center Cebu, deluxe room with breakfast; peak rate (estimate)",
+  "usd": 120,
+  "source": "https://ph.trip.com/hotels/cebu-city-hotel-detail-1867629/seda-ayala-center-cebu"
+ },
+ {
+  "country": "Philippines",
+  "day": 5,
+  "category": "activity",
+  "item": "Shared Moalboal sardine run and Kawasan canyoneering tour with hotel pickup, gear and guide, 2 × US$111",
+  "usd": 222,
+  "source": "https://www.travelocity.com/es/things-to-do/null.a49107172.detalles-actividades"
+ },
+ {
+  "country": "Philippines",
+  "day": 5,
+  "category": "food",
+  "item": "Lunch on the tour if not included, and dinner in Cebu City (estimate)",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "accommodation",
+  "item": "Seda Bonifacio Global City, deluxe room with breakfast; peak rate (estimate from US$143 to 162 listings)",
+  "usd": 170,
+  "source": "https://www.booking.com/hotel/ph/seda-bonifacio-global-city.html"
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "transport",
+  "item": "Taxi to Mactan-Cebu airport (estimate)",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "transport",
+  "item": "Flight Cebu–Manila on 30 Dec, Cebu Pacific, 2 × about PHP 1,800 fare plus a checked bag each (estimate from the PHP 1,211 lowest fare)",
+  "usd": 110,
+  "source": "https://www.cheapflights.com.ph/flights-to-Manila/Cebu/?r9ck=iq"
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "transport",
+  "item": "Grab cars: airport to BGC, BGC to Binondo and back (estimate)",
+  "usd": 35,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "activity",
+  "item": "A Chef’s Tour lunchtime Manila food tour (Binondo), 2 × US$45, tastings included",
+  "usd": 90,
+  "source": "https://achefstour.com/tour/manila-food-tour-lunchtime"
+ },
+ {
+  "country": "Philippines",
+  "day": 6,
+  "category": "food",
+  "item": "Dinner on Bonifacio High Street (lunch is the food tour) (estimate)",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
   "day": 7,
   "category": "accommodation",
-  "item": "Cadlao Resort and Restaurant, standard room with breakfast; New Year’s Eve rate (estimate)",
-  "usd": 210,
-  "source": "https://www.kayak.com/El-Nido-Hotels-Cadlao-Resort-And-Restaurant.660951.ksp"
+  "item": "Seda Bonifacio Global City, deluxe room with breakfast; New Year’s Eve rate (estimate)",
+  "usd": 230,
+  "source": "https://www.booking.com/hotel/ph/seda-bonifacio-global-city.html"
  },
  {
-  "country": "Philippines (Palawan)",
-  "day": 7,
-  "category": "activity",
-  "item": "Taraw Cliff via ferrata (canopy walk and Dreamcatcher), guide and gear",
-  "usd": 25,
-  "source": "https://www.klook.com/activity/22445-taraw-cliff-canopy-walk-palawan/"
- },
- {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 7,
   "category": "transport",
-  "item": "Tricycles to Taraw Cliff and El Nido town and back (estimate)",
-  "usd": 10,
-  "source": ""
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 7,
-  "category": "food",
-  "item": "Lunch (estimate)",
+  "item": "Grab cars BGC–Intramuros and back (estimate)",
   "usd": 25,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
+  "day": 7,
+  "category": "activity",
+  "item": "Bambike Intramuros full bamboo-bike tour with Fort Santiago, 2 × about US$37",
+  "usd": 75,
+  "source": "https://www.expedia.com/things-to-do/intramuros.a45161638.activity-details"
+ },
+ {
+  "country": "Philippines",
+  "day": 7,
+  "category": "activity",
+  "item": "BGC New Year’s Eve countdown on Fifth Avenue, free general admission",
+  "usd": 0,
+  "source": "https://plus.inquirer.net/?p=213503"
+ },
+ {
+  "country": "Philippines",
   "day": 7,
   "category": "food",
-  "item": "New Year’s Eve dinner in El Nido town with drinks (estimate; may be a set menu)",
+  "item": "Lunch in Intramuros (estimate)",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
+  "day": 7,
+  "category": "food",
+  "item": "New Year’s Eve dinner in BGC with drinks (estimate; may be a set menu)",
   "usd": 110,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 8,
   "category": "accommodation",
-  "item": "Cadlao Resort and Restaurant, standard room with breakfast; peak rate (estimate)",
-  "usd": 150,
-  "source": "https://www.kayak.com/El-Nido-Hotels-Cadlao-Resort-And-Restaurant.660951.ksp"
+  "item": "Seda Bonifacio Global City, deluxe room with breakfast; New Year’s Day rate (estimate)",
+  "usd": 170,
+  "source": "https://www.booking.com/hotel/ph/seda-bonifacio-global-city.html"
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
   "day": 8,
   "category": "transport",
-  "item": "Tricycle to Nacpan Beach and back, with driver waiting",
+  "item": "Grab cars BGC–Mall of Asia and back (estimate)",
   "usd": 25,
-  "source": "https://suroy.ph/el-nido-travel-guide/"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 8,
-  "category": "transport",
-  "item": "Van to El Nido airport for the 2 Jan flight (estimate)",
-  "usd": 10,
   "source": ""
  },
  {
-  "country": "Philippines (Palawan)",
+  "country": "Philippines",
+  "day": 8,
+  "category": "transport",
+  "item": "Car to Manila airport for the 2 Jan flight (estimate)",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Philippines",
   "day": 8,
   "category": "food",
-  "item": "Lunch at Nacpan Beach and farewell dinner (estimate)",
-  "usd": 60,
+  "item": "Lunch and bayside sunset dinner at Mall of Asia (estimate)",
+  "usd": 70,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 0,
   "category": "flights",
-  "item": "Cairo–Naha return, economy, 1 to 2 stops, 24 Dec out and 2 Jan back, for two (peak-date estimate of about $1,000 each; page shows fares from $621 round trip off-peak)",
-  "usd": 2000,
-  "source": "https://www.expedia.com/lp/flights/cai/oka/cairo-to-naha"
+  "item": "Open-jaw economy for two, booked as two one-ways: Cairo–Tokyo Thu 24 Dec on Etihad from $583 each, Osaka Kansai–Cairo Sat 2 Jan on Emirates $760 each (Google Flights, checked 18 Oct 2026)",
+  "usd": 2686,
+  "source": "https://www.google.com/travel/flights?q=Flights%20from%20CAI%20to%20TYO%20on%202026-12-24%20one%20way%20economy"
  },
  {
   "country": "Japan",
@@ -1387,31 +1483,31 @@
   "country": "Japan",
   "day": 1,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; Christmas night rate)",
-  "usd": 115,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
   "day": 1,
   "category": "transport",
-  "item": "Naha–Ishigaki flight for two, about 2 × ¥19,000 (ANA/JAL, holiday-week estimate)",
-  "usd": 255,
+  "item": "Airport train to Shinjuku for two (Narita Express 2 × ¥3,250, or less from Haneda) and Suica top-up",
+  "usd": 50,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 1,
-  "category": "transport",
-  "item": "Taxi from Ishigaki airport to hotel",
-  "usd": 25,
-  "source": ""
+  "category": "activity",
+  "item": "Shibuya Sky night slot (entry from 15:00), 2 × ¥3,400 online",
+  "usd": 44,
+  "source": "https://mileasia.com/japan/shibuya-sky/"
  },
  {
   "country": "Japan",
   "day": 1,
   "category": "food",
-  "item": "Light lunch at Naha airport on the connection",
+  "item": "Snack lunch at the airport or station",
   "usd": 30,
   "source": ""
  },
@@ -1419,71 +1515,71 @@
   "country": "Japan",
   "day": 1,
   "category": "food",
-  "item": "Yaeyama soba and Ishigaki beef dinner",
+  "item": "Tsukemen ramen and yakitori in Omoide Yokocho",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "activity",
+  "item": "Tsukiji market tour and sushi-making class with a professional chef, about 4 hours, 2 × $117",
+  "usd": 234,
+  "source": "https://jasumo.com/listing/tsukiji-fish-market-sushi-making-class-with-pro-chef-in-tokyo"
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "activity",
+  "item": "teamLab Borderless Azabudai, 2 × about ¥4,200 (weekend price)",
+  "usd": 54,
+  "source": "https://mileasia.com/japan/teamlab-borderless/"
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "food",
+  "item": "Extra street snacks at Tsukiji (lunch is the sushi you make)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "food",
+  "item": "Izakaya dinner under the tracks in Yurakucho",
   "usd": 70,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 2,
-  "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "transport",
-  "item": "Private sightseeing taxi, about 5 hours, north coast",
-  "usd": 130,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "activity",
-  "item": "Kabira Bay glass-bottom boat, 2 × ¥1,300",
-  "usd": 20,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "activity",
-  "item": "Ishigaki stargazing tour, 2 × ¥5,500",
-  "usd": 75,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "food",
-  "item": "Lunch on the north coast (Yaeyama soba and seafood)",
-  "usd": 45,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "food",
-  "item": "Dinner in town",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
   "day": 3,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
   "day": 3,
   "category": "transport",
-  "item": "Taketomi ferry return, 2 × ¥1,180",
+  "item": "Metro and JR for the day, for two",
   "usd": 15,
   "source": ""
  },
@@ -1491,63 +1587,63 @@
   "country": "Japan",
   "day": 3,
   "category": "activity",
-  "item": "Water-buffalo cart ride, bicycle hire and island visitor fee on Taketomi",
-  "usd": 60,
+  "item": "Street go-kart tour from Akihabara, about 1 hour, costume included, 2 × $80",
+  "usd": 160,
+  "source": "https://www.expedia.com/things-to-do/official-street-go-kart-tour-akihabara.a50208191.activity-details"
+ },
+ {
+  "country": "Japan",
+  "day": 3,
+  "category": "food",
+  "item": "Asakusa street snacks and lunch",
+  "usd": 35,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 3,
   "category": "food",
-  "item": "Lunch on Taketomi",
-  "usd": 45,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 3,
-  "category": "food",
-  "item": "Dinner in Ishigaki town",
-  "usd": 75,
+  "item": "Ameyoko street food and izakaya dinner",
+  "usd": 65,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "transport",
-  "item": "Taxi to and from the Nagura river kayak meeting point",
-  "usd": 40,
+  "item": "JR Shinjuku–Maihama return and Disney Resort Line, for two",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "activity",
-  "item": "Guided Nagura mangrove kayak tour, 2 × ¥7,500, paddling only",
-  "usd": 100,
+  "item": "Tokyo DisneySea 1-Day Passport on Mon 28 Dec, 2 × ¥11,900 (official date-based calendar, 27 Dec to 2 Jan tier)",
+  "usd": 154,
+  "source": "https://www.tokyodisneyresort.jp/en/ticket/index/202611/"
+ },
+ {
+  "country": "Japan",
+  "day": 4,
+  "category": "activity",
+  "item": "Disney Premier Access for Anna and Elsa’s Frozen Journey, 2 × about ¥2,000",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "food",
-  "item": "Lunch",
-  "usd": 40,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 4,
-  "category": "food",
-  "item": "Dinner at a Yaeyama folk-music izakaya, with the music charge",
+  "item": "Lunch and dinner in the park, with snacks (gyoza dog, popcorn)",
   "usd": 90,
   "source": ""
  },
@@ -1555,168 +1651,200 @@
   "country": "Japan",
   "day": 5,
   "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 115,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
   "day": 5,
   "category": "transport",
-  "item": "Ishigaki–Naha flight for two, about 2 × ¥17,000 (ANA/JTA, estimate)",
-  "usd": 225,
+  "item": "Metro, JR and Yurikamome to Toyosu, for two",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 5,
-  "category": "transport",
-  "item": "Taxi to Ishigaki airport and Yui monorail to hotel in Naha",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "food",
-  "item": "Okinawa soba lunch near Makishi market",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "food",
-  "item": "Okinawan dinner with live sanshin",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 115,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "transport",
-  "item": "Taxi to Tomari port and back",
-  "usd": 15,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "transport",
-  "item": "Fast ferry to Zamami return, 2 × ¥6,300 (estimate)",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
   "category": "activity",
-  "item": "Guided turtle snorkel with wetsuit and gear hire, 2 × ¥7,500",
-  "usd": 100,
-  "source": ""
+  "item": "teamLab Planets, 2 × about ¥4,200",
+  "usd": 54,
+  "source": "https://mileasia.com/japan/teamlab-planets/"
  },
  {
   "country": "Japan",
-  "day": 6,
+  "day": 5,
+  "category": "activity",
+  "item": "Tokyo Toyosu Manyo Club onsen, 2 × ¥3,850 plus 2 × ¥150 bathing tax",
+  "usd": 52,
+  "source": "https://www.timeout.com/tokyo/things-to-do/tokyo-toyosu-manyo-club"
+ },
+ {
+  "country": "Japan",
+  "day": 5,
   "category": "food",
-  "item": "Lunch on Zamami",
+  "item": "Conveyor-belt sushi lunch in Shibuya",
   "usd": 40,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 6,
+  "day": 5,
   "category": "food",
-  "item": "Dinner in Naha",
-  "usd": 75,
+  "item": "Ramen dinner",
+  "usd": 30,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
   "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; New Year’s Eve rate)",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "transport",
+  "item": "Nozomi Shinkansen Tokyo–Kyoto, reserved seats, 2 × ¥14,170 plus about ¥200 New Year peak surcharge each",
   "usd": 185,
-  "source": ""
+  "source": "https://shinkansentickets.net/guide/tokaido-shinkansen-guide"
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
   "category": "transport",
-  "item": "Yui monorail 24-hour passes, 2 × ¥800, and a late taxi after the countdown",
-  "usd": 30,
+  "item": "Kyoto Station luggage storage, trains and buses in Kyoto, JR Kyoto–Osaka and metro to Namba, for two",
+  "usd": 45,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
+  "category": "transport",
+  "item": "Metro from the hotel to Tokyo Station, for two",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
   "category": "activity",
-  "item": "Karate lesson for two in Naha, 2 × ¥5,500",
-  "usd": 75,
+  "item": "Kiyomizu-dera entry, 2 × ¥500",
+  "usd": 5,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
   "category": "food",
-  "item": "Lunch on Kokusai Street",
+  "item": "Nishiki Market street-food lunch",
   "usd": 40,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
   "category": "food",
-  "item": "New Year’s Eve dinner with toshikoshi soba, 2 × about ¥10,000",
-  "usd": 135,
+  "item": "Dotonbori takoyaki and okonomiyaki dinner",
+  "usd": 50,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 8,
+  "day": 7,
   "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 130,
-  "source": ""
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
  },
  {
   "country": "Japan",
-  "day": 8,
+  "day": 7,
   "category": "transport",
-  "item": "Yui monorail to Shuri and back, then to the airport on 2 Jan",
-  "usd": 25,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 8,
-  "category": "activity",
-  "item": "Shuri Castle Park and Shikinaen garden entry, 2 × ¥400 each",
+  "item": "Metro around Namba, and train to Universal City, for two",
   "usd": 10,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 8,
-  "category": "food",
-  "item": "Lunch",
+  "day": 7,
+  "category": "transport",
+  "item": "Taxi from Universal Studios Japan to the hotel after the countdown (about ¥6,000)",
   "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "activity",
+  "item": "Spa World onsen, 2 × about ¥2,000 (holiday price)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "activity",
+  "item": "USJ NO LIMIT! Countdown 2027 Party Pass, 2 × ¥16,900 (lowest tier; re-entry from 19:00 on 31 Dec until 21:00 on 1 Jan). Goes on sale 4 Nov and sells out fast",
+  "usd": 218,
+  "source": "https://livejapan.com/en/in-kansai/in-pref-osaka/in-usj_nanko-port/article-a2001061/"
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "food",
+  "item": "Kuromon Market street food and Shinsekai kushikatsu lunch",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "food",
+  "item": "Toshikoshi soba dinner and snacks in the park",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai train to Sumiyoshi Taisha and trains to Universal City and back, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai Rapi:t from Namba to Kansai airport on 2 Jan, 2 × ¥1,490",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 8,
   "category": "food",
-  "item": "Dinner at Senagajima Umikaji Terrace area",
-  "usd": 85,
+  "item": "Lunch at the shrine food stalls",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "category": "food",
+  "item": "Dinner in Universal Studios Japan",
+  "usd": 60,
   "source": ""
  },
  {
@@ -2076,6 +2204,390 @@
   "day": 8,
   "category": "food",
   "item": "Lunch and dinner for two",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 0,
+  "category": "flights",
+  "item": "Open-jaw economy for two, booked as two one-ways: Cairo–Tokyo Narita Mon 2 Nov 13:00 on China Eastern via Shanghai (1 stop, lands 12:50 Tue 3 Nov), 2 × $675, and Osaka Kansai–Cairo Wed 11 Nov 23:10 on Emirates via Dubai (1 stop), 2 × $708 (return-leg source: https://www.google.com/travel/flights?q=Flights%20from%20KIX%20to%20CAI%20on%202026-11-11%20one%20way%20economy)",
+  "usd": 2766,
+  "source": "https://www.google.com/travel/flights?q=Flights%20from%20CAI%20to%20TYO%20on%202026-11-02%20one%20way%20economy"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 0,
+  "category": "visa",
+  "item": "Japan tourist visa for Egyptians, single entry, apply in person at the Cairo embassy (5 working days), 2 × ¥3,000 standard fee; the fee in Cairo is unconfirmed",
+  "usd": 40,
+  "source": "https://www.eg.emb-japan.go.jp/itpr_en/00_000059.html"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 3 to 8 Nov stay averages EGP 12,962 (about $242) a night",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "transport",
+  "item": "Airport train to Shinjuku for two (Narita Express 2 × ¥3,250) and Suica top-up",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "activity",
+  "item": "Shibuya Sky night slot (entry from 15:00), 2 × ¥3,400 online",
+  "usd": 44,
+  "source": "https://mileasia.com/japan/shibuya-sky/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "food",
+  "item": "Snack lunch at the airport or station",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "food",
+  "item": "Tsukemen ramen and yakitori in Omoide Yokocho",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), weeknight (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "activity",
+  "item": "Tsukiji market tour and sushi-making class with a professional chef, about 4 hours, 2 × $117",
+  "usd": 234,
+  "source": "https://jasumo.com/listing/tsukiji-fish-market-sushi-making-class-with-pro-chef-in-tokyo"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "activity",
+  "item": "teamLab Borderless Azabudai, 2 × about ¥3,800 (weekday; dynamic price from ¥3,400)",
+  "usd": 49,
+  "source": "https://www.teamlab.art/e/borderless-azabudai/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "food",
+  "item": "Extra street snacks at Tsukiji (lunch is the sushi you make)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "food",
+  "item": "Izakaya dinner under the tracks in Yurakucho",
+  "usd": 70,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), weeknight (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "activity",
+  "item": "Street go-kart tour from Akihabara, about 1 hour, costume included, 2 × $80",
+  "usd": 160,
+  "source": "https://www.expedia.com/things-to-do/official-street-go-kart-tour-akihabara.a50208191.activity-details"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "food",
+  "item": "Asakusa street snacks and lunch",
+  "usd": 35,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "food",
+  "item": "Ameyoko street food and izakaya dinner",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), Friday night (Google Hotels shows EGP 14,001, about $262)",
+  "usd": 260,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "transport",
+  "item": "JR Shinjuku–Maihama return and Disney Resort Line, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "activity",
+  "item": "Tokyo DisneySea 1-Day Passport on Fri 6 Nov, 2 × ¥9,900 (official date-based calendar, lowest November tier)",
+  "usd": 128,
+  "source": "https://www.tokyodisneyresort.jp/en/ticket/index/202611/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "activity",
+  "item": "Disney Premier Access for Anna and Elsa’s Frozen Journey, 2 × about ¥2,000",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "food",
+  "item": "Lunch and dinner in the park, with snacks (gyoza dog, popcorn)",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), Saturday night (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "transport",
+  "item": "Metro, JR and Yurikamome to Toyosu, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "activity",
+  "item": "teamLab Planets, 2 × about ¥4,200 (weekend price)",
+  "usd": 54,
+  "source": "https://www.teamlab.art/e/planets/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "activity",
+  "item": "Tokyo Toyosu Manyo Club onsen, 2 × ¥3,850 plus 2 × ¥150 bathing tax",
+  "usd": 52,
+  "source": "https://www.timeout.com/tokyo/things-to-do/tokyo-toyosu-manyo-club"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "food",
+  "item": "Conveyor-belt sushi lunch in Shibuya",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "food",
+  "item": "Ramen dinner",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 8 to 11 Nov stay averages EGP 9,527 (about $178) a night",
+  "usd": 180,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Nozomi Shinkansen Tokyo–Kyoto, reserved seats, 2 × ¥14,170 (regular season, no peak surcharge)",
+  "usd": 183,
+  "source": "https://shinkansentickets.net/guide/tokaido-shinkansen-guide"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Kyoto Station luggage storage, trains and buses in Kyoto, JR Kyoto–Osaka and metro to Namba, for two",
+  "usd": 45,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Metro from the hotel to Tokyo Station, for two",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "activity",
+  "item": "Kiyomizu-dera entry, 2 × ¥500",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "food",
+  "item": "Nishiki Market street-food lunch",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "food",
+  "item": "Dotonbori takoyaki and okonomiyaki dinner",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only), Monday night (part of the EGP 9,527 average)",
+  "usd": 180,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "transport",
+  "item": "Metro around Namba, and train to Universal City, for two",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "transport",
+  "item": "Train back from Universal City to Namba after the park closes, for two (no taxi needed in November)",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "activity",
+  "item": "Spa World onsen, 2 × about ¥1,500 (weekday price)",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "activity",
+  "item": "USJ 1.5-Day Studio Pass (from 15:00 on Mon 9 Nov, all day Tue 10 Nov), 2 × ¥13,600 (lowest of six tiers; the matching 1-day passes are ¥9,900 on 9 Nov and ¥9,400 on 10 Nov)",
+  "usd": 175,
+  "source": "https://castel.jp/usj/ticket/universal-studio-japan-ticket"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "food",
+  "item": "Kuromon Market street food and Shinsekai kushikatsu lunch",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "food",
+  "item": "Soba dinner and snacks in the park",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only), Tuesday night (Google Hotels shows EGP 9,421, about $176)",
+  "usd": 175,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai train to Sumiyoshi Taisha and trains to Universal City and back, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai Rapi:t from Namba to Kansai airport on 11 Nov, 2 × ¥1,490",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "food",
+  "item": "Lunch near Sumiyoshi Taisha",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "food",
+  "item": "Dinner in Universal Studios Japan",
   "usd": 60,
   "source": ""
  },

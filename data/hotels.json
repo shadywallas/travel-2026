@@ -1,14 +1,14 @@
 [
  {
   "country": "Thailand",
-  "city": "Krabi",
+  "city": "Chiang Mai",
   "order": 1,
-  "hotel": "Centara Ao Nang Beach Resort & Spa Krabi",
-  "style": "4-star beach resort, Ao Nang",
-  "why": "Beachfront 4-star resort in Ao Nang with breakfast, a pool, a spa and a short walk to the night market and the longtail piers.",
-  "query": "Centara Ao Nang Beach Resort & Spa Krabi",
+  "hotel": "U Chiang Mai",
+  "style": "4-star boutique, old city",
+  "why": "Well-reviewed 4-star (about 9.1 on HotelsCombined) on Ratchadamnoen Road inside the old city walls, next to Wat Phra Singh, with breakfast and a small pool; the Sunday Walking Street runs past the door.",
+  "query": "U Chiang Mai hotel",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/th/centara-ao-nang-beach-resort-amp-spa-krabi.html"
+  "booking_url": "https://www.booking.com/hotel/th/u-chiang-mai.html"
  },
  {
   "country": "Thailand",
@@ -22,18 +22,18 @@
   "booking_url": "https://www.booking.com/hotel/th/hilton-garden-inn-bangkok-riverside.html"
  },
  {
-  "country": "Vietnam (south)",
-  "city": "Mui Ne",
+  "country": "Vietnam",
+  "city": "Hanoi",
   "order": 1,
-  "hotel": "Pandanus Resort",
-  "style": "Beach resort with gardens and pool",
-  "why": "Well-reviewed four-star beach resort under the red dunes, good value at about $95 to $110 a night with breakfast.",
-  "query": "Pandanus Resort Mui Ne",
+  "hotel": "La Siesta Classic Ma May",
+  "style": "Boutique hotel, Old Quarter",
+  "why": "One of the best-reviewed hotels in the Old Quarter (9.4 on Booking.com from about 960 reviews), on Ma May street a few minutes’ walk from Hoan Kiem Lake and the food streets, with breakfast and a tour desk that books the Ha Long and Ninh Binh pickups.",
+  "query": "La Siesta Classic Ma May Hanoi",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/vn/pandanus-resort.html"
+  "booking_url": "https://www.booking.com/hotel/vn/hanoi-la-siesta.html"
  },
  {
-  "country": "Vietnam (south)",
+  "country": "Vietnam",
   "city": "Ho Chi Minh City",
   "order": 2,
   "hotel": "Silverland Sakyo Hotel & Spa",
@@ -45,14 +45,14 @@
  },
  {
   "country": "Malaysia",
-  "city": "Langkawi",
+  "city": "Penang",
   "order": 1,
-  "hotel": "Mercure Langkawi Pantai Cenang",
-  "style": "Beach-side 4-star",
-  "why": "Rated about 8.3 on Booking.com with the beach 400 m away, an outdoor pool and sunset views, close to the restaurants and fire show on Pantai Cenang.",
-  "query": "Mercure Langkawi Pantai Cenang",
+  "hotel": "JEN Penang Georgetown by Shangri-La",
+  "style": "City 4-star, George Town",
+  "why": "Shangri-La’s good-value 4-star (rated about 8.3 to 8.7 on Booking.com, location about 9.0), with an outdoor pool and breakfast, beside Komtar in the UNESCO heritage area, a short walk or Grab from the street-art lanes and Gurney Drive.",
+  "query": "JEN Penang Georgetown by Shangri-La",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/my/mercure-langkawi-pantai-cenang.html"
+  "booking_url": "https://www.booking.com/hotel/my/jen-penang.html"
  },
  {
   "country": "Malaysia",
@@ -66,48 +66,59 @@
   "booking_url": "https://www.booking.com/hotel/my/traders-kuala-lumpur.html"
  },
  {
-  "country": "Philippines (Palawan)",
-  "city": "Coron",
+  "country": "Philippines",
+  "city": "Bohol",
   "order": 1,
-  "hotel": "Asia Grand View Hotel",
-  "style": "Town hotel",
-  "why": "Well-reviewed (8.8 on Trip.com) 3 to 4 star hotel in Coron town, a short tricycle ride from the market and Mount Tapyas, with breakfast and rooftop views.",
-  "query": "Asia Grand View Hotel Coron",
+  "hotel": "The Bellevue Resort",
+  "style": "Resort with pool, Panglao",
+  "why": "Rated about 9.1 to 9.3 on Booking.com from over 1,200 reviews, yet priced like a good 4-star (about $116 to $144 a night outside peak), with breakfast, an infinity pool for after the trip’s no-swim days and easy reach of Alona Beach and the countryside tours.",
+  "query": "The Bellevue Resort Bohol Panglao",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/ph/asia-grand-view.html"
+  "booking_url": "https://www.booking.com/hotel/ph/the-bellevue-resort.html"
  },
  {
-  "country": "Philippines (Palawan)",
-  "city": "El Nido",
+  "country": "Philippines",
+  "city": "Cebu",
   "order": 2,
-  "hotel": "Cadlao Resort and Restaurant",
-  "style": "Resort with pool",
-  "why": "Well-reviewed (9.1 from over 1,200 reviews on Kayak) 3-star resort with a pool, about 5 minutes from El Nido airport.",
-  "query": "Cadlao Resort and Restaurant El Nido",
+  "hotel": "Seda Ayala Center Cebu",
+  "style": "4-star, Cebu Business Park",
+  "why": "Well-reviewed (about 8.3 on Booking.com from over 1,400 reviews) 4-star beside Ayala Center mall, a short taxi from the old town and Tops Lookout, and on the pickup route for the Kawasan and Moalboal tours.",
+  "query": "Seda Ayala Center Cebu",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/ph/cadlao-resort-and-restaurant.html"
+  "booking_url": "https://www.booking.com/hotel/ph/seda-ayala-center-cebu-cebu-city.html"
+ },
+ {
+  "country": "Philippines",
+  "city": "Manila",
+  "order": 3,
+  "hotel": "Seda Bonifacio Global City",
+  "style": "4-star, Bonifacio Global City",
+  "why": "Well-reviewed (about 8.5 on Booking.com) 4-star a short walk from Bonifacio High Street, where the New Year’s Eve countdown is held, so no taxi hunt after midnight; breakfast buffet and pool.",
+  "query": "Seda BGC Bonifacio Global City",
+  "image": "",
+  "booking_url": "https://www.booking.com/hotel/ph/seda-bonifacio-global-city.html"
  },
  {
   "country": "Japan",
-  "city": "Ishigaki",
+  "city": "Tokyo",
   "order": 1,
-  "hotel": "Hotel Granview Ishigaki",
-  "style": "3-star city hotel",
-  "why": "A good-value hotel in Ishigaki town, close to the port for the Taketomi ferry and to the Euglena Mall, with about 7.8 out of 10 on Expedia and Hotels.com.",
-  "query": "Hotel Granview Ishigaki",
+  "hotel": "Hotel Gracery Shinjuku",
+  "style": "3 to 4-star city hotel, Shinjuku",
+  "why": "Good-value, well-reviewed hotel with the Godzilla head on the roof, a short walk from Shinjuku station, Omoide Yokocho and the JR line to Shibuya, Harajuku and Akihabara.",
+  "query": "Hotel Gracery Shinjuku",
   "image": "",
-  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Granview+Ishigaki"
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Gracery+Shinjuku"
  },
  {
   "country": "Japan",
-  "city": "Naha",
+  "city": "Osaka",
   "order": 2,
-  "hotel": "Hotel JAL City Naha",
-  "style": "4-star business hotel, Kokusai Street",
-  "why": "A well-reviewed hotel (about 8.9 out of 10 on Kayak) on Kokusai Street, a short walk from the Yui monorail and Naminoue shrine for the New Year’s Eve countdown.",
-  "query": "Hotel JAL City Naha",
+  "hotel": "Cross Hotel Osaka",
+  "style": "4-star, Dotonbori",
+  "why": "Stylish 4-star a minute from the Dotonbori canal and Namba station, with the Nankai train to Kansai airport and Sumiyoshi Taisha, and about 25 minutes to Universal Studios Japan.",
+  "query": "Cross Hotel Osaka",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/jp/jal-city-naha.html"
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Cross+Hotel+Osaka"
  },
  {
   "country": "China",
@@ -141,6 +152,28 @@
   "query": "Mercure Shanghai Yuyuan Garden",
   "image": "",
   "booking_url": "https://www.booking.com/hotel/cn/mercure-shanghai-yuyuan-garden.html"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Tokyo",
+  "order": 1,
+  "hotel": "Hotel Gracery Shinjuku",
+  "style": "3 to 4-star city hotel, Shinjuku",
+  "why": "Good-value, well-reviewed hotel with the Godzilla head on the roof, a short walk from Shinjuku station, Omoide Yokocho and the JR line to Shibuya, Harajuku and Akihabara.",
+  "query": "Hotel Gracery Shinjuku",
+  "image": "",
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Gracery+Shinjuku"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Osaka",
+  "order": 2,
+  "hotel": "Cross Hotel Osaka",
+  "style": "4-star, Dotonbori",
+  "why": "Stylish 4-star a minute from the Dotonbori canal and Namba station, with the Nankai train to Kansai airport and Sumiyoshi Taisha, and about 25 minutes to Universal Studios Japan.",
+  "query": "Cross Hotel Osaka",
+  "image": "",
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Cross+Hotel+Osaka"
  },
  {
   "country": "Maldives",

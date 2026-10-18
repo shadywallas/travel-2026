@@ -1,21 +1,102 @@
 [
  {
-  "country": "Japan",
-  "city": "Ishigaki",
-  "high_c": 23.0,
-  "low_c": 18.4,
-  "humidity_pct": 71,
-  "rainy_days": 14.8,
-  "source": "https://en.wikipedia.org/wiki/Ishigaki,_Okinawa"
+  "country": "Thailand",
+  "city": "Chiang Mai",
+  "high_c": 29.2,
+  "low_c": 16.9,
+  "humidity_pct": 72.6,
+  "rainy_days": 1.2,
+  "source": "https://en.wikipedia.org/wiki/Chiang_Mai#Climate"
+ },
+ {
+  "country": "Thailand",
+  "city": "Bangkok",
+  "high_c": 32.3,
+  "low_c": 23.2,
+  "humidity_pct": 65.6,
+  "rainy_days": 1.0,
+  "source": "https://en.wikipedia.org/wiki/Bangkok#Climate"
+ },
+ {
+  "country": "Vietnam",
+  "city": "Hanoi",
+  "high_c": 21.3,
+  "low_c": 13.8,
+  "humidity_pct": 75,
+  "rainy_days": 5.1,
+  "source": "https://en.wikipedia.org/wiki/Hanoi#Climate"
+ },
+ {
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "high_c": 31.6,
+  "low_c": 23.9,
+  "humidity_pct": 77,
+  "rainy_days": 5.0,
+  "source": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City#Climate"
+ },
+ {
+  "country": "Malaysia",
+  "city": "Penang",
+  "high_c": 31.3,
+  "low_c": 24.5,
+  "humidity_pct": 78,
+  "rainy_days": 10.8,
+  "source": "https://en.wikipedia.org/wiki/George_Town,_Penang"
+ },
+ {
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "high_c": 32.0,
+  "low_c": 24.0,
+  "humidity_pct": 83,
+  "rainy_days": 16.3,
+  "source": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+ },
+ {
+  "country": "Philippines",
+  "city": "Bohol",
+  "high_c": 31.4,
+  "low_c": 23.0,
+  "humidity_pct": 84,
+  "rainy_days": 16,
+  "source": "https://en.wikipedia.org/wiki/Tagbilaran"
+ },
+ {
+  "country": "Philippines",
+  "city": "Cebu",
+  "high_c": 30.3,
+  "low_c": 24.6,
+  "humidity_pct": 85,
+  "rainy_days": 14,
+  "source": "https://en.wikipedia.org/wiki/Cebu_City"
+ },
+ {
+  "country": "Philippines",
+  "city": "Manila",
+  "high_c": 30.3,
+  "low_c": 24.6,
+  "humidity_pct": 75,
+  "rainy_days": 8,
+  "source": "https://en.wikipedia.org/wiki/Manila"
  },
  {
   "country": "Japan",
-  "city": "Naha",
-  "high_c": 21.5,
-  "low_c": 16.8,
-  "humidity_pct": 67,
-  "rainy_days": 10.7,
-  "source": "https://en.wikipedia.org/wiki/Naha"
+  "city": "Tokyo",
+  "high_c": 12.0,
+  "low_c": 3.8,
+  "humidity_pct": 56,
+  "rainy_days": 5.8,
+  "source": "https://en.wikipedia.org/wiki/Tokyo#Climate"
+ },
+ {
+  "country": "Japan",
+  "city": "Osaka",
+  "high_c": 12.3,
+  "low_c": 5.3,
+  "humidity_pct": 62,
+  "rainy_days": 7.1,
+  "source": "https://en.wikipedia.org/wiki/Osaka#Climate"
  },
  {
   "country": "China",
@@ -43,5 +124,23 @@
   "humidity_pct": 71,
   "rainy_days": 7.5,
   "source": "https://en.wikipedia.org/wiki/Shanghai#Climate"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Tokyo",
+  "high_c": 16.7,
+  "low_c": 8.8,
+  "humidity_pct": 64,
+  "rainy_days": 8.2,
+  "source": "https://en.wikipedia.org/wiki/Tokyo#Climate"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Osaka",
+  "high_c": 17.8,
+  "low_c": 10.2,
+  "humidity_pct": 64,
+  "rainy_days": 7.0,
+  "source": "https://en.wikipedia.org/wiki/Osaka#Climate"
  }
 ]
