@@ -90,6 +90,10 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-line{display:flex;gap:8px;align-items:flex-start;margin:0 0 8px;font-size:var(--cds-font-size-caption);line-height:1.45;color:#1f2328}
 .tc-line svg{width:15px;height:15px;flex:none;margin-top:1px}
 .tc-line-rom{color:#831843}
+.tc-steps{list-style:none;margin:0 0 8px;padding:0;font-size:var(--cds-font-size-caption);line-height:1.45;color:#1f2328}
+.tc-steps li{position:relative;margin:0 0 4px;padding:0 0 0 23px}
+.tc-steps li:last-child{margin-bottom:0}
+.tc-steps li::before{content:"";position:absolute;left:5px;top:calc(.725em - 3px);width:6px;height:6px;border-radius:50%;background:#15803d}
 .tc-notes{margin:18px 0 0;padding:0 0 0 18px;color:#57606a;font-size:var(--cds-font-size-caption);line-height:1.55}
 .tc-fail{display:flex;align-items:center;justify-content:center;gap:8px;color:#57606a;font-size:var(--cds-font-size-caption);min-height:120px}
 .tc-dot{width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)}
@@ -98,6 +102,10 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-split{display:flex;gap:8px;align-items:flex-start;margin:0 0 14px;padding:10px 12px;border-radius:10px;background:#fffbea;border:1px solid #f1e2a6;color:#5c4400;font-size:var(--cds-font-size-caption);line-height:1.5;white-space:normal}
 .tc-split svg{width:16px;height:16px;flex:none;margin-top:1px}
 .tc-monkey-note{background:#fff4ed;border-color:#fed7aa;color:#7c2d12}
+.tc-info{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;margin:0 0 14px;padding:4px 10px 4px 6px;border-radius:999px;font-size:var(--cds-font-size-caption);font-weight:600;color:#5c4400;background:#fffbea;border:1px solid #f1e2a6}
+.tc-info svg{width:16px;height:16px}
+.tc-info[aria-expanded="true"]{box-shadow:0 0 0 2px #d4a017 inset}
+.tc-info:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
 .tc-cards{display:none}
 .tc-sort{display:flex;align-items:center;gap:8px;margin:0 0 12px;font-size:var(--cds-font-size-caption);color:#57606a}
 .tc-sort select{min-width:0;max-width:100%;font:inherit;font-size:var(--cds-font-size-body);color:#1f2328;padding:6px 10px;border:1px solid #d0d7de;border-radius:8px;background:#ffffff}
@@ -352,12 +360,12 @@ window.dash = (function () {
 
   <ul class="tc-notes" id="tc-notes">
     <li>Day 1 is Friday 25 December, after the overnight flight from Cairo on Thursday 24 December; the plans end on Friday 1 January and you fly home on Saturday 2 January.</li>
-    <li>The number of days per stop is chosen for each route; the bulb note above each plan explains why.</li>
+    <li>The number of days per stop is chosen for each route; open Plan notes (the (i) button at the top of each plan) to see why.</li>
     <li>Each plan has at most two swim days, only at sandy beaches with no deep snorkelling or diving, and at most one boat outing, so the days stay varied.</li>
     <li>On a phone, the TikTok and YouTube buttons open the apps when they are installed, and the website otherwise. On a computer, video and photo buttons open TikTok, YouTube Shorts or Google Images search results in a new tab.</li>
     <li>Hotel photos come from each hotel’s Booking.com listing; tap a photo to open the listing.</li>
     <li>Hotel picks are suggestions; check prices and New Year availability on the hotel’s website, as many sell out early or require a minimum stay over New Year’s Eve.</li>
-    <li>Monkey ratings (0 to 5) are for the places in each plan, not the whole country; open a plan to see where monkeys are likely. Where they are common, keep food, drinks and plastic bags out of sight and do not feed them.</li>
+    <li>Monkey ratings (0 to 5) are for the places in each plan, not the whole country; open a plan and its Plan notes to see where monkeys are likely. Where they are common, keep food, drinks and plastic bags out of sight and do not feed them.</li>
     <li>Humidity is the average relative humidity in late December. Feels like is the typical afternoon temperature once humidity is taken into account (the heat index), so it is a few degrees above the day temperature.</li>
     <li>Costs are Claude’s estimates in US dollars for two people, researched in October 2026 for these dates: economy flights from Cairo, visa fees for Egyptian passports, the recommended hotels with their New Year’s Eve rates, food, activities and local transport. Open a cost type on any day to see each item and, where there is one, the page the price came from. New Year prices rise as rooms and seats sell out, so check before booking.</li>
     <li>Ratings and plans are Claude’s estimates for late December, based on typical climate averages and well-known activities; prices and opening hours can change over the holidays.</li>
@@ -379,7 +387,7 @@ window.dash = (function () {
     people: '<circle cx="12" cy="7.5" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z"/>',
     pin: '<path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>',
     heart: '<path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.3 3 4.5 6.7 4.5c2.1 0 3.6 1.2 5.3 3 1.7-1.8 3.2-3 5.3-3 3.7 0 5.8 3.8 4.3 7.2C19.5 16.4 12 21 12 21z"/>',
-    compass: '<circle cx="12" cy="12" r="9.5" fill="none" stroke-width="1.8"/><path d="M15.8 8.2l-2.3 5.3-5.3 2.3 2.3-5.3z"/>',
+    info: '<path stroke="none" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>',
     car: '<path stroke="none" d="M18.9 6c-.2-.6-.8-1-1.4-1h-11c-.7 0-1.2.4-1.4 1L3 12v8c0 .6.4 1 1 1h1c.6 0 1-.4 1-1v-1h12v1c0 .6.4 1 1 1h1c.6 0 1-.4 1-1v-8zM6.5 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM5 11l1.5-4.5h11L19 11z"/>',
     ticket: '<path stroke="none" d="M22 10V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v4a2 2 0 0 1 0 4v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 1 0-4z"/>',
     bed: '<path stroke="none" d="M7 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9a4 4 0 0 0-4-4z"/>',
@@ -446,6 +454,8 @@ window.dash = (function () {
 
   var sortState = { key: null, dir: 1 };
   var openRows = {};
+  // Destinations whose plan notes (behind the (i) button) are open.
+  var openNotes = {};
   // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
   var CARD_QUERY = window.matchMedia('(max-width: 700px)');
   var ASC_KEYS = ['cost_total', 'humidity_pct', 'feels_c', 'rain_level', 'wildlife_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
@@ -1022,6 +1032,12 @@ window.dash = (function () {
     if (tbody) tbody.appendChild(tr);
     return tr;
   }
+  // One step per sentence of a day plan. A sentence ends at . ! or ? followed by a space and a capital
+  // letter or digit, so "1.5 hours" and "8:30" stay whole.
+  function planSteps(text) {
+    return text.replace(/([.!?])\s+(?=[A-Z0-9])/g, '$1\n').split('\n');
+  }
+
   function detailBox(d, ctx, width) {
     var box = document.createElement('div');
     box.className = 'tc-detail';
@@ -1033,6 +1049,7 @@ window.dash = (function () {
       box.className += ' dash-skeleton';
       box.style.minHeight = '160px';
     } else {
+      var notes = [];
       if (d.split_why) {
         var sp = document.createElement('p');
         sp.className = 'tc-split';
@@ -1040,7 +1057,7 @@ window.dash = (function () {
         var spt = document.createElement('span');
         spt.textContent = d.split_why;
         sp.appendChild(spt);
-        box.appendChild(sp);
+        notes.push(sp);
       }
       if (d.monkeys_note) {
         var mn = document.createElement('p');
@@ -1049,7 +1066,22 @@ window.dash = (function () {
         var mnt = document.createElement('span');
         mnt.textContent = 'Monkeys (' + d.monkeys_level + ' of 5): ' + d.monkeys_note;
         mn.appendChild(mnt);
-        box.appendChild(mn);
+        notes.push(mn);
+      }
+      // The notes stay closed behind the (i) button so the plan opens on its costs and days.
+      if (notes.length) {
+        var ib = document.createElement('button');
+        ib.type = 'button';
+        ib.className = 'tc-info';
+        ib.setAttribute('data-act', 'notes');
+        ib.setAttribute('data-country', d.country);
+        ib.setAttribute('aria-expanded', openNotes[d.country] ? 'true' : 'false');
+        ib.innerHTML = icon('info', '#8a6500') + '<span>Plan notes</span>';
+        box.appendChild(ib);
+        var panel = document.createElement('div');
+        panel.hidden = !openNotes[d.country];
+        notes.forEach(function (x) { panel.appendChild(x); });
+        box.appendChild(panel);
       }
       var rows = ctx.plans.filter(function (p) { return p.country === d.country; })
         .sort(function (a, b) { return a.day - b.day; });
@@ -1096,8 +1128,10 @@ window.dash = (function () {
         if (nye) { var tag = document.createElement('span'); tag.className = 'tc-nye'; tag.textContent = 'New Year’s Eve'; card.appendChild(tag); }
         var dayActs = ctx.acts.filter(function (a) { return a.country === d.country && a.day === p.day; });
         var prefix = d.country + '|' + p.day;
-        var l1 = document.createElement('p'); l1.className = 'tc-line'; l1.innerHTML = icon('compass', '#15803d');
-        var s1 = document.createElement('span'); s1.textContent = p.plan; l1.appendChild(s1);
+        var l1 = document.createElement('ul'); l1.className = 'tc-steps';
+        planSteps(p.plan).forEach(function (step) {
+          var li = document.createElement('li'); li.textContent = step; l1.appendChild(li);
+        });
         card.appendChild(l1);
         actChips(card, dayActs.filter(function (a) { return a.kind === 'activity'; }), prefix, false);
         var l2 = document.createElement('p'); l2.className = 'tc-line tc-line-rom'; l2.innerHTML = icon('heart', '#be185d');
@@ -1334,6 +1368,10 @@ window.dash = (function () {
       } else if (next && next.classList.contains('tc-media')) {
         next.remove();
       }
+    } else if (el.getAttribute('data-act') === 'notes') {
+      openNotes[country] = !openNotes[country];
+      el.setAttribute('aria-expanded', openNotes[country] ? 'true' : 'false');
+      el.nextElementSibling.hidden = !openNotes[country];
     } else if (el.getAttribute('data-act') === 'expand') {
       ev.preventDefault();
       openRows[country] = !openRows[country];
