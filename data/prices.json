@@ -27,176 +27,184 @@
   "country": "Thailand",
   "day": 1,
   "category": "transport",
-  "item": "Rayavadee shared van and boat from Krabi Airport to Railay, 2 × 1,413 baht",
-  "usd": 85,
-  "source": "https://jp.hotels.com/en/ho143926/rayavadee-krabi-thailand/"
+  "item": "Rayavadee join-in van from Krabi Airport to the resort’s Nong Nuch pier, 2 × 1,413 baht net",
+  "usd": 84,
+  "source": "https://halalbooking.com/en/rayavadee/p/31693"
+ },
+ {
+  "country": "Thailand",
+  "day": 1,
+  "category": "transport",
+  "item": "Rayavadee shared speedboat from Nong Nuch pier to Railay, 20 minutes (included in room rate)",
+  "usd": 0,
+  "source": "https://www.priceline.com/hotel-deals/en-us/P5000495143/H11556605/rayavadee.ssp"
  },
  {
   "country": "Thailand",
   "day": 1,
   "category": "food",
-  "item": "Light lunch on arrival in Railay",
-  "usd": 40,
-  "source": ""
+  "item": "Light lunch at Raitalay Terrace: Hainanese chicken rice and seafood laksa, 1,410 baht ++ = 1,660 baht with 10% service and 7% VAT",
+  "usd": 50,
+  "source": "https://www.rayavadee.com/en/pdf/Raitalay%20Terrace_Lunch%20and%20Dinner.pdf"
  },
  {
   "country": "Thailand",
   "day": 1,
   "category": "food",
-  "item": "Seafront dinner at Rayavadee’s beach restaurant",
+  "item": "Quiet first dinner at Krua Phranang: tom yum goong, prawn cakes, red duck curry, prawns with sator beans, two mango sticky rice, 3,590 baht ++ = 4,225 baht with 10% service and 7% VAT; drinks extra",
+  "usd": 126,
+  "source": "https://www.rayavadee.com/en/pdf/Krua%20Phranang_Dinner.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Rayavadee Pool Pavilion, breakfast included",
+  "usd": 1850,
+  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "activity",
+  "item": "Rayavadee private full-day Hong Islands speedboat for two (guide, park fees, snorkel gear, picnic lunch, soft drinks), 22,630 baht ++ = 26,636 baht with 10% service and 7% VAT",
+  "usd": 796,
+  "source": "https://www.rayavadee.com/en/PDF-Activity/Rayavadee%20Acitivity%20Brochure%20January%202025.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "activity",
+  "item": "Kayak hire into the Hong lagoon (not in the Rayavadee trip), 2 × 400 baht (300–500 baht listed)",
+  "usd": 24,
+  "source": "https://pickyourtrail.com/attractions/krabi/mu-koh-hong-krabi"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "food",
+  "item": "Picnic lunch for two on Hong Island’s beach (included in the full-day boat trip)",
+  "usd": 0,
+  "source": "https://www.rayavadee.com/en/PDF-Activity/Rayavadee%20Acitivity%20Brochure%20January%202025.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "category": "food",
+  "item": "Dinner at Raitalay Terrace: coconut prawns, chilli crab, duck breast curry, two desserts, 3,300 baht ++ = 3,884 baht with 10% service and 7% VAT; drinks extra",
+  "usd": 116,
+  "source": "https://www.rayavadee.com/en/pdf/Raitalay%20Terrace_Lunch%20and%20Dinner.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "accommodation",
+  "item": "Rayavadee Pool Pavilion, breakfast included",
+  "usd": 1850,
+  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "transport",
+  "item": "Rayavadee shared speedboat to Nong Nuch pier and back for the rafting pickup (included in room rate)",
+  "usd": 0,
+  "source": "https://www.priceline.com/hotel-deals/en-us/P5000495143/H11556605/rayavadee.ssp"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "activity",
+  "item": "Song Phraek 5 km white-water rafting with 30-minute ATV ride, lunch and Krabi transfers, 2 × $81",
+  "usd": 162,
+  "source": "https://www.getyourguide.com/krabi-l2174/krabi-5km-rafting-and-atv-ride-t822335/"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "activity",
+  "item": "Couples Thai Boran massage (75 min) at Rayavadee Spa, 2 × 3,790 baht ++ = 8,922 baht with 10% service and 7% VAT",
+  "usd": 266,
+  "source": "https://www.rayavadee.com/en/pdf/Spa%20Brochure%202024.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "food",
+  "item": "Lunch at the rafting camp (included in the rafting tour)",
+  "usd": 0,
+  "source": "https://www.getyourguide.com/krabi-l2174/krabi-5km-rafting-and-atv-ride-t822335/"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "category": "food",
+  "item": "Dinner at Krua Phranang: grilled pomelo salad with Hokkaido scallops, chu chee fish curry, massaman lamb shank, two desserts, 3,800 baht ++ = 4,473 baht with 10% service and 7% VAT; drinks extra",
+  "usd": 134,
+  "source": "https://www.rayavadee.com/en/pdf/Krua%20Phranang_Dinner.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "category": "accommodation",
+  "item": "Rayavadee Pool Pavilion, breakfast included",
+  "usd": 1850,
+  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "category": "activity",
+  "item": "Rayavadee Monday Thai cooking class at Krua Phranang (join-in, 11:30–14:00), 2 × 3,500 baht ++ = 8,239 baht with 10% service and 7% VAT",
+  "usd": 246,
+  "source": "https://www.rayavadee.com/en/PDF-Activity/Rayavadee%20Acitivity%20Brochure%20January%202025.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "category": "food",
+  "item": "Lunch: the spring rolls, tom yum goong and red curry from the cooking class (included in the class)",
+  "usd": 0,
+  "source": "https://www.rayavadee.com/en/PDF-Activity/Rayavadee%20Acitivity%20Brochure%20January%202025.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "category": "food",
+  "item": "Candlelit Twilight dinner at The Grotto, sharing set for two (wood-fired seafood platter, two starters, two desserts), 6,990 baht ++ = 8,227 baht with 10% service and 7% VAT; drinks extra",
+  "usd": 246,
+  "source": "https://www.rayavadee.com/en/pdf/Twilight%20set%20dinner.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "accommodation",
+  "item": "Rayavadee Pool Pavilion, breakfast included",
+  "usd": 1850,
+  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "activity",
+  "item": "Rayavadee private half-day beginner rock-climbing course for two (instructor, gear, insurance), 4,850 baht ++ = 5,708 baht with 10% service and 7% VAT",
   "usd": 170,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "accommodation",
-  "item": "Rayavadee Pool Pavilion, breakfast included",
-  "usd": 1850,
-  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "activity",
-  "item": "Private longtail Four Islands tour from Railay (whole boat)",
-  "usd": 150,
-  "source": "https://www.headout.com/krabi-island-tours/from-railay-private-longtail-boat-island-hopping-tour-e-49252/"
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "activity",
-  "item": "National park fee for the Four Islands, 2 × 200 baht",
-  "usd": 10,
-  "source": "https://www.headout.com/krabi-island-tours/from-railay-private-longtail-boat-island-hopping-tour-e-49252/"
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "food",
-  "item": "Picnic lunch and drinks for the boat",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 2,
-  "category": "food",
-  "item": "Dinner at a Railay West beachfront restaurant",
-  "usd": 80,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "accommodation",
-  "item": "Rayavadee Pool Pavilion, breakfast included",
-  "usd": 1850,
-  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "activity",
-  "item": "Half-day beginner rock climbing course on Railay, gear included, for two",
-  "usd": 95,
-  "source": "https://www.aaa.com/tripcanvas/thing-to-do/beginners-half-day-rock-climbing-tours-at-railay-beach-krabi-7696P2"
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "activity",
-  "item": "Couples Thai massage (60 min) at the Rayavadee Spa",
-  "usd": 280,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "food",
-  "item": "Lunch at a Railay café",
-  "usd": 40,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "category": "food",
-  "item": "Dinner at Rayavadee’s Raya Dining",
-  "usd": 150,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "category": "accommodation",
-  "item": "Rayavadee Pool Pavilion, breakfast included",
-  "usd": 1850,
-  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "category": "activity",
-  "item": "Join-in speedboat tour to Phi Phi with Railay pickup and lunch, for two",
-  "usd": 130,
-  "source": "https://www.aaa.com/tripcanvas/thing-to-do/phi-phi-one-day-tour-by-speed-boat-(from-ao-nang%2C-krabi)-188931P9"
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "category": "activity",
-  "item": "Phi Phi national park fee (Maya Bay), 2 × 400 baht",
-  "usd": 25,
-  "source": "https://www.aaa.com/tripcanvas/thing-to-do/phi-phi-one-day-tour-by-speed-boat-(from-ao-nang%2C-krabi)-188931P9"
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "category": "food",
-  "item": "In-villa dinner from room service",
-  "usd": 130,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "accommodation",
-  "item": "Rayavadee Pool Pavilion, breakfast included",
-  "usd": 1850,
-  "source": "https://us.trip.com/hotels/krabi-hotel-detail-710566/rayavadee/"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "activity",
-  "item": "Hong Islands speedboat and kayak tour with lunch (first option), for two",
-  "usd": 105,
-  "source": "https://www.travelocity.com/things-to-do/hong-island-speed-boat-tour-by-sea-eagle.a517665.activity-details"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "activity",
-  "item": "Than Bok Khorani national park fee, 2 × 300 baht",
-  "usd": 20,
-  "source": "https://www.travelocity.com/things-to-do/hong-island-speed-boat-tour-by-sea-eagle.a517665.activity-details"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "category": "activity",
-  "item": "Private longtail boat at sunset, about 2 hours",
-  "usd": 90,
-  "source": ""
+  "source": "https://www.rayavadee.com/en/PDF-Activity/Rayavadee%20Acitivity%20Brochure%20January%202025.pdf"
  },
  {
   "country": "Thailand",
   "day": 5,
   "category": "food",
-  "item": "Dinner in Railay after the sunset boat",
-  "usd": 100,
+  "item": "Lunch at The Grotto on Phra Nang beach: mezze to share, sea bass and prawn saganaki, 2,760 baht ++ = 3,249 baht with 10% service and 7% VAT",
+  "usd": 97,
+  "source": "https://www.rayavadee.com/en/pdf/The%20Grotto_Lunch.pdf"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
+  "category": "food",
+  "item": "Private candlelit dinner on the sand set up by Rayavadee, set menu for two, about 15,000 baht (resort quotes on request)",
+  "usd": 450,
   "source": ""
  },
  {
@@ -211,47 +219,71 @@
   "country": "Thailand",
   "day": 6,
   "category": "transport",
-  "item": "Rayavadee boat and van transfer to Krabi Airport, 2 × 1,413 baht",
-  "usd": 85,
-  "source": "https://jp.hotels.com/en/ho143926/rayavadee-krabi-thailand/"
+  "item": "Rayavadee shared speedboat from Railay to Nong Nuch pier (included in room rate)",
+  "usd": 0,
+  "source": "https://www.priceline.com/hotel-deals/en-us/P5000495143/H11556605/rayavadee.ssp"
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "transport",
-  "item": "Morning flight Krabi to Bangkok, economy with checked bags, for two",
-  "usd": 190,
+  "item": "Rayavadee join-in van from Nong Nuch pier to Krabi Airport, 2 × 1,413 baht net",
+  "usd": 84,
+  "source": "https://halalbooking.com/en/rayavadee/p/31693"
+ },
+ {
+  "country": "Thailand",
+  "day": 6,
+  "category": "transport",
+  "item": "Morning flight Krabi to Bangkok, economy with a checked bag each, peak 30 Dec, about 2 × 2,700 baht",
+  "usd": 160,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "transport",
-  "item": "Grab from Suvarnabhumi, river boat day pass and Grab to Jodd Fairs",
-  "usd": 55,
+  "item": "Grab from the airport to The Peninsula, tolls and airport fee included, about 600 baht",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 6,
+  "category": "transport",
+  "item": "Grab rides from The Peninsula to Topkart (Chidlom), on to Mahanakhon and back, about 500 baht",
+  "usd": 15,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "activity",
-  "item": "Wat Arun and Wat Pho entry, 2 × (200 + 300) baht",
+  "item": "Topkart Bangkok, one 8-minute session each, 2 × (700 + 60 baht balaclava)",
+  "usd": 45,
+  "source": "https://www.topkartbangkok.com/go-karting-prices/"
+ },
+ {
+  "country": "Thailand",
+  "day": 6,
+  "category": "activity",
+  "item": "Mahanakhon SkyWalk at dusk, sunset slot (top of the THB 500–1,200 range), 2 × 1,200 baht",
+  "usd": 72,
+  "source": "https://kingpowermahanakhon.co.th/"
+ },
+ {
+  "country": "Thailand",
+  "day": 6,
+  "category": "food",
+  "item": "Lunch after check-in, Thai restaurant near the hotel, about 1,000 baht",
   "usd": 30,
-  "source": "https://yourthaiguide.com/bangkok-big-list-of-entry-fees"
- },
- {
-  "country": "Thailand",
-  "day": 6,
-  "category": "activity",
-  "item": "Cocktails at a rooftop sky bar, two each",
-  "usd": 110,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 6,
   "category": "food",
-  "item": "Lunch near Wat Pho and street-food dinner at Jodd Fairs",
+  "item": "Dinner in Silom/Sathorn after the SkyWalk, about 2,000 baht",
   "usd": 60,
   "source": ""
  },
@@ -266,16 +298,40 @@
  {
   "country": "Thailand",
   "day": 7,
-  "category": "activity",
-  "item": "Grand Palace entry, 2 × 500 baht",
-  "usd": 30,
-  "source": "https://yourthaiguide.com/bangkok-big-list-of-entry-fees"
+  "category": "transport",
+  "item": "The Peninsula’s shuttle boat to Sathorn pier and back (included in room rate)",
+  "usd": 0,
+  "source": "https://www.peninsula.com/en/bangkok/campaign/bangkok/riverside-experience"
  },
  {
   "country": "Thailand",
   "day": 7,
   "category": "transport",
-  "item": "River boats and Grab to the Grand Palace, ICONSIAM and the cruise pier",
+  "item": "Chao Phraya Express orange-flag boat, Sathorn to Tha Chang and Tha Tien back to Sathorn, 4 × 19 baht",
+  "usd": 2,
+  "source": "https://thaiest.com/blog/chao-phraya-express-boat-fare"
+ },
+ {
+  "country": "Thailand",
+  "day": 7,
+  "category": "activity",
+  "item": "Grand Palace and Emerald Buddha entry, 2 × 500 baht",
+  "usd": 30,
+  "source": "https://www.royalgrandpalace.th/en/home"
+ },
+ {
+  "country": "Thailand",
+  "day": 7,
+  "category": "activity",
+  "item": "Wat Pho (Reclining Buddha) entry, 2 × 300 baht",
+  "usd": 18,
+  "source": "https://www.watphobooking.com/"
+ },
+ {
+  "country": "Thailand",
+  "day": 7,
+  "category": "food",
+  "item": "Lunch near Wat Pho at Tha Tien, about 1,000 baht",
   "usd": 30,
   "source": ""
  },
@@ -283,17 +339,9 @@
   "country": "Thailand",
   "day": 7,
   "category": "food",
-  "item": "Lunch at ICONSIAM’s SookSiam food hall",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Thailand",
-  "day": 7,
-  "category": "food",
-  "item": "New Year’s Eve Manohra dinner cruise with fireworks, 2 × 17,900 baht",
-  "usd": 1085,
-  "source": "https://www.anantara.com/en/riverside-bangkok/festive/new-years-eve-aboard-manohra-cruises"
+  "item": "New Year’s Eve gala dinner buffet on The Peninsula’s riverside lawn with the ICONSIAM fireworks, 2 × 23,900 baht net (latest published price; 2026 price not out yet; drinks extra)",
+  "usd": 1428,
+  "source": "https://www.peninsula.com/en/newsroom/bangkok/news/the-peninsula-bangkok-warmly-welcome-guest-to-an-enchanting-festive-season-with-luxury-feasts"
  },
  {
   "country": "Thailand",
@@ -307,24 +355,40 @@
   "country": "Thailand",
   "day": 8,
   "category": "transport",
-  "item": "Hotel boat, BTS Skytrain and Grab to Siam and Chinatown",
-  "usd": 25,
+  "item": "Grab from ICONSIAM to Yaowarat, about 150 baht",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 8,
+  "category": "transport",
+  "item": "Tuk-tuk ride along Yaowarat Road under the neon and back to the hotel, about 400 baht",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Thailand",
+  "day": 8,
+  "category": "transport",
+  "item": "Grab from The Peninsula to Suvarnabhumi Airport on 2 Jan, tolls and airport fee included, about 600 baht",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 8,
   "category": "food",
-  "item": "Lunch at Siam Paragon food hall and Yaowarat street food",
-  "usd": 60,
+  "item": "Lunch at ICONSIAM’s SookSiam market, about 600 baht",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Thailand",
   "day": 8,
   "category": "food",
-  "item": "Farewell dinner at a riverside restaurant",
-  "usd": 200,
+  "item": "Evening street-food walk on Yaowarat, about 1,200 baht",
+  "usd": 35,
   "source": ""
  },
  {
@@ -355,15 +419,15 @@
   "country": "Vietnam (south)",
   "day": 1,
   "category": "transport",
-  "item": "Private 7-seat car, Tan Son Nhat airport to Mui Ne by expressway",
-  "usd": 140,
-  "source": "https://www.vietnamdrive.com/transfers/hcm/ho-chi-minh-city-to-mui-ne/"
+  "item": "Anantara private minivan, Tan Son Nhat airport to the resort by expressway, one way, $120 net (taxes and service included)",
+  "usd": 120,
+  "source": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-mui-ne-resort/hotel-info/anantara-mui-ne---transfer-prices-list-vnd-2026.pdf"
  },
  {
   "country": "Vietnam (south)",
   "day": 1,
   "category": "food",
-  "item": "Lunch or snacks on the drive to Mui Ne",
+  "item": "Lunch on the drive to Mui Ne",
   "usd": 20,
   "source": ""
  },
@@ -371,9 +435,9 @@
   "country": "Vietnam (south)",
   "day": 1,
   "category": "food",
-  "item": "Grilled seafood dinner on the Mui Ne beach road, with drinks",
-  "usd": 50,
-  "source": ""
+  "item": "Christmas dinner: Designer Dining by Anantara private table on the beach, from $375 for two, taxes and service included",
+  "usd": 375,
+  "source": "https://www.anantara.com/en/mui-ne/offers/designer-dining-by-anantara"
  },
  {
   "country": "Vietnam (south)",
@@ -386,32 +450,40 @@
  {
   "country": "Vietnam (south)",
   "day": 2,
-  "category": "activity",
-  "item": "Private sunrise jeep tour: dunes, Fairy Stream, fishing village (first option)",
-  "usd": 30,
-  "source": "https://www.travelocity.com/things-to-do/sunrise-or-sunset-private-jeep-tour-of-sand-dunes-mui-ne-vietnam.a50114096.activity-details"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 2,
-  "category": "activity",
-  "item": "Entry fees at the White Sand Dunes and Fairy Stream",
-  "usd": 5,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 2,
   "category": "transport",
-  "item": "Grab or taxi to the Red Sand Dunes for sunset and back",
-  "usd": 10,
+  "item": "Grab car to the Red Sand Dunes for sunset and back",
+  "usd": 15,
   "source": ""
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 2,
+  "category": "activity",
+  "item": "Private sunrise jeep tour (4-seat jeep): hotel pickup, White Sand Dunes entry, fishing village, Fairy Stream, 550,000 VND per jeep",
+  "usd": 21,
+  "source": "https://haituantravel.com/en/tours/mui-ne-sand-dunes-tour/"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 2,
+  "category": "activity",
+  "item": "Quad bike at the White Sand Dunes, 20 minutes for two, 700,000 VND",
+  "usd": 27,
+  "source": "https://haituantravel.com/en/tours/mui-ne-atv-and-jeep/"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 2,
+  "category": "activity",
+  "item": "Fairy Stream entry, 2 × 15,000 VND, and sand-sled rental at the Red Sand Dunes, 2 × 50,000 VND",
+  "usd": 5,
+  "source": "https://vietnamspot.ru/en/blog/mui-ne-sand-dunes"
  },
  {
   "country": "Vietnam (south)",
   "day": 2,
   "category": "food",
-  "item": "Lunch and dinner at local restaurants in Mui Ne",
+  "item": "Lunch at the resort and a seafood dinner on the Mui Ne beach road",
   "usd": 80,
   "source": ""
  },
@@ -426,40 +498,40 @@
  {
   "country": "Vietnam (south)",
   "day": 3,
-  "category": "activity",
-  "item": "Kitesurfing lesson, 2 hours each with a certified instructor",
-  "usd": 200,
-  "source": "https://vietnamspot.ru/en/blog/mui-ne-kitesurfing"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 3,
-  "category": "activity",
-  "item": "Ta Cu Mountain cable car, return, with site entry",
-  "usd": 20,
+  "category": "transport",
+  "item": "Grab car to the Po Sah Inu Cham Towers and back",
+  "usd": 10,
   "source": ""
  },
  {
   "country": "Vietnam (south)",
   "day": 3,
   "category": "activity",
-  "item": "Couples spa at Anantara Spa, 90-minute treatment for two (4.0M VND)",
+  "item": "Po Sah Inu Cham Towers entry, 2 × 15,000 VND",
+  "usd": 1,
+  "source": "https://vinpearl.com/en/po-sah-inu-cham-towers"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 3,
+  "category": "activity",
+  "item": "Spice Spoons cooking class at the resort with local market visit, lunch included, for two (price on request)",
+  "usd": 150,
+  "source": ""
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 3,
+  "category": "activity",
+  "item": "Couples massage at Anantara Spa, “Creating Moments” 90 minutes for two, 4,000,000 VND, taxes and service included",
   "usd": 155,
   "source": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-mui-ne-resort/spa/anantara-spa-menu-2026-vie.pdf"
  },
  {
   "country": "Vietnam (south)",
   "day": 3,
-  "category": "transport",
-  "item": "Private car to Ta Cu Mountain and back, half day",
-  "usd": 55,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 3,
   "category": "food",
-  "item": "Lunch near Ta Cu and dinner at a Mui Ne restaurant",
+  "item": "Dinner at L’Anmien at the resort, with a drink each (lunch is the cooking class meal)",
   "usd": 90,
   "source": ""
  },
@@ -475,9 +547,25 @@
   "country": "Vietnam (south)",
   "day": 4,
   "category": "transport",
-  "item": "Private 7-seat car, Mui Ne to Park Hyatt Saigon",
-  "usd": 140,
-  "source": "https://www.vietnamdrive.com/transfers/hcm/ho-chi-minh-city-to-mui-ne/"
+  "item": "Anantara private minivan, resort to Park Hyatt Saigon, one way, $120 net (taxes and service included)",
+  "usd": 120,
+  "source": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-mui-ne-resort/hotel-info/anantara-mui-ne---transfer-prices-list-vnd-2026.pdf"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 4,
+  "category": "activity",
+  "item": "XO Foodie Tour by motorbike, 2 × $82, hotel pickup in District 1, 10–12 dishes (this is dinner)",
+  "usd": 164,
+  "source": "https://xotours.vn/tours/things-to-do-in-saigon-at-night.html"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 4,
+  "category": "activity",
+  "item": "Nightcap at Saigon Saigon Rooftop Bar, Caravelle: a cocktail each, about 2 × 320,000 VND plus service and VAT",
+  "usd": 30,
+  "source": ""
  },
  {
   "country": "Vietnam (south)",
@@ -486,22 +574,6 @@
   "item": "Lunch on the road back to Ho Chi Minh City",
   "usd": 25,
   "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 4,
-  "category": "food",
-  "item": "Dinner at the Ben Thanh street-food market",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Vietnam (south)",
-  "day": 4,
-  "category": "activity",
-  "item": "Rooftop cocktails at Chill Skybar, two each (about 350,000 VND each)",
-  "usd": 60,
-  "source": "https://silverlandhotels.com/rooftop-bar-saigon/"
  },
  {
   "country": "Vietnam (south)",
@@ -514,26 +586,26 @@
  {
   "country": "Vietnam (south)",
   "day": 5,
-  "category": "activity",
-  "item": "Private half-day Cu Chi Tunnels tour with car, guide and entry",
-  "usd": 180,
-  "source": "https://www.travelocity.com/things-to-do/private-half-day-tour-of-cu-chi-tunnels.a354812.activity-details"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 5,
-  "category": "activity",
-  "item": "War Remnants Museum entry, 2 × 40,000 VND",
-  "usd": 5,
+  "category": "transport",
+  "item": "Grab rides to TGC Speedway in The Global City, on to The Deck in Thao Dien and back to District 1 (the palace and museum are on foot)",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Vietnam (south)",
   "day": 5,
   "category": "activity",
-  "item": "Saigon Princess dinner cruise, set menu, plus a drink each",
-  "usd": 110,
-  "source": "https://en.travelsense.asia/dining-experiences-ho-chi-minh-city"
+  "item": "Independence Palace full ticket, 2 × 80,000 VND, and War Remnants Museum, 2 × 60,000 VND",
+  "usd": 11,
+  "source": "https://saigon-scene.com/war-remnants-museum/"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 5,
+  "category": "activity",
+  "item": "TGC Speedway go-karts at City Park, two adult karts, weekday before 17:00, 2 × 350,000 VND (two-seat kart 425,000 VND)",
+  "usd": 27,
+  "source": "https://mia.vn/cam-nang-du-lich/city-park-the-global-city-co-gi-21348"
  },
  {
   "country": "Vietnam (south)",
@@ -546,9 +618,17 @@
  {
   "country": "Vietnam (south)",
   "day": 5,
-  "category": "transport",
-  "item": "Grab rides to the Post Office, museum and cruise pier",
-  "usd": 10,
+  "category": "food",
+  "item": "Dinner at The Deck Saigon, “Lãng Mạn” chef’s tasting menu, 2 × 1,100,000 VND (5% service included) plus 8% VAT",
+  "usd": 92,
+  "source": "https://www.thedecksaigon.com/wp-content/uploads/2026/02/chef-tasting-menu-1.pdf"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 5,
+  "category": "food",
+  "item": "A glass of wine each at The Deck",
+  "usd": 20,
   "source": ""
  },
  {
@@ -562,25 +642,41 @@
  {
   "country": "Vietnam (south)",
   "day": 6,
-  "category": "activity",
-  "item": "Private Mekong Delta day tour: sampans, workshops, orchards, lunch",
-  "usd": 220,
+  "category": "transport",
+  "item": "Grab rides to Tan Dinh Church, Landmark 81 and back, then to the Saigon Princess pier and back",
+  "usd": 15,
   "source": ""
  },
  {
   "country": "Vietnam (south)",
   "day": 6,
-  "category": "transport",
-  "item": "Grab to Thao Dien and back",
-  "usd": 10,
+  "category": "activity",
+  "item": "Landmark 81 SkyView, weekday adult tickets, 2 × 300,000 VND",
+  "usd": 23,
+  "source": "https://viet-go.com/en/attractions/landmark-81-skyview-guide"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 6,
+  "category": "activity",
+  "item": "Saigon Princess dinner cruise, Set menu 2026, 2 × 980,000 VND, VAT and service included",
+  "usd": 76,
+  "source": "https://saigonprincess.com.vn/ticket/set-menu-2026-s41449t2"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 6,
+  "category": "food",
+  "item": "Lunch near Landmark 81 or in District 1",
+  "usd": 30,
   "source": ""
  },
  {
   "country": "Vietnam (south)",
   "day": 6,
   "category": "food",
-  "item": "Evening at a Thao Dien café, light dinner and drinks",
-  "usd": 40,
+  "item": "A drink each on the dinner cruise",
+  "usd": 15,
   "source": ""
  },
  {
@@ -595,15 +691,15 @@
   "country": "Vietnam (south)",
   "day": 7,
   "category": "activity",
-  "item": "XO Tours Foodie motorbike tour, 2 × $82, food and drinks included",
-  "usd": 165,
-  "source": "https://xotours.vn"
+  "item": "AO Show at the Saigon Opera House, 18:00, Ooh! seats, 2 × 1,250,000 VND",
+  "usd": 97,
+  "source": "https://www.saigontouristvietnam.com/tour/a-o-show-ticket-at-saigon-opera-house-seat-ooh--1034"
  },
  {
   "country": "Vietnam (south)",
   "day": 7,
   "category": "food",
-  "item": "Lunch at a District 1 restaurant",
+  "item": "Lunch in District 1",
   "usd": 30,
   "source": ""
  },
@@ -611,8 +707,8 @@
   "country": "Vietnam (south)",
   "day": 7,
   "category": "food",
-  "item": "Drinks during the New Year’s Eve countdown on Nguyen Hue",
-  "usd": 25,
+  "item": "Early New Year’s Eve dinner near the Opera House, with drinks",
+  "usd": 80,
   "source": ""
  },
  {
@@ -627,15 +723,15 @@
   "country": "Vietnam (south)",
   "day": 8,
   "category": "transport",
-  "item": "Grab between Saigon Centre, Vincom and Thao Dien",
-  "usd": 15,
+  "item": "Grab car to Tan Son Nhat airport on 2 Jan (shops, Post Office and Book Street are on foot)",
+  "usd": 10,
   "source": ""
  },
  {
   "country": "Vietnam (south)",
   "day": 8,
   "category": "food",
-  "item": "Lunch at a mall or Thao Dien restaurant",
+  "item": "Lunch at Saigon Centre or Takashimaya and coffee at a Book Street café",
   "usd": 35,
   "source": ""
  },
@@ -643,8 +739,8 @@
   "country": "Vietnam (south)",
   "day": 8,
   "category": "food",
-  "item": "Farewell dinner at a garden restaurant, with wine",
-  "usd": 100,
+  "item": "Dinner at a District 1 Vietnamese restaurant",
+  "usd": 60,
   "source": ""
  },
  {
@@ -666,42 +762,50 @@
  {
   "country": "Malaysia",
   "day": 1,
-  "category": "transport",
-  "item": "Malaysia Airlines flight Kuala Lumpur to Langkawi, economy with bags",
-  "usd": 200,
-  "source": ""
+  "category": "accommodation",
+  "item": "Ritz-Carlton Langkawi, Ocean Front Villa, breakfast included, festive peak",
+  "usd": 2300,
+  "source": "https://www.asmallworld.com/collection/hotels/the-ritz-carlton-langkawi"
  },
  {
   "country": "Malaysia",
   "day": 1,
   "category": "transport",
-  "item": "Grab rides: airport to resort, then Pantai Cenang and back",
+  "item": "AirAsia Kuala Lumpur (klia2) 3:15 pm to Langkawi, 2 × RM 260 fare, plus 2 × RM 2 KLIA Transit train from Terminal 1",
+  "usd": 128,
+  "source": "https://www.google.com/travel/flights?q=Flights%20to%20LGK%20from%20KUL%20on%202026-12-25%20one%20way"
+ },
+ {
+  "country": "Malaysia",
+  "day": 1,
+  "category": "transport",
+  "item": "AirAsia 20 kg checked bag each, booked with the fare, 2 × RM 159",
+  "usd": 78,
+  "source": "https://www.airasia.com/aa/pdf/about-us/fee-charges-ak.pdf"
+ },
+ {
+  "country": "Malaysia",
+  "day": 1,
+  "category": "transport",
+  "item": "Grab Langkawi airport to the Ritz-Carlton, about RM 25 (RM 15–25 quoted)",
+  "usd": 6,
+  "source": "https://unchartedlens.com/routes/malaysia/how-to-get-from-pantai-kok-to-langkawi-airport/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 1,
+  "category": "food",
+  "item": "Lunch at KLIA between flights, about RM 100",
   "usd": 25,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 1,
-  "category": "accommodation",
-  "item": "Ritz-Carlton Langkawi, Ocean Front Villa, breakfast included, festive peak",
-  "usd": 2300,
-  "source": "https://www.asmallworld.com/collection/hotels/the-ritz-carlton-langkawi"
- },
- {
-  "country": "Malaysia",
-  "day": 1,
   "category": "food",
-  "item": "Light lunch at the airport on arrival",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 1,
-  "category": "food",
-  "item": "Sunset beachfront dinner on Pantai Cenang",
-  "usd": 110,
-  "source": ""
+  "item": "Late Christmas dinner at Hai Yan, festive set at the resort’s 2025 Christmas set-dinner price, 2 × RM 700",
+  "usd": 343,
+  "source": "https://event.marriott.com/lgkrz-the-ritz-carlton-langkawi/events/teluk-nibung/christmas-eve-dinner-at-langkawi-kitchen?dates=Dec+24,+2025"
  },
  {
   "country": "Malaysia",
@@ -710,37 +814,53 @@
   "item": "Ritz-Carlton Langkawi, Ocean Front Villa, breakfast included, festive peak",
   "usd": 2300,
   "source": "https://www.asmallworld.com/collection/hotels/the-ritz-carlton-langkawi"
+ },
+ {
+  "country": "Malaysia",
+  "day": 2,
+  "category": "transport",
+  "item": "Grab rides: resort to SkyCab, SkyCab to Morac, Morac to Kalut on Pantai Cenang, back to the resort, about RM 80",
+  "usd": 20,
+  "source": ""
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "activity",
-  "item": "SkyCab cable car, standard gondola, two adults",
+  "item": "SkyCab cable car, foreign adult, 2 × RM 85",
+  "usd": 42,
+  "source": "https://langkawiskycab.my/en/product?exp=skycab"
+ },
+ {
+  "country": "Malaysia",
+  "day": 2,
+  "category": "activity",
+  "item": "SkyGlide return lift to the Sky Bridge, 2 × RM 16",
+  "usd": 8,
+  "source": "https://panoramalangkawi.com/skyglide/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 2,
+  "category": "activity",
+  "item": "Morac go-karting, two single-seat karts, one 10-minute session each at the 1–6 pm happy-hour price, 2 × RM 80.75",
   "usd": 40,
-  "source": "https://www.travelswithsun.com/langkawi-sky-bridge/"
+  "source": "https://www.langkawibook.my/attractions/morac-adventure-park"
  },
  {
   "country": "Malaysia",
   "day": 2,
-  "category": "activity",
-  "item": "Sky Bridge entry with SkyGlide ride, two adults",
-  "usd": 10,
-  "source": "https://www.travelswithsun.com/langkawi-sky-bridge/"
- },
- {
-  "country": "Malaysia",
-  "day": 2,
-  "category": "transport",
-  "item": "Grab rides: SkyCab, Seven Wells, Tanjung Rhu and back to resort",
-  "usd": 35,
+  "category": "food",
+  "item": "Lunch at Oriental Village by the SkyCab, about RM 80",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 2,
   "category": "food",
-  "item": "Lunch and dinner at local restaurants",
-  "usd": 100,
+  "item": "Dinner of bar bites and cocktails on the beanbags at Kalut Cafe and Bar during the fire show, about RM 200 with 10% service",
+  "usd": 50,
   "source": ""
  },
  {
@@ -754,33 +874,33 @@
  {
   "country": "Malaysia",
   "day": 3,
-  "category": "activity",
-  "item": "4-hour jet-ski island tour, one shared jet ski (first option of two)",
-  "usd": 295,
-  "source": "https://www.malaysia.travel/index.php/deals/the-intan-retreat-jetski-island-picnic"
- },
- {
-  "country": "Malaysia",
-  "day": 3,
-  "category": "activity",
-  "item": "Crystal Yacht sunset dinner cruise with BBQ buffet, two adults",
-  "usd": 125,
-  "source": "https://crystalyacht.com/st_tour/sunset-dinner-cruise/"
- },
- {
-  "country": "Malaysia",
-  "day": 3,
   "category": "transport",
-  "item": "Grab rides to the jet-ski jetty and back (cruise pickup is free)",
+  "item": "Grab rides: resort to Atma Alam and back, then to the Resorts World Langkawi marina and back, about RM 70",
   "usd": 15,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 3,
+  "category": "activity",
+  "item": "Atma Alam batik painting, one pre-drawn piece each, 2 × RM 30",
+  "usd": 15,
+  "source": "https://wanderlog.com/place/details/146420/atma-alam-batik-art-village"
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
+  "category": "activity",
+  "item": "Tropical Charters sunset cruise 5–8 pm with barbecue dinner and free-flow drinks, 27 Dec adult fare 2 × RM 240",
+  "usd": 118,
+  "source": "https://tropicalcharters.com.my/cruises/sunset-cruise/"
+ },
+ {
+  "country": "Malaysia",
+  "day": 3,
   "category": "food",
-  "item": "Lunch at a beach café after the jet-ski tour",
-  "usd": 35,
+  "item": "Lunch near Pantai Cenang after the batik class (dinner is the cruise barbecue), about RM 80",
+  "usd": 20,
   "source": ""
  },
  {
@@ -795,48 +915,16 @@
   "country": "Malaysia",
   "day": 4,
   "category": "activity",
-  "item": "Kilim Geoforest mangrove kayak tour with transfers and lunch, two",
-  "usd": 125,
-  "source": "https://www.getmyboat.com/trips/dakMLeKg/"
- },
- {
-  "country": "Malaysia",
-  "day": 4,
-  "category": "activity",
-  "item": "Couples massage at The Ritz-Carlton Spa, about 90 minutes",
-  "usd": 430,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 4,
-  "category": "transport",
-  "item": "Grab rides to Kuah for duty-free shopping and back",
-  "usd": 25,
-  "source": ""
+  "item": "Couples treatment in an overwater spa pavilion, 2 × 90-minute Relaxation Massage at RM 640, plus 10% service and 8% SST (RM 1,521)",
+  "usd": 373,
+  "source": "https://ap.globalspa.ritzcarlton.com/lgkrz/4856703/offering/4862664"
  },
  {
   "country": "Malaysia",
   "day": 4,
   "category": "food",
-  "item": "Dinner at a resort restaurant",
-  "usd": 120,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 5,
-  "category": "transport",
-  "item": "Flight Langkawi to Kuala Lumpur, economy with bags",
-  "usd": 180,
-  "source": ""
- },
- {
-  "country": "Malaysia",
-  "day": 5,
-  "category": "transport",
-  "item": "Grab to Langkawi airport, then KLIA to the hotel",
-  "usd": 45,
+  "item": "Lunch at The Beach Grill and dinner at Langkawi Kitchen in the resort, about RM 1,000 with service and tax",
+  "usd": 245,
   "source": ""
  },
  {
@@ -850,18 +938,50 @@
  {
   "country": "Malaysia",
   "day": 5,
-  "category": "food",
-  "item": "Lunch, then street-food dinner on Jalan Alor",
-  "usd": 60,
+  "category": "transport",
+  "item": "AirAsia Langkawi 10:00 am to Kuala Lumpur (klia2), 2 × RM 249 fare",
+  "usd": 122,
+  "source": "https://www.google.com/travel/flights?q=Flights%20to%20KUL%20from%20LGK%20on%202026-12-29%20one%20way"
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "category": "transport",
+  "item": "AirAsia 20 kg checked bag each, booked with the fare, 2 × RM 159",
+  "usd": 78,
+  "source": "https://www.airasia.com/aa/pdf/about-us/fee-charges-ak.pdf"
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "category": "transport",
+  "item": "Grab klia2 to the Four Seasons, about RM 80 plus about RM 10 tolls",
+  "usd": 22,
+  "source": "https://newswav.com/article/grab-reportedly-ends-fixed-rm65-fare-for-bookings-to-and-from-klia-A2605_TUDPmZ"
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "category": "transport",
+  "item": "Grab rides: resort to Langkawi airport, then the Four Seasons to Jalan Alor and back, about RM 50",
+  "usd": 10,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 5,
   "category": "food",
-  "item": "Drinks at a rooftop bar facing the Petronas Towers",
-  "usd": 75,
+  "item": "Lunch near the hotel after landing, then street-food dinner on Jalan Alor, about RM 200",
+  "usd": 50,
   "source": ""
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
+  "category": "food",
+  "item": "Sunset drinks at Marini’s on 57, 4 sunset-hours cocktails (5–9 pm) at RM 36, plus 10% service and 8% SST (RM 171)",
+  "usd": 42,
+  "source": "https://marinisgroup.com/wp-content/uploads/2026/10/Marinis-On-57-Bar-Menu-v14.pdf"
  },
  {
   "country": "Malaysia",
@@ -874,26 +994,26 @@
  {
   "country": "Malaysia",
   "day": 6,
-  "category": "activity",
-  "item": "Petronas Twin Towers Skybridge and Observation Deck, two adults",
-  "usd": 60,
-  "source": "https://goasia.cc/en/article/petronas-twin-towers"
+  "category": "transport",
+  "item": "Hotel pickup and return for rafting (included in the tour price)",
+  "usd": 0,
+  "source": "https://www.pelago.com/en-US/activity/paqa9-white-water-rafting-primal-creation-kuala-lumpur/"
  },
  {
   "country": "Malaysia",
   "day": 6,
-  "category": "transport",
-  "item": "Grab to Batu Caves and back",
-  "usd": 25,
-  "source": ""
+  "category": "activity",
+  "item": "Full-day Selangor River white-water rafting at Kuala Kubu Bharu with KL hotel transfers and meals, 2 × US$115.02",
+  "usd": 230,
+  "source": "https://www.pelago.com/en-US/activity/paqa9-white-water-rafting-primal-creation-kuala-lumpur/"
  },
  {
   "country": "Malaysia",
   "day": 6,
   "category": "food",
-  "item": "Lunch and dinner at local restaurants",
-  "usd": 90,
-  "source": ""
+  "item": "Breakfast, picnic lunch and early dinner (included in the rafting tour)",
+  "usd": 0,
+  "source": "https://www.pelago.com/en-US/activity/paqa9-white-water-rafting-primal-creation-kuala-lumpur/"
  },
  {
   "country": "Malaysia",
@@ -906,34 +1026,26 @@
  {
   "country": "Malaysia",
   "day": 7,
-  "category": "activity",
-  "item": "Sunway Lagoon one-day tickets, international adult, two",
-  "usd": 130,
-  "source": "https://sunwaylagoon.com/pricing/"
- },
- {
-  "country": "Malaysia",
-  "day": 7,
   "category": "transport",
-  "item": "Grab to Sunway Lagoon and back, holiday surge",
-  "usd": 30,
+  "item": "Grab rides: hotel to the TTDI wet market, then the LaZat school in Bangsar back to the hotel, about RM 45",
+  "usd": 10,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 7,
-  "category": "food",
-  "item": "Lunch inside Sunway Lagoon",
-  "usd": 35,
-  "source": ""
+  "category": "activity",
+  "item": "LaZat Malaysian cooking class with TTDI wet-market tour, 8:15 am to 2 pm, 2 × US$152 including taxes",
+  "usd": 304,
+  "source": "https://www.cookly.me/do/241-malaysian-cuisine-cooking-school/in/kuala-lumpur"
  },
  {
   "country": "Malaysia",
   "day": 7,
   "category": "food",
-  "item": "New Year’s Eve dinner buffet at Curate, Four Seasons (2025 price RM 500++ pp)",
-  "usd": 320,
-  "source": "https://press.fourseasons.com/kualalumpur/hotel-news/2025/festive"
+  "item": "Lunch is the meal cooked at LaZat; New Year’s Eve dinner at a Suria KLCC restaurant before the free countdown, about RM 250",
+  "usd": 60,
+  "source": ""
  },
  {
   "country": "Malaysia",
@@ -947,25 +1059,41 @@
   "country": "Malaysia",
   "day": 8,
   "category": "transport",
-  "item": "Grab rides: Merdeka Square, Mid Valley, KL Tower and back",
-  "usd": 30,
+  "item": "Grab to Merdeka Square and back, about RM 25",
+  "usd": 5,
   "source": ""
  },
  {
   "country": "Malaysia",
   "day": 8,
-  "category": "food",
-  "item": "Lunch near Central Market",
-  "usd": 35,
-  "source": ""
+  "category": "transport",
+  "item": "Grab Four Seasons to KLIA for the 2 Jan flight, about RM 80 plus about RM 10 tolls",
+  "usd": 22,
+  "source": "https://newswav.com/article/grab-reportedly-ends-fixed-rm65-fare-for-bookings-to-and-from-klia-A2605_TUDPmZ"
+ },
+ {
+  "country": "Malaysia",
+  "day": 8,
+  "category": "activity",
+  "item": "Aquaria KLCC, international peak (weekend and public holiday) ticket, 2 × RM 76.97",
+  "usd": 38,
+  "source": "https://www.pelago.com/en-MY/activity/phn49-aquaria-klcc-kuala-lumpur/"
  },
  {
   "country": "Malaysia",
   "day": 8,
   "category": "food",
-  "item": "Farewell buffet dinner at ARAS revolving restaurant, KL Tower",
-  "usd": 125,
-  "source": "https://says.com/my/makan/kl-tower-new-revolving-restaurant-to-open-on-29-january"
+  "item": "Afternoon tea with live piano in The Lounge, Four Seasons, RM 500 per set for two, plus 10% service and 6% SST (RM 583)",
+  "usd": 143,
+  "source": "https://press.fourseasons.com/kualalumpur/hotel-news/2026/afternoon-tea"
+ },
+ {
+  "country": "Malaysia",
+  "day": 8,
+  "category": "food",
+  "item": "Lunch near Merdeka Square and a light dinner near KLCC, about RM 200",
+  "usd": 50,
+  "source": ""
  },
  {
   "country": "Philippines (Palawan)",
