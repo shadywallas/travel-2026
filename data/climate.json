@@ -124,5 +124,23 @@
   "humidity_pct": 71,
   "rainy_days": 7.5,
   "source": "https://en.wikipedia.org/wiki/Shanghai#Climate"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Tokyo",
+  "high_c": 16.7,
+  "low_c": 8.8,
+  "humidity_pct": 64,
+  "rainy_days": 8.2,
+  "source": "https://en.wikipedia.org/wiki/Tokyo#Climate"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Osaka",
+  "high_c": 17.8,
+  "low_c": 10.2,
+  "humidity_pct": 64,
+  "rainy_days": 7.0,
+  "source": "https://en.wikipedia.org/wiki/Osaka#Climate"
  }
 ]

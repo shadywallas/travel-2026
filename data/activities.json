@@ -1043,6 +1043,195 @@
   "query": "Xintiandi Shanghai evening"
  },
  {
+  "country": "Japan (November)",
+  "day": 1,
+  "kind": "activity",
+  "name": "Shibuya Crossing",
+  "query": "Shibuya Scramble Crossing"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "kind": "activity",
+  "name": "Omoide Yokocho",
+  "query": "Omoide Yokocho Shinjuku"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "kind": "romantic",
+  "name": "Shibuya Sky at night",
+  "query": "Shibuya Sky night view"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "kind": "activity",
+  "name": "Tsukiji market tour and sushi-making class",
+  "query": "Tsukiji sushi making class"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "kind": "activity",
+  "name": "teamLab Borderless Azabudai",
+  "query": "teamLab Borderless Azabudai Hills"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "kind": "romantic",
+  "name": "Tokyo Tower from Shiba Park",
+  "query": "Tokyo Tower night Shiba Park"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "kind": "activity",
+  "name": "Senso-ji and Nakamise street",
+  "query": "Senso-ji Asakusa Nakamise"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "kind": "activity",
+  "name": "Street go-kart tour Akihabara",
+  "query": "Street go kart Akihabara"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "kind": "activity",
+  "name": "Ameyoko market street food",
+  "query": "Ameyoko Ueno street food"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "kind": "romantic",
+  "name": "Sumida River and Skytree at dusk",
+  "query": "Sumida River Skytree night"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "kind": "activity",
+  "name": "Tokyo DisneySea",
+  "query": "Tokyo DisneySea Fantasy Springs"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "kind": "romantic",
+  "name": "Believe! Sea of Dreams",
+  "query": "Tokyo DisneySea Believe Sea of Dreams"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "kind": "activity",
+  "name": "Meiji Jingu and Takeshita Street",
+  "query": "Meiji Jingu Harajuku"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "kind": "activity",
+  "name": "teamLab Planets",
+  "query": "teamLab Planets Toyosu"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "kind": "activity",
+  "name": "Tokyo Toyosu Manyo Club onsen",
+  "query": "Toyosu Senkyaku Banrai Manyo Club"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "kind": "romantic",
+  "name": "Manyo Club rooftop footbath",
+  "query": "Manyo Club rooftop footbath Toyosu"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "kind": "activity",
+  "name": "Fushimi Inari Taisha",
+  "query": "Fushimi Inari Taisha gates"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "kind": "activity",
+  "name": "Kiyomizu-dera and Ninenzaka",
+  "query": "Kiyomizu-dera Ninenzaka"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "kind": "activity",
+  "name": "Dotonbori street food",
+  "query": "Dotonbori takoyaki Glico"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "kind": "romantic",
+  "name": "Gion Shirakawa at dusk",
+  "query": "Gion Shirakawa evening"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "kind": "activity",
+  "name": "Kuromon Market",
+  "query": "Kuromon Market Osaka"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "kind": "activity",
+  "name": "Spa World onsen",
+  "query": "Spa World Osaka"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "kind": "activity",
+  "name": "Universal Studios Japan evening",
+  "query": "Universal Studios Japan night"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "kind": "romantic",
+  "name": "Soba dinner and Hogwarts castle at night",
+  "query": "Universal Studios Japan Hogwarts castle night"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "kind": "activity",
+  "name": "Sumiyoshi Taisha",
+  "query": "Sumiyoshi Taisha Osaka"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "kind": "activity",
+  "name": "Super Nintendo World",
+  "query": "Super Nintendo World Osaka"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Super Nintendo World at night",
+  "query": "Super Nintendo World night"
+ },
+ {
   "country": "Maldives",
   "day": 1,
   "kind": "activity",

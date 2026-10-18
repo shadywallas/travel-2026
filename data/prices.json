@@ -1467,9 +1467,9 @@
   "country": "Japan",
   "day": 0,
   "category": "flights",
-  "item": "Open-jaw economy, Cairo–Tokyo 24 Dec and Osaka Kansai–Cairo 2 Jan, 1 stop (Gulf carriers), for two (about $1,200 each in the holiday week; the page shows a best return of $1,217 for Cairo–Narita)",
-  "usd": 2400,
-  "source": "https://www.skyscanner.co.za/routes/cai/nrt/cairo-to-tokyo-narita.html"
+  "item": "Open-jaw economy for two, booked as two one-ways: Cairo–Tokyo Thu 24 Dec on Etihad from $583 each, Osaka Kansai–Cairo Sat 2 Jan on Emirates $760 each (Google Flights, checked 18 Oct 2026)",
+  "usd": 2686,
+  "source": "https://www.google.com/travel/flights?q=Flights%20from%20CAI%20to%20TYO%20on%202026-12-24%20one%20way%20economy"
  },
  {
   "country": "Japan",
@@ -1483,9 +1483,9 @@
   "country": "Japan",
   "day": 1,
   "category": "accommodation",
-  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, Christmas night rate (estimate, about ¥29,500)",
-  "usd": 190,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
@@ -1523,9 +1523,9 @@
   "country": "Japan",
   "day": 2,
   "category": "accommodation",
-  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, Saturday rate (estimate, about ¥31,000)",
-  "usd": 200,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
@@ -1571,9 +1571,9 @@
   "country": "Japan",
   "day": 3,
   "category": "accommodation",
-  "item": "Hotel Gracery Shinjuku, standard double, breakfast included (estimate, about ¥25,500)",
-  "usd": 165,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
@@ -1611,9 +1611,9 @@
   "country": "Japan",
   "day": 4,
   "category": "accommodation",
-  "item": "Hotel Gracery Shinjuku, standard double, breakfast included (estimate, about ¥26,500)",
-  "usd": 170,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
@@ -1627,9 +1627,9 @@
   "country": "Japan",
   "day": 4,
   "category": "activity",
-  "item": "Tokyo DisneySea 1-Day Passport, year-end peak tier, 2 × ¥12,400 (check the date-based calendar; may be ¥10,900)",
-  "usd": 160,
-  "source": "https://news.explurger.com/tokyo-disneyland-ticket-prices-increase-from-october-2026/"
+  "item": "Tokyo DisneySea 1-Day Passport on Mon 28 Dec, 2 × ¥11,900 (official date-based calendar, 27 Dec to 2 Jan tier)",
+  "usd": 154,
+  "source": "https://www.tokyodisneyresort.jp/en/ticket/index/202611/"
  },
  {
   "country": "Japan",
@@ -1651,9 +1651,9 @@
   "country": "Japan",
   "day": 5,
   "category": "accommodation",
-  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, year-end holiday rate (estimate, about ¥28,500)",
-  "usd": 185,
-  "source": ""
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 25 to 30 Dec stay averages EGP 12,956 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 242,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku"
  },
  {
   "country": "Japan",
@@ -1699,9 +1699,9 @@
   "country": "Japan",
   "day": 6,
   "category": "accommodation",
-  "item": "Cross Hotel Osaka, standard double, breakfast included, year-end rate (estimate, about ¥35,500)",
-  "usd": 230,
-  "source": ""
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
  },
  {
   "country": "Japan",
@@ -1755,9 +1755,9 @@
   "country": "Japan",
   "day": 7,
   "category": "accommodation",
-  "item": "Cross Hotel Osaka, standard double, breakfast included, New Year’s Eve rate (estimate, about ¥51,000)",
-  "usd": 330,
-  "source": ""
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
  },
  {
   "country": "Japan",
@@ -1811,9 +1811,9 @@
   "country": "Japan",
   "day": 8,
   "category": "accommodation",
-  "item": "Cross Hotel Osaka, standard double, breakfast included, New Year’s Day rate (estimate, about ¥40,000)",
-  "usd": 260,
-  "source": ""
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 30 Dec to 2 Jan stay, including New Year’s Eve, averages EGP 12,816 a night at EGP 53.53 per USD, split evenly (checked 18 Oct 2026)",
+  "usd": 239,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka"
  },
  {
   "country": "Japan",
@@ -2204,6 +2204,390 @@
   "day": 8,
   "category": "food",
   "item": "Lunch and dinner for two",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 0,
+  "category": "flights",
+  "item": "Open-jaw economy for two, booked as two one-ways: Cairo–Tokyo Narita Mon 2 Nov 13:00 on China Eastern via Shanghai (1 stop, lands 12:50 Tue 3 Nov), 2 × $675, and Osaka Kansai–Cairo Wed 11 Nov 23:10 on Emirates via Dubai (1 stop), 2 × $708 (return-leg source: https://www.google.com/travel/flights?q=Flights%20from%20KIX%20to%20CAI%20on%202026-11-11%20one%20way%20economy)",
+  "usd": 2766,
+  "source": "https://www.google.com/travel/flights?q=Flights%20from%20CAI%20to%20TYO%20on%202026-11-02%20one%20way%20economy"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 0,
+  "category": "visa",
+  "item": "Japan tourist visa for Egyptians, single entry, apply in person at the Cairo embassy (5 working days), 2 × ¥3,000 standard fee; the fee in Cairo is unconfirmed",
+  "usd": 40,
+  "source": "https://www.eg.emb-japan.go.jp/itpr_en/00_000059.html"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only); the 3 to 8 Nov stay averages EGP 12,962 (about $242) a night",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "transport",
+  "item": "Airport train to Shinjuku for two (Narita Express 2 × ¥3,250) and Suica top-up",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "activity",
+  "item": "Shibuya Sky night slot (entry from 15:00), 2 × ¥3,400 online",
+  "usd": 44,
+  "source": "https://mileasia.com/japan/shibuya-sky/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "food",
+  "item": "Snack lunch at the airport or station",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 1,
+  "category": "food",
+  "item": "Tsukemen ramen and yakitori in Omoide Yokocho",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), weeknight (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "activity",
+  "item": "Tsukiji market tour and sushi-making class with a professional chef, about 4 hours, 2 × $117",
+  "usd": 234,
+  "source": "https://jasumo.com/listing/tsukiji-fish-market-sushi-making-class-with-pro-chef-in-tokyo"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "activity",
+  "item": "teamLab Borderless Azabudai, 2 × about ¥3,800 (weekday; dynamic price from ¥3,400)",
+  "usd": 49,
+  "source": "https://www.teamlab.art/e/borderless-azabudai/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "food",
+  "item": "Extra street snacks at Tsukiji (lunch is the sushi you make)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 2,
+  "category": "food",
+  "item": "Izakaya dinner under the tracks in Yurakucho",
+  "usd": 70,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), weeknight (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "activity",
+  "item": "Street go-kart tour from Akihabara, about 1 hour, costume included, 2 × $80",
+  "usd": 160,
+  "source": "https://www.expedia.com/things-to-do/official-street-go-kart-tour-akihabara.a50208191.activity-details"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "food",
+  "item": "Asakusa street snacks and lunch",
+  "usd": 35,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 3,
+  "category": "food",
+  "item": "Ameyoko street food and izakaya dinner",
+  "usd": 65,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), Friday night (Google Hotels shows EGP 14,001, about $262)",
+  "usd": 260,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "transport",
+  "item": "JR Shinjuku–Maihama return and Disney Resort Line, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "activity",
+  "item": "Tokyo DisneySea 1-Day Passport on Fri 6 Nov, 2 × ¥9,900 (official date-based calendar, lowest November tier)",
+  "usd": 128,
+  "source": "https://www.tokyodisneyresort.jp/en/ticket/index/202611/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "activity",
+  "item": "Disney Premier Access for Anna and Elsa’s Frozen Journey, 2 × about ¥2,000",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 4,
+  "category": "food",
+  "item": "Lunch and dinner in the park, with snacks (gyoza dog, popcorn)",
+  "usd": 90,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, lowest Google Hotels rate (probably room only), Saturday night (part of the EGP 12,962 average)",
+  "usd": 235,
+  "source": "https://www.google.com/travel/search?q=Hotel%20Gracery%20Shinjuku%20November%203%20to%208%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "transport",
+  "item": "Metro, JR and Yurikamome to Toyosu, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "activity",
+  "item": "teamLab Planets, 2 × about ¥4,200 (weekend price)",
+  "usd": 54,
+  "source": "https://www.teamlab.art/e/planets/"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "activity",
+  "item": "Tokyo Toyosu Manyo Club onsen, 2 × ¥3,850 plus 2 × ¥150 bathing tax",
+  "usd": 52,
+  "source": "https://www.timeout.com/tokyo/things-to-do/tokyo-toyosu-manyo-club"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "food",
+  "item": "Conveyor-belt sushi lunch in Shibuya",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 5,
+  "category": "food",
+  "item": "Ramen dinner",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only); the 8 to 11 Nov stay averages EGP 9,527 (about $178) a night",
+  "usd": 180,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Nozomi Shinkansen Tokyo–Kyoto, reserved seats, 2 × ¥14,170 (regular season, no peak surcharge)",
+  "usd": 183,
+  "source": "https://shinkansentickets.net/guide/tokaido-shinkansen-guide"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Kyoto Station luggage storage, trains and buses in Kyoto, JR Kyoto–Osaka and metro to Namba, for two",
+  "usd": 45,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "transport",
+  "item": "Metro from the hotel to Tokyo Station, for two",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "activity",
+  "item": "Kiyomizu-dera entry, 2 × ¥500",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "food",
+  "item": "Nishiki Market street-food lunch",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 6,
+  "category": "food",
+  "item": "Dotonbori takoyaki and okonomiyaki dinner",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only), Monday night (part of the EGP 9,527 average)",
+  "usd": 180,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "transport",
+  "item": "Metro around Namba, and train to Universal City, for two",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "transport",
+  "item": "Train back from Universal City to Namba after the park closes, for two (no taxi needed in November)",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "activity",
+  "item": "Spa World onsen, 2 × about ¥1,500 (weekday price)",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "activity",
+  "item": "USJ 1.5-Day Studio Pass (from 15:00 on Mon 9 Nov, all day Tue 10 Nov), 2 × ¥13,600 (lowest of six tiers; the matching 1-day passes are ¥9,900 on 9 Nov and ¥9,400 on 10 Nov)",
+  "usd": 175,
+  "source": "https://castel.jp/usj/ticket/universal-studio-japan-ticket"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "food",
+  "item": "Kuromon Market street food and Shinsekai kushikatsu lunch",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 7,
+  "category": "food",
+  "item": "Soba dinner and snacks in the park",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, lowest Google Hotels rate (probably room only), Tuesday night (Google Hotels shows EGP 9,421, about $176)",
+  "usd": 175,
+  "source": "https://www.google.com/travel/search?q=Cross%20Hotel%20Osaka%20November%208%20to%2011%202026"
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai train to Sumiyoshi Taisha and trains to Universal City and back, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "transport",
+  "item": "Nankai Rapi:t from Namba to Kansai airport on 11 Nov, 2 × ¥1,490",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "food",
+  "item": "Lunch near Sumiyoshi Taisha",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan (November)",
+  "day": 8,
+  "category": "food",
+  "item": "Dinner in Universal Studios Japan",
   "usd": 60,
   "source": ""
  },

@@ -154,6 +154,28 @@
   "booking_url": "https://www.booking.com/hotel/cn/mercure-shanghai-yuyuan-garden.html"
  },
  {
+  "country": "Japan (November)",
+  "city": "Tokyo",
+  "order": 1,
+  "hotel": "Hotel Gracery Shinjuku",
+  "style": "3 to 4-star city hotel, Shinjuku",
+  "why": "Good-value, well-reviewed hotel with the Godzilla head on the roof, a short walk from Shinjuku station, Omoide Yokocho and the JR line to Shibuya, Harajuku and Akihabara.",
+  "query": "Hotel Gracery Shinjuku",
+  "image": "",
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Gracery+Shinjuku"
+ },
+ {
+  "country": "Japan (November)",
+  "city": "Osaka",
+  "order": 2,
+  "hotel": "Cross Hotel Osaka",
+  "style": "4-star, Dotonbori",
+  "why": "Stylish 4-star a minute from the Dotonbori canal and Namba station, with the Nankai train to Kansai airport and Sumiyoshi Taisha, and about 25 minutes to Universal Studios Japan.",
+  "query": "Cross Hotel Osaka",
+  "image": "",
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Cross+Hotel+Osaka"
+ },
+ {
   "country": "Maldives",
   "city": "Maafushi",
   "order": 1,
