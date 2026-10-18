@@ -100,25 +100,25 @@
  },
  {
   "country": "Japan",
-  "city": "Ishigaki",
+  "city": "Tokyo",
   "order": 1,
-  "hotel": "Hotel Granview Ishigaki",
-  "style": "3-star city hotel",
-  "why": "A good-value hotel in Ishigaki town, close to the port for the Taketomi ferry and to the Euglena Mall, with about 7.8 out of 10 on Expedia and Hotels.com.",
-  "query": "Hotel Granview Ishigaki",
+  "hotel": "Hotel Gracery Shinjuku",
+  "style": "3 to 4-star city hotel, Shinjuku",
+  "why": "Good-value, well-reviewed hotel with the Godzilla head on the roof, a short walk from Shinjuku station, Omoide Yokocho and the JR line to Shibuya, Harajuku and Akihabara.",
+  "query": "Hotel Gracery Shinjuku",
   "image": "",
-  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Granview+Ishigaki"
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Hotel+Gracery+Shinjuku"
  },
  {
   "country": "Japan",
-  "city": "Naha",
+  "city": "Osaka",
   "order": 2,
-  "hotel": "Hotel JAL City Naha",
-  "style": "4-star business hotel, Kokusai Street",
-  "why": "A well-reviewed hotel (about 8.9 out of 10 on Kayak) on Kokusai Street, a short walk from the Yui monorail and Naminoue shrine for the New Year’s Eve countdown.",
-  "query": "Hotel JAL City Naha",
+  "hotel": "Cross Hotel Osaka",
+  "style": "4-star, Dotonbori",
+  "why": "Stylish 4-star a minute from the Dotonbori canal and Namba station, with the Nankai train to Kansai airport and Sumiyoshi Taisha, and about 25 minutes to Universal Studios Japan.",
+  "query": "Cross Hotel Osaka",
   "image": "",
-  "booking_url": "https://www.booking.com/hotel/jp/jal-city-naha.html"
+  "booking_url": "https://www.booking.com/searchresults.html?ss=Cross+Hotel+Osaka"
  },
  {
   "country": "China",

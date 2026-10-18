@@ -689,148 +689,190 @@
   "country": "Japan",
   "day": 1,
   "kind": "activity",
-  "name": "Fusaki Beach Ishigaki",
-  "query": "Fusaki Beach Ishigaki sunset"
+  "name": "Shibuya Crossing",
+  "query": "Shibuya Scramble Crossing"
+ },
+ {
+  "country": "Japan",
+  "day": 1,
+  "kind": "activity",
+  "name": "Omoide Yokocho",
+  "query": "Omoide Yokocho Shinjuku"
  },
  {
   "country": "Japan",
   "day": 1,
   "kind": "romantic",
-  "name": "Fusaki Beach sunset",
-  "query": "Fusaki Beach Ishigaki sunset"
+  "name": "Shibuya Sky at night",
+  "query": "Shibuya Sky night view"
  },
  {
   "country": "Japan",
   "day": 2,
   "kind": "activity",
-  "name": "Kabira Bay glass-bottom boat",
-  "query": "Kabira Bay Ishigaki glass bottom boat"
+  "name": "Tsukiji market tour and sushi-making class",
+  "query": "Tsukiji sushi making class"
  },
  {
   "country": "Japan",
   "day": 2,
   "kind": "activity",
-  "name": "Hirakubozaki lighthouse",
-  "query": "Hirakubozaki lighthouse Ishigaki"
+  "name": "teamLab Borderless Azabudai",
+  "query": "teamLab Borderless Azabudai Hills"
  },
  {
   "country": "Japan",
   "day": 2,
   "kind": "romantic",
-  "name": "Ishigaki stargazing tour",
-  "query": "Ishigaki stargazing tour"
+  "name": "Tokyo Tower from Shiba Park",
+  "query": "Tokyo Tower night Shiba Park"
  },
  {
   "country": "Japan",
   "day": 3,
   "kind": "activity",
-  "name": "Taketomi water buffalo cart",
-  "query": "Taketomi Island water buffalo cart"
+  "name": "Senso-ji and Nakamise street",
+  "query": "Senso-ji Asakusa Nakamise"
  },
  {
   "country": "Japan",
   "day": 3,
   "kind": "activity",
-  "name": "Kaiji beach star sand",
-  "query": "Kaiji beach Taketomi star sand"
+  "name": "Street go-kart tour Akihabara",
+  "query": "Street go kart Akihabara"
+ },
+ {
+  "country": "Japan",
+  "day": 3,
+  "kind": "activity",
+  "name": "Ameyoko market street food",
+  "query": "Ameyoko Ueno street food"
  },
  {
   "country": "Japan",
   "day": 3,
   "kind": "romantic",
-  "name": "Nishi pier sunset Taketomi",
-  "query": "Nishi Pier Taketomi sunset"
+  "name": "Sumida River and Skytree at dusk",
+  "query": "Sumida River Skytree night"
  },
  {
   "country": "Japan",
   "day": 4,
   "kind": "activity",
-  "name": "Nagura river mangrove kayak",
-  "query": "Nagura river mangrove kayak Ishigaki"
+  "name": "Tokyo DisneySea",
+  "query": "Tokyo DisneySea Fantasy Springs"
  },
  {
   "country": "Japan",
   "day": 4,
   "kind": "romantic",
-  "name": "Yaeyama sanshin live izakaya",
-  "query": "Ishigaki sanshin live music"
+  "name": "Believe! Sea of Dreams",
+  "query": "Tokyo DisneySea Believe Sea of Dreams"
  },
  {
   "country": "Japan",
   "day": 5,
   "kind": "activity",
-  "name": "Tsuboya pottery street",
-  "query": "Tsuboya Yachimun Street Naha"
+  "name": "Meiji Jingu and Takeshita Street",
+  "query": "Meiji Jingu Harajuku"
  },
  {
   "country": "Japan",
   "day": 5,
   "kind": "activity",
-  "name": "Makishi Public Market",
-  "query": "Makishi Public Market Naha"
+  "name": "teamLab Planets",
+  "query": "teamLab Planets Toyosu"
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "kind": "activity",
+  "name": "Tokyo Toyosu Manyo Club onsen",
+  "query": "Toyosu Senkyaku Banrai Manyo Club"
  },
  {
   "country": "Japan",
   "day": 5,
   "kind": "romantic",
-  "name": "Naminoue shrine sunset",
-  "query": "Naminoue shrine Naha sunset"
+  "name": "Manyo Club rooftop footbath",
+  "query": "Manyo Club rooftop footbath Toyosu"
  },
  {
   "country": "Japan",
   "day": 6,
   "kind": "activity",
-  "name": "Zamami snorkel with sea turtles",
-  "query": "Zamami Furuzamami beach snorkel turtles"
+  "name": "Fushimi Inari Taisha",
+  "query": "Fushimi Inari Taisha gates"
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "kind": "activity",
+  "name": "Kiyomizu-dera and Ninenzaka",
+  "query": "Kiyomizu-dera Ninenzaka"
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "kind": "activity",
+  "name": "Dotonbori street food",
+  "query": "Dotonbori takoyaki Glico"
  },
  {
   "country": "Japan",
   "day": 6,
   "kind": "romantic",
-  "name": "Kerama Islands sea turtle snorkel",
-  "query": "Kerama Islands snorkeling turtle"
+  "name": "Gion Shirakawa at dusk",
+  "query": "Gion Shirakawa evening"
  },
  {
   "country": "Japan",
   "day": 7,
   "kind": "activity",
-  "name": "Okinawa karate lesson",
-  "query": "Okinawa karate experience Naha"
+  "name": "Kuromon Market",
+  "query": "Kuromon Market Osaka"
  },
  {
   "country": "Japan",
   "day": 7,
   "kind": "activity",
-  "name": "Kokusai Street Naha",
-  "query": "Kokusai Street Naha"
+  "name": "Spa World onsen",
+  "query": "Spa World Osaka"
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "kind": "activity",
+  "name": "USJ NO LIMIT! Countdown",
+  "query": "Universal Studios Japan countdown fireworks"
  },
  {
   "country": "Japan",
   "day": 7,
   "kind": "romantic",
-  "name": "Naminoue shrine New Year countdown",
-  "query": "Naminoue shrine hatsumode New Year"
+  "name": "Toshikoshi soba and USJ midnight fireworks",
+  "query": "Universal Studios Japan New Year fireworks"
  },
  {
   "country": "Japan",
   "day": 8,
   "kind": "activity",
-  "name": "Shuri Castle Park",
-  "query": "Shuri Castle Park Naha"
+  "name": "Sumiyoshi Taisha hatsumode",
+  "query": "Sumiyoshi Taisha hatsumode"
  },
  {
   "country": "Japan",
   "day": 8,
   "kind": "activity",
-  "name": "Shikinaen garden",
-  "query": "Shikinaen Garden Naha"
+  "name": "Super Nintendo World",
+  "query": "Super Nintendo World Osaka"
  },
  {
   "country": "Japan",
   "day": 8,
   "kind": "romantic",
-  "name": "Senagajima Umikaji Terrace sunset",
-  "query": "Senagajima Umikaji Terrace sunset"
+  "name": "Super Nintendo World at night",
+  "query": "Super Nintendo World night"
  },
  {
   "country": "China",

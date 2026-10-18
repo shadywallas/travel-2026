@@ -1467,9 +1467,9 @@
   "country": "Japan",
   "day": 0,
   "category": "flights",
-  "item": "Cairo–Naha return, economy, 1 to 2 stops, 24 Dec out and 2 Jan back, for two (peak-date estimate of about $1,000 each; page shows fares from $621 round trip off-peak)",
-  "usd": 2000,
-  "source": "https://www.expedia.com/lp/flights/cai/oka/cairo-to-naha"
+  "item": "Open-jaw economy, Cairo–Tokyo 24 Dec and Osaka Kansai–Cairo 2 Jan, 1 stop (Gulf carriers), for two (about $1,200 each in the holiday week; the page shows a best return of $1,217 for Cairo–Narita)",
+  "usd": 2400,
+  "source": "https://www.skyscanner.co.za/routes/cai/nrt/cairo-to-tokyo-narita.html"
  },
  {
   "country": "Japan",
@@ -1483,31 +1483,31 @@
   "country": "Japan",
   "day": 1,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; Christmas night rate)",
-  "usd": 115,
+  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, Christmas night rate (estimate, about ¥29,500)",
+  "usd": 190,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 1,
   "category": "transport",
-  "item": "Naha–Ishigaki flight for two, about 2 × ¥19,000 (ANA/JAL, holiday-week estimate)",
-  "usd": 255,
+  "item": "Airport train to Shinjuku for two (Narita Express 2 × ¥3,250, or less from Haneda) and Suica top-up",
+  "usd": 50,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 1,
-  "category": "transport",
-  "item": "Taxi from Ishigaki airport to hotel",
-  "usd": 25,
-  "source": ""
+  "category": "activity",
+  "item": "Shibuya Sky night slot (entry from 15:00), 2 × ¥3,400 online",
+  "usd": 44,
+  "source": "https://mileasia.com/japan/shibuya-sky/"
  },
  {
   "country": "Japan",
   "day": 1,
   "category": "food",
-  "item": "Light lunch at Naha airport on the connection",
+  "item": "Snack lunch at the airport or station",
   "usd": 30,
   "source": ""
  },
@@ -1515,71 +1515,71 @@
   "country": "Japan",
   "day": 1,
   "category": "food",
-  "item": "Yaeyama soba and Ishigaki beef dinner",
+  "item": "Tsukemen ramen and yakitori in Omoide Yokocho",
+  "usd": 60,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "accommodation",
+  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, Saturday rate (estimate, about ¥31,000)",
+  "usd": 200,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "transport",
+  "item": "Metro and JR for the day, for two",
+  "usd": 15,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "activity",
+  "item": "Tsukiji market tour and sushi-making class with a professional chef, about 4 hours, 2 × $117",
+  "usd": 234,
+  "source": "https://jasumo.com/listing/tsukiji-fish-market-sushi-making-class-with-pro-chef-in-tokyo"
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "activity",
+  "item": "teamLab Borderless Azabudai, 2 × about ¥4,200 (weekend price)",
+  "usd": 54,
+  "source": "https://mileasia.com/japan/teamlab-borderless/"
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "food",
+  "item": "Extra street snacks at Tsukiji (lunch is the sushi you make)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 2,
+  "category": "food",
+  "item": "Izakaya dinner under the tracks in Yurakucho",
   "usd": 70,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 2,
-  "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "transport",
-  "item": "Private sightseeing taxi, about 5 hours, north coast",
-  "usd": 130,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "activity",
-  "item": "Kabira Bay glass-bottom boat, 2 × ¥1,300",
-  "usd": 20,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "activity",
-  "item": "Ishigaki stargazing tour, 2 × ¥5,500",
-  "usd": 75,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "food",
-  "item": "Lunch on the north coast (Yaeyama soba and seafood)",
-  "usd": 45,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 2,
-  "category": "food",
-  "item": "Dinner in town",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
   "day": 3,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
+  "item": "Hotel Gracery Shinjuku, standard double, breakfast included (estimate, about ¥25,500)",
+  "usd": 165,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 3,
   "category": "transport",
-  "item": "Taketomi ferry return, 2 × ¥1,180",
+  "item": "Metro and JR for the day, for two",
   "usd": 15,
   "source": ""
  },
@@ -1587,63 +1587,63 @@
   "country": "Japan",
   "day": 3,
   "category": "activity",
-  "item": "Water-buffalo cart ride, bicycle hire and island visitor fee on Taketomi",
-  "usd": 60,
+  "item": "Street go-kart tour from Akihabara, about 1 hour, costume included, 2 × $80",
+  "usd": 160,
+  "source": "https://www.expedia.com/things-to-do/official-street-go-kart-tour-akihabara.a50208191.activity-details"
+ },
+ {
+  "country": "Japan",
+  "day": 3,
+  "category": "food",
+  "item": "Asakusa street snacks and lunch",
+  "usd": 35,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 3,
   "category": "food",
-  "item": "Lunch on Taketomi",
-  "usd": 45,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 3,
-  "category": "food",
-  "item": "Dinner in Ishigaki town",
-  "usd": 75,
+  "item": "Ameyoko street food and izakaya dinner",
+  "usd": 65,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "accommodation",
-  "item": "Hotel Granview Ishigaki, double room, breakfast included (estimate; standard rate)",
-  "usd": 100,
+  "item": "Hotel Gracery Shinjuku, standard double, breakfast included (estimate, about ¥26,500)",
+  "usd": 170,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "transport",
-  "item": "Taxi to and from the Nagura river kayak meeting point",
-  "usd": 40,
+  "item": "JR Shinjuku–Maihama return and Disney Resort Line, for two",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "activity",
-  "item": "Guided Nagura mangrove kayak tour, 2 × ¥7,500, paddling only",
-  "usd": 100,
+  "item": "Tokyo DisneySea 1-Day Passport, year-end peak tier, 2 × ¥12,400 (check the date-based calendar; may be ¥10,900)",
+  "usd": 160,
+  "source": "https://news.explurger.com/tokyo-disneyland-ticket-prices-increase-from-october-2026/"
+ },
+ {
+  "country": "Japan",
+  "day": 4,
+  "category": "activity",
+  "item": "Disney Premier Access for Anna and Elsa’s Frozen Journey, 2 × about ¥2,000",
+  "usd": 25,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 4,
   "category": "food",
-  "item": "Lunch",
-  "usd": 40,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 4,
-  "category": "food",
-  "item": "Dinner at a Yaeyama folk-music izakaya, with the music charge",
+  "item": "Lunch and dinner in the park, with snacks (gyoza dog, popcorn)",
   "usd": 90,
   "source": ""
  },
@@ -1651,168 +1651,200 @@
   "country": "Japan",
   "day": 5,
   "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 115,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "transport",
-  "item": "Ishigaki–Naha flight for two, about 2 × ¥17,000 (ANA/JTA, estimate)",
-  "usd": 225,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "transport",
-  "item": "Taxi to Ishigaki airport and Yui monorail to hotel in Naha",
-  "usd": 30,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "food",
-  "item": "Okinawa soba lunch near Makishi market",
-  "usd": 35,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 5,
-  "category": "food",
-  "item": "Okinawan dinner with live sanshin",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 115,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "transport",
-  "item": "Taxi to Tomari port and back",
-  "usd": 15,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "transport",
-  "item": "Fast ferry to Zamami return, 2 × ¥6,300 (estimate)",
-  "usd": 85,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "activity",
-  "item": "Guided turtle snorkel with wetsuit and gear hire, 2 × ¥7,500",
-  "usd": 100,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "food",
-  "item": "Lunch on Zamami",
-  "usd": 40,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 6,
-  "category": "food",
-  "item": "Dinner in Naha",
-  "usd": 75,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 7,
-  "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; New Year’s Eve rate)",
+  "item": "Hotel Gracery Shinjuku, standard double, breakfast included, year-end holiday rate (estimate, about ¥28,500)",
   "usd": 185,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 5,
   "category": "transport",
-  "item": "Yui monorail 24-hour passes, 2 × ¥800, and a late taxi after the countdown",
+  "item": "Metro, JR and Yurikamome to Toyosu, for two",
+  "usd": 20,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "category": "activity",
+  "item": "teamLab Planets, 2 × about ¥4,200",
+  "usd": 54,
+  "source": "https://mileasia.com/japan/teamlab-planets/"
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "category": "activity",
+  "item": "Tokyo Toyosu Manyo Club onsen, 2 × ¥3,850 plus 2 × ¥150 bathing tax",
+  "usd": 52,
+  "source": "https://www.timeout.com/tokyo/things-to-do/tokyo-toyosu-manyo-club"
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "category": "food",
+  "item": "Conveyor-belt sushi lunch in Shibuya",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 5,
+  "category": "food",
+  "item": "Ramen dinner",
   "usd": 30,
   "source": ""
  },
  {
   "country": "Japan",
-  "day": 7,
+  "day": 6,
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, breakfast included, year-end rate (estimate, about ¥35,500)",
+  "usd": 230,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "transport",
+  "item": "Nozomi Shinkansen Tokyo–Kyoto, reserved seats, 2 × ¥14,170 plus about ¥200 New Year peak surcharge each",
+  "usd": 185,
+  "source": "https://shinkansentickets.net/guide/tokaido-shinkansen-guide"
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "transport",
+  "item": "Kyoto Station luggage storage, trains and buses in Kyoto, JR Kyoto–Osaka and metro to Namba, for two",
+  "usd": 45,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "transport",
+  "item": "Metro from the hotel to Tokyo Station, for two",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
   "category": "activity",
-  "item": "Karate lesson for two in Naha, 2 × ¥5,500",
-  "usd": 75,
+  "item": "Kiyomizu-dera entry, 2 × ¥500",
+  "usd": 5,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "food",
+  "item": "Nishiki Market street-food lunch",
+  "usd": 40,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 6,
+  "category": "food",
+  "item": "Dotonbori takoyaki and okonomiyaki dinner",
+  "usd": 50,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 7,
-  "category": "food",
-  "item": "Lunch on Kokusai Street",
+  "category": "accommodation",
+  "item": "Cross Hotel Osaka, standard double, breakfast included, New Year’s Eve rate (estimate, about ¥51,000)",
+  "usd": 330,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "transport",
+  "item": "Metro around Namba, and train to Universal City, for two",
+  "usd": 10,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "transport",
+  "item": "Taxi from Universal Studios Japan to the hotel after the countdown (about ¥6,000)",
   "usd": 40,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 7,
+  "category": "activity",
+  "item": "Spa World onsen, 2 × about ¥2,000 (holiday price)",
+  "usd": 25,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "activity",
+  "item": "USJ NO LIMIT! Countdown 2027 Party Pass, 2 × ¥16,900 (lowest tier; re-entry from 19:00 on 31 Dec until 21:00 on 1 Jan). Goes on sale 4 Nov and sells out fast",
+  "usd": 218,
+  "source": "https://livejapan.com/en/in-kansai/in-pref-osaka/in-usj_nanko-port/article-a2001061/"
+ },
+ {
+  "country": "Japan",
+  "day": 7,
   "category": "food",
-  "item": "New Year’s Eve dinner with toshikoshi soba, 2 × about ¥10,000",
-  "usd": 135,
+  "item": "Kuromon Market street food and Shinsekai kushikatsu lunch",
+  "usd": 50,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 7,
+  "category": "food",
+  "item": "Toshikoshi soba dinner and snacks in the park",
+  "usd": 60,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 8,
   "category": "accommodation",
-  "item": "Hotel JAL City Naha, double room, breakfast included (estimate; rate)",
-  "usd": 130,
+  "item": "Cross Hotel Osaka, standard double, breakfast included, New Year’s Day rate (estimate, about ¥40,000)",
+  "usd": 260,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 8,
   "category": "transport",
-  "item": "Yui monorail to Shuri and back, then to the airport on 2 Jan",
-  "usd": 25,
+  "item": "Nankai train to Sumiyoshi Taisha and trains to Universal City and back, for two",
+  "usd": 15,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 8,
-  "category": "activity",
-  "item": "Shuri Castle Park and Shikinaen garden entry, 2 × ¥400 each",
-  "usd": 10,
-  "source": ""
- },
- {
-  "country": "Japan",
-  "day": 8,
-  "category": "food",
-  "item": "Lunch",
-  "usd": 40,
+  "category": "transport",
+  "item": "Nankai Rapi:t from Namba to Kansai airport on 2 Jan, 2 × ¥1,490",
+  "usd": 20,
   "source": ""
  },
  {
   "country": "Japan",
   "day": 8,
   "category": "food",
-  "item": "Dinner at Senagajima Umikaji Terrace area",
-  "usd": 85,
+  "item": "Lunch at the shrine food stalls",
+  "usd": 30,
+  "source": ""
+ },
+ {
+  "country": "Japan",
+  "day": 8,
+  "category": "food",
+  "item": "Dinner in Universal Studios Japan",
+  "usd": 60,
   "source": ""
  },
  {

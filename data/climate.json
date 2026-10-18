@@ -82,21 +82,21 @@
  },
  {
   "country": "Japan",
-  "city": "Ishigaki",
-  "high_c": 23.0,
-  "low_c": 18.4,
-  "humidity_pct": 71,
-  "rainy_days": 14.8,
-  "source": "https://en.wikipedia.org/wiki/Ishigaki,_Okinawa"
+  "city": "Tokyo",
+  "high_c": 12.0,
+  "low_c": 3.8,
+  "humidity_pct": 56,
+  "rainy_days": 5.8,
+  "source": "https://en.wikipedia.org/wiki/Tokyo#Climate"
  },
  {
   "country": "Japan",
-  "city": "Naha",
-  "high_c": 21.5,
-  "low_c": 16.8,
-  "humidity_pct": 67,
-  "rainy_days": 10.7,
-  "source": "https://en.wikipedia.org/wiki/Naha"
+  "city": "Osaka",
+  "high_c": 12.3,
+  "low_c": 5.3,
+  "humidity_pct": 62,
+  "rainy_days": 7.1,
+  "source": "https://en.wikipedia.org/wiki/Osaka#Climate"
  },
  {
   "country": "China",

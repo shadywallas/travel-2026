@@ -1,6 +1,6 @@
 # New Year Trip Destination Comparison
 
-A small static website comparing warm two-stop routes for 24 Dec to 2 Jan, with day-by-day plans, recommended hotels, and links to TikTok, YouTube Shorts and photo searches for each activity.
+A small static website comparing city and activity trips for 24 Dec to 2 Jan (plus Japan in November for comparison), with day-by-day plans, recommended hotels, and links to TikTok, YouTube Shorts and photo searches for each activity.
 
 ## Files
 
