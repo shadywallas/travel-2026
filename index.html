@@ -43,7 +43,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-leg{display:inline-flex;align-items:center;gap:6px}
 .tc-ramp{display:inline-block;width:110px;height:8px;border-radius:4px;background:linear-gradient(90deg,#8b0000,#d97706,#15803d)}
 .tc-wrap{overflow-x:auto;border:1px solid #e5e7eb;border-radius:12px;background:#ffffff}
-.tc-table{border-collapse:collapse;width:100%;min-width:1450px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
+.tc-table{border-collapse:collapse;width:100%;min-width:1250px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
 .tc-table th{position:sticky;top:0;background:#f6f8fa;text-align:left;padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:600;white-space:nowrap;z-index:1}
 .tc-table th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:#1f2328}
 .tc-table th button:focus-visible,.tc-btn:focus-visible,.tc-exp:focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:6px}
@@ -120,6 +120,8 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-wx-i b{font-weight:600}
 .tc-rate .tc-wx{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px}
 .tc-rate .tc-wx-i{flex-wrap:wrap;white-space:normal;gap:4px 6px}
+.tc-wl{display:grid;gap:6px;justify-items:start}
+.tc-wl-i{display:inline-flex}
 .tc-card-foot{display:flex;justify-content:flex-end;margin:12px 0 0}
 .tc-card .tc-detail{position:static;padding:14px 0 0;margin:14px 0 0;border-top:1px solid #eef0f2}
 @media (max-width:700px){.tc-wrap{display:none}.tc-cards{display:grid;gap:12px}}
@@ -293,6 +295,7 @@ window.dash = (function () {
       <select id="tc-sort-select">
         <option value="">Default order</option>
         <option value="cost_total">Lowest cost</option>
+        <option value="wildlife_level">Least wildlife (insects and monkeys)</option>
         <option value="monkeys_level">Fewest monkeys</option>
         <option value="insects_level">Fewest insects</option>
         <option value="rain_level">Least rain</option>
@@ -311,8 +314,7 @@ window.dash = (function () {
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="cost_total"><button type="button" data-sort="cost_total">Cost for two <span class="tc-arrow"></span></button></th>
           <th data-field="weather"><button type="button" data-sort="feels_c" title="Sort by feels-like temperature">Weather <span class="tc-arrow"></span></button></th>
-          <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
-          <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
+          <th data-field="wildlife"><button type="button" data-sort="wildlife_level" title="Sort by insects and monkeys together">Wildlife <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
           <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
@@ -320,7 +322,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-short-body"><tr><td colspan="12"class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-short-body"><tr><td colspan="11" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-short-cards"></div>
@@ -337,8 +339,7 @@ window.dash = (function () {
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="cost_total"><button type="button" data-sort="cost_total">Cost for two <span class="tc-arrow"></span></button></th>
           <th data-field="weather"><button type="button" data-sort="feels_c" title="Sort by feels-like temperature">Weather <span class="tc-arrow"></span></button></th>
-          <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
-          <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
+          <th data-field="wildlife"><button type="button" data-sort="wildlife_level" title="Sort by insects and monkeys together">Wildlife <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
           <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
@@ -346,7 +347,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-demoted-body"><tr><td colspan="13"class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-demoted-body"><tr><td colspan="12" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-demoted-cards"></div>
@@ -447,8 +448,8 @@ window.dash = (function () {
   var openRows = {};
   // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
   var CARD_QUERY = window.matchMedia('(max-width: 700px)');
-  var ASC_KEYS = ['cost_total', 'humidity_pct', 'feels_c', 'rain_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
-  var SHORT_COLS = 12, DEM_COLS = 13;
+  var ASC_KEYS = ['cost_total', 'humidity_pct', 'feels_c', 'rain_level', 'wildlife_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
+  var SHORT_COLS = 11, DEM_COLS = 12;
 
   function moved() {
     var p = dash.params() || {};
@@ -728,13 +729,23 @@ window.dash = (function () {
       item(iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), '', d.rain + ' rain') +
       '</span>';
   }
+  // Insects above monkeys as icon rows only; each row's tooltip and label give the level in words.
+  function wildlifeBlock(d) {
+    function row(kind, level, color, label) {
+      return '<span class="tc-wl-i" role="img" title="' + esc(label) + '" aria-label="' + esc(label) + '">' + iconRow(kind, level, color) + '</span>';
+    }
+    return '<span class="tc-wl">' +
+      row('bug', d.insects_level, ramp((5 - d.insects_level) / 4), 'Insects: ' + d.insects) +
+      row('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5),
+        'Monkeys: ' + d.monkeys + ' (' + d.monkeys_level + ' of 5)' + (d.monkeys_note ? '. ' + d.monkeys_note : '')) +
+      '</span>';
+  }
 
   // Each rating as [label, icons, text, text class]; the table and the phone cards list them in different orders.
   function ratings(d) {
     return {
       weather: ['Weather', weatherBlock(d), null],
-      insects: ['Insects', iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects],
-      monkeys: ['Monkeys', iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys],
+      wildlife: ['Wildlife', wildlifeBlock(d), null],
       popularity: ['Tourist popularity', iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity],
       visa: ['Visa (Egyptian passport)', badge(ramp((d.visa_ease - 1) / 4)), d.visa],
       romantic: ['Romantic', iconRow('star', d.romantic, ramp(d.romantic / 5)), String(d.romantic), 'tc-num'],
@@ -742,14 +753,14 @@ window.dash = (function () {
       shopping: ['Shopping', iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num']
     };
   }
-  var TABLE_ORDER = ['weather', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
-  var CARD_ORDER = ['insects', 'monkeys', 'weather', 'popularity', 'romantic', 'active', 'shopping', 'visa'];
+  var TABLE_ORDER = ['weather', 'wildlife', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
+  // Wildlife and popularity share the first row; weather takes a full row.
+  var CARD_ORDER = ['wildlife', 'popularity', 'weather', 'romantic', 'active', 'shopping', 'visa'];
 
   function ratingCells(tr, d) {
     var r = ratings(d);
     TABLE_ORDER.forEach(function (k) {
-      var td = addCell(tr, r[k][1], r[k][2], r[k][3]);
-      if (k === 'monkeys' && d.monkeys_note) td.title = d.monkeys_note;
+      addCell(tr, r[k][1], r[k][2], r[k][3]);
     });
   }
   function ratingGrid(d) {
@@ -1224,6 +1235,7 @@ window.dash = (function () {
         rain: String(d.rain), rain_level: Number(d.rain_level),
         insects: String(d.insects), insects_level: Number(d.insects_level),
         monkeys: String(d.monkeys), monkeys_level: Number(d.monkeys_level),
+        wildlife_level: Number(d.insects_level) + Number(d.monkeys_level),
         monkeys_note: d.monkeys_note == null ? '' : String(d.monkeys_note),
         popularity: String(d.popularity), popularity_level: Number(d.popularity_level),
         visa: String(d.visa), visa_ease: Number(d.visa_ease),
