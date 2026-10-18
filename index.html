@@ -43,7 +43,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-leg{display:inline-flex;align-items:center;gap:6px}
 .tc-ramp{display:inline-block;width:110px;height:8px;border-radius:4px;background:linear-gradient(90deg,#8b0000,#d97706,#15803d)}
 .tc-wrap{overflow-x:auto;border:1px solid #e5e7eb;border-radius:12px;background:#ffffff}
-.tc-table{border-collapse:collapse;width:100%;min-width:1250px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
+.tc-table{border-collapse:collapse;width:100%;min-width:1000px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
 .tc-table th{position:sticky;top:0;background:#f6f8fa;text-align:left;padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:600;white-space:nowrap;z-index:1}
 .tc-table th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:#1f2328}
 .tc-table th button:focus-visible,.tc-btn:focus-visible,.tc-exp:focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:6px}
@@ -100,7 +100,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-monkey-note{background:#fff4ed;border-color:#fed7aa;color:#7c2d12}
 .tc-cards{display:none}
 .tc-sort{display:flex;align-items:center;gap:8px;margin:0 0 12px;font-size:var(--cds-font-size-caption);color:#57606a}
-.tc-sort select{font:inherit;font-size:var(--cds-font-size-body);color:#1f2328;padding:6px 10px;border:1px solid #d0d7de;border-radius:8px;background:#ffffff}
+.tc-sort select{min-width:0;max-width:100%;font:inherit;font-size:var(--cds-font-size-body);color:#1f2328;padding:6px 10px;border:1px solid #d0d7de;border-radius:8px;background:#ffffff}
 .tc-card{background:#ffffff;border:1px solid #e5e7eb;border-radius:14px;padding:14px}
 .tc-card-demoted{background:#fcfcfd}
 .tc-card-sum[data-act]{cursor:pointer;-webkit-tap-highlight-color:transparent}
@@ -295,12 +295,13 @@ window.dash = (function () {
       <select id="tc-sort-select">
         <option value="">Default order</option>
         <option value="cost_total">Lowest cost</option>
-        <option value="wildlife_level">Least wildlife (insects and monkeys)</option>
+        <option value="wildlife_level">Least wildlife</option>
         <option value="monkeys_level">Fewest monkeys</option>
         <option value="insects_level">Fewest insects</option>
         <option value="rain_level">Least rain</option>
         <option value="humidity_pct">Least humid</option>
         <option value="feels_c">Coolest feels-like</option>
+        <option value="pluses_total">Most pluses</option>
         <option value="romantic">Most romantic</option>
         <option value="active">Most active</option>
         <option value="shopping">Best shopping</option>
@@ -317,12 +318,10 @@ window.dash = (function () {
           <th data-field="wildlife"><button type="button" data-sort="wildlife_level" title="Sort by insects and monkeys together">Wildlife <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
-          <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
-          <th data-field="active"><button type="button" data-sort="active">Active <span class="tc-arrow"></span></button></th>
-          <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
+          <th data-field="pluses"><button type="button" data-sort="pluses_total" title="Sort by romantic, active and shopping together">Pluses <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-short-body"><tr><td colspan="11" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-short-body"><tr><td colspan="9" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-short-cards"></div>
@@ -342,12 +341,10 @@ window.dash = (function () {
           <th data-field="wildlife"><button type="button" data-sort="wildlife_level" title="Sort by insects and monkeys together">Wildlife <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
           <th data-field="visa"><button type="button" data-sort="visa_ease">Visa (Egyptian passport) <span class="tc-arrow"></span></button></th>
-          <th data-field="romantic"><button type="button" data-sort="romantic">Romantic <span class="tc-arrow"></span></button></th>
-          <th data-field="active"><button type="button" data-sort="active">Active <span class="tc-arrow"></span></button></th>
-          <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
+          <th data-field="pluses"><button type="button" data-sort="pluses_total" title="Sort by romantic, active and shopping together">Pluses <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-demoted-body"><tr><td colspan="12" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-demoted-body"><tr><td colspan="10" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-demoted-cards"></div>
@@ -376,7 +373,6 @@ window.dash = (function () {
     return t < 0.5 ? d3.interpolateRgb(RED, AMBER)(t * 2) : d3.interpolateRgb(AMBER, GREEN)((t - 0.5) * 2);
   }
   var SHAPES = {
-    star: '<path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.3l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9z"/>',
     drop: '<path d="M12 2.5C8.5 7.1 6 10.5 6 13.7a6 6 0 0 0 12 0c0-3.2-2.5-6.6-6-11.2z"/>',
     bug: '<ellipse cx="12" cy="14.5" rx="5" ry="6"/><circle cx="12" cy="6.3" r="3"/><path d="M2.5 10h4M17.5 10h4M2.5 15h4M17.5 15h4M4 20.5l3.5-2M20 20.5l-3.5-2" fill="none" stroke-width="1.8" stroke-linecap="round"/>',
     monkey: '<circle cx="4.6" cy="11" r="3.1"/><circle cx="19.4" cy="11" r="3.1"/><circle cx="12" cy="11.5" r="7.6"/><circle cx="9.3" cy="10.3" r="1.25" fill="#ffffff" stroke="none"/><circle cx="14.7" cy="10.3" r="1.25" fill="#ffffff" stroke="none"/><ellipse cx="12" cy="15" rx="3.6" ry="2.4" fill="#ffffff" fill-opacity=".45" stroke="none"/>',
@@ -389,7 +385,9 @@ window.dash = (function () {
     bed: '<path stroke="none" d="M7 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9a4 4 0 0 0-4-4z"/>',
     food: '<path stroke="none" d="M11 9H9V2H7v7H5V2H3v7c0 2.1 1.7 3.8 3.8 4V22h2.5v-9c2.1-.1 3.7-1.9 3.7-4V2h-2zm5-3v8h2.5v8H21V2c-2.8 0-5 2.2-5 4z"/>',
     plane: '<path stroke="none" d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/>',
-    passport: '<rect x="5" y="2" width="14" height="20" rx="2" stroke="none"/><circle cx="12" cy="10" r="3.3" fill="none" stroke="#ffffff" stroke-width="1.6"/><path d="M9 17h6" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>'
+    passport: '<rect x="5" y="2" width="14" height="20" rx="2" stroke="none"/><circle cx="12" cy="10" r="3.3" fill="none" stroke="#ffffff" stroke-width="1.6"/><path d="M9 17h6" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>',
+    run: '<path stroke="none" d="M13.5 5.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM9.9 19.4l1-4.4 2.1 2v6h2v-7.5l-2.1-2 .6-3c1.3 1.5 3.3 2.5 5.5 2.5v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7-1.6 8.1-4.9-1-.4 2z"/>',
+    cart: '<path stroke="none" d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 0 0 7 17h12v-2H7.4a.2.2 0 0 1-.2-.3l.9-1.7h7.4c.8 0 1.4-.4 1.8-1l3.6-6.5A1 1 0 0 0 20 4H5.2l-.9-2zm16 16a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>'
   };
   function icon(kind, color, cls) {
     return '<svg class="' + (cls || 'tc-ic') + '" viewBox="0 0 24 24" aria-hidden="true" style="fill:' + color + ';stroke:' + color + '">' + SHAPES[kind] + '</svg>';
@@ -413,7 +411,9 @@ window.dash = (function () {
   var DOWN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var UP = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  document.getElementById('tc-leg-star').innerHTML = iconRow('star', 4, ramp(0.8)) + '<span>Romantic, active, shopping (more stars = better)</span>';
+  document.getElementById('tc-leg-star').innerHTML = [['heart', 'Romantic'], ['run', 'Active'], ['cart', 'Shopping']].map(function (p) {
+    return '<span class="tc-leg-pair">' + icon(p[0], ramp(0.8)) + '<span>' + p[1] + '</span></span>';
+  }).join('') + '<span>(more icons = better)</span>';
   document.getElementById('tc-leg-drop').innerHTML = icon('drop', ramp(0.5)) + '<span>Rain (more drops = more rain)</span>';
   document.getElementById('tc-leg-bug').innerHTML = icon('bug', ramp(0.5)) + '<span>Insects (more bugs = more insects)</span>';
   document.getElementById('tc-leg-monkey').innerHTML = icon('monkey', ramp(0.5)) + '<span>Monkeys, 0 to 5 (more faces = more monkeys)</span>';
@@ -449,7 +449,7 @@ window.dash = (function () {
   // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
   var CARD_QUERY = window.matchMedia('(max-width: 700px)');
   var ASC_KEYS = ['cost_total', 'humidity_pct', 'feels_c', 'rain_level', 'wildlife_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
-  var SHORT_COLS = 11, DEM_COLS = 12;
+  var SHORT_COLS = 9, DEM_COLS = 10;
 
   function moved() {
     var p = dash.params() || {};
@@ -740,6 +740,14 @@ window.dash = (function () {
         'Monkeys: ' + d.monkeys + ' (' + d.monkeys_level + ' of 5)' + (d.monkeys_note ? '. ' + d.monkeys_note : '')) +
       '</span>';
   }
+  // Romantic, active and shopping as heart, runner and cart rows, more icons being better.
+  function plusesBlock(d) {
+    function row(kind, level, label) {
+      var text = label + ': ' + level + ' of 5';
+      return '<span class="tc-wl-i" role="img" title="' + text + '" aria-label="' + text + '">' + iconRow(kind, level, ramp(level / 5)) + '</span>';
+    }
+    return '<span class="tc-wl">' + row('heart', d.romantic, 'Romantic') + row('run', d.active, 'Active') + row('cart', d.shopping, 'Shopping') + '</span>';
+  }
 
   // Each rating as [label, icons, text, text class]; the table and the phone cards list them in different orders.
   function ratings(d) {
@@ -748,14 +756,12 @@ window.dash = (function () {
       wildlife: ['Wildlife', wildlifeBlock(d), null],
       popularity: ['Tourist popularity', iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity],
       visa: ['Visa (Egyptian passport)', badge(ramp((d.visa_ease - 1) / 4)), d.visa],
-      romantic: ['Romantic', iconRow('star', d.romantic, ramp(d.romantic / 5)), String(d.romantic), 'tc-num'],
-      active: ['Active', iconRow('star', d.active, ramp(d.active / 5)), String(d.active), 'tc-num'],
-      shopping: ['Shopping', iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num']
+      pluses: ['Pluses', plusesBlock(d), null]
     };
   }
-  var TABLE_ORDER = ['weather', 'wildlife', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
-  // Wildlife and popularity share the first row; weather takes a full row.
-  var CARD_ORDER = ['wildlife', 'popularity', 'weather', 'romantic', 'active', 'shopping', 'visa'];
+  var TABLE_ORDER = ['weather', 'wildlife', 'popularity', 'visa', 'pluses'];
+  // Wildlife and popularity share the first row, weather takes a full row, then pluses and visa.
+  var CARD_ORDER = ['wildlife', 'popularity', 'weather', 'pluses', 'visa'];
 
   function ratingCells(tr, d) {
     var r = ratings(d);
@@ -1240,6 +1246,7 @@ window.dash = (function () {
         popularity: String(d.popularity), popularity_level: Number(d.popularity_level),
         visa: String(d.visa), visa_ease: Number(d.visa_ease),
         romantic: Number(d.romantic), active: Number(d.active), shopping: Number(d.shopping),
+        pluses_total: Number(d.romantic) + Number(d.active) + Number(d.shopping),
         reason: d.reason == null ? '' : String(d.reason),
         split_why: d.split_why == null ? '' : String(d.split_why),
         cost_total: ctx.costs[String(d.country)] ? ctx.costs[String(d.country)].all.total : NaN
