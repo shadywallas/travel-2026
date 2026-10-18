@@ -1,0 +1,47 @@
+[
+ {
+  "country": "Japan",
+  "city": "Ishigaki",
+  "high_c": 23.0,
+  "low_c": 18.4,
+  "humidity_pct": 71,
+  "rainy_days": 14.8,
+  "source": "https://en.wikipedia.org/wiki/Ishigaki,_Okinawa"
+ },
+ {
+  "country": "Japan",
+  "city": "Naha",
+  "high_c": 21.5,
+  "low_c": 16.8,
+  "humidity_pct": 67,
+  "rainy_days": 10.7,
+  "source": "https://en.wikipedia.org/wiki/Naha"
+ },
+ {
+  "country": "China",
+  "city": "Beijing",
+  "high_c": 2.6,
+  "low_c": -8.0,
+  "humidity_pct": 44,
+  "rainy_days": 1.0,
+  "source": "https://en.wikipedia.org/wiki/Beijing#Climate"
+ },
+ {
+  "country": "China",
+  "city": "Zhangjiajie",
+  "high_c": 9.9,
+  "low_c": 2.0,
+  "humidity_pct": 77,
+  "rainy_days": 7.0,
+  "source": "https://en.wikipedia.org/wiki/Zhangjiajie#Climate"
+ },
+ {
+  "country": "China",
+  "city": "Shanghai",
+  "high_c": 10.4,
+  "low_c": 4.0,
+  "humidity_pct": 71,
+  "rainy_days": 7.5,
+  "source": "https://en.wikipedia.org/wiki/Shanghai#Climate"
+ }
+]
