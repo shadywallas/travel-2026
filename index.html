@@ -43,7 +43,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-leg{display:inline-flex;align-items:center;gap:6px}
 .tc-ramp{display:inline-block;width:110px;height:8px;border-radius:4px;background:linear-gradient(90deg,#8b0000,#d97706,#15803d)}
 .tc-wrap{overflow-x:auto;border:1px solid #e5e7eb;border-radius:12px;background:#ffffff}
-.tc-table{border-collapse:collapse;width:100%;min-width:1820px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
+.tc-table{border-collapse:collapse;width:100%;min-width:1450px;font-size:var(--cds-font-size-body);font-variant-numeric:tabular-nums;color:#1f2328}
 .tc-table th{position:sticky;top:0;background:#f6f8fa;text-align:left;padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:600;white-space:nowrap;z-index:1}
 .tc-table th button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;color:#1f2328}
 .tc-table th button:focus-visible,.tc-btn:focus-visible,.tc-exp:focus-visible{outline:2px solid #2563eb;outline-offset:2px;border-radius:6px}
@@ -99,7 +99,7 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-split svg{width:16px;height:16px;flex:none;margin-top:1px}
 .tc-monkey-note{background:#fff4ed;border-color:#fed7aa;color:#7c2d12}
 .tc-cards{display:none}
-.tc-sort{display:none;align-items:center;gap:8px;margin:0 0 12px;font-size:var(--cds-font-size-caption);color:#57606a}
+.tc-sort{display:flex;align-items:center;gap:8px;margin:0 0 12px;font-size:var(--cds-font-size-caption);color:#57606a}
 .tc-sort select{font:inherit;font-size:var(--cds-font-size-body);color:#1f2328;padding:6px 10px;border:1px solid #d0d7de;border-radius:8px;background:#ffffff}
 .tc-card{background:#ffffff;border:1px solid #e5e7eb;border-radius:14px;padding:14px}
 .tc-card-demoted{background:#fcfcfd}
@@ -113,9 +113,16 @@ body{margin:0;background:#ffffff;color:#1f2328;font-family:var(--font-anthropic-
 .tc-rate{display:flex;flex-direction:column;gap:3px;min-width:0}
 .tc-rate-k{font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#57606a}
 .tc-rate .tc-cell{flex-wrap:wrap;gap:4px 6px}
+.tc-rate-wide{grid-column:1/-1}
+.tc-table td.tc-reason{white-space:normal}
+.tc-wx{display:grid;grid-template-columns:repeat(2,auto);gap:6px 18px;align-items:center}
+.tc-wx-i{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.tc-wx-i b{font-weight:600}
+.tc-rate .tc-wx{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px}
+.tc-rate .tc-wx-i{flex-wrap:wrap;white-space:normal;gap:4px 6px}
 .tc-card-foot{display:flex;justify-content:flex-end;margin:12px 0 0}
 .tc-card .tc-detail{position:static;padding:14px 0 0;margin:14px 0 0;border-top:1px solid #eef0f2}
-@media (max-width:700px){.tc-wrap{display:none}.tc-cards{display:grid;gap:12px}.tc-sort{display:flex}}
+@media (max-width:700px){.tc-wrap{display:none}.tc-cards{display:grid;gap:12px}}
 .tc-hotel{display:flex;gap:12px;align-items:stretch;background:#ffffff;border:1px solid #e5e7eb;border-radius:12px;padding:10px;margin:0 0 12px;white-space:normal}
 .tc-hotel-tile{width:84px;min-height:84px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:none}
 .tc-hotel-tile svg{width:34px;height:34px}
@@ -303,11 +310,7 @@ window.dash = (function () {
           <th data-field="country"><button type="button" data-sort="country">Destination <span class="tc-arrow"></span></button></th>
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="cost_total"><button type="button" data-sort="cost_total">Cost for two <span class="tc-arrow"></span></button></th>
-          <th data-field="day_c"><button type="button" data-sort="day_c">Day <span class="tc-arrow"></span></button></th>
-          <th data-field="feels_c"><button type="button" data-sort="feels_c">Feels like <span class="tc-arrow"></span></button></th>
-          <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
-          <th data-field="humidity_pct"><button type="button" data-sort="humidity_pct">Humidity <span class="tc-arrow"></span></button></th>
-          <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
+          <th data-field="weather"><button type="button" data-sort="feels_c" title="Sort by feels-like temperature">Weather <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
           <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
@@ -317,7 +320,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-short-body"><tr><td colspan="16" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-short-body"><tr><td colspan="12"class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-short-cards"></div>
@@ -333,11 +336,7 @@ window.dash = (function () {
           <th data-field="reason"><button type="button" data-sort="reason">Why demoted <span class="tc-arrow"></span></button></th>
           <th data-field="route"><button type="button" data-sort="route">Cities and days <span class="tc-arrow"></span></button></th>
           <th data-field="cost_total"><button type="button" data-sort="cost_total">Cost for two <span class="tc-arrow"></span></button></th>
-          <th data-field="day_c"><button type="button" data-sort="day_c">Day <span class="tc-arrow"></span></button></th>
-          <th data-field="feels_c"><button type="button" data-sort="feels_c">Feels like <span class="tc-arrow"></span></button></th>
-          <th data-field="night_c"><button type="button" data-sort="night_c">Night <span class="tc-arrow"></span></button></th>
-          <th data-field="humidity_pct"><button type="button" data-sort="humidity_pct">Humidity <span class="tc-arrow"></span></button></th>
-          <th data-field="rain"><button type="button" data-sort="rain_level">Rain <span class="tc-arrow"></span></button></th>
+          <th data-field="weather"><button type="button" data-sort="feels_c" title="Sort by feels-like temperature">Weather <span class="tc-arrow"></span></button></th>
           <th data-field="insects"><button type="button" data-sort="insects_level">Insects <span class="tc-arrow"></span></button></th>
           <th data-field="monkeys"><button type="button" data-sort="monkeys_level">Monkeys (0–5) <span class="tc-arrow"></span></button></th>
           <th data-field="popularity"><button type="button" data-sort="popularity_level">Tourist popularity <span class="tc-arrow"></span></button></th>
@@ -347,7 +346,7 @@ window.dash = (function () {
           <th data-field="shopping"><button type="button" data-sort="shopping">Shopping <span class="tc-arrow"></span></button></th>
           <th>Action</th>
         </tr></thead>
-        <tbody id="tc-demoted-body"><tr><td colspan="17" class="tc-skel-cell dash-skeleton"></td></tr></tbody>
+        <tbody id="tc-demoted-body"><tr><td colspan="13"class="tc-skel-cell dash-skeleton"></td></tr></tbody>
       </table>
     </div>
     <div class="tc-cards" id="tc-demoted-cards"></div>
@@ -449,7 +448,7 @@ window.dash = (function () {
   // Below this width the tables are replaced by one card per destination (matches the CSS breakpoint).
   var CARD_QUERY = window.matchMedia('(max-width: 700px)');
   var ASC_KEYS = ['cost_total', 'humidity_pct', 'feels_c', 'rain_level', 'insects_level', 'monkeys_level', 'country', 'route', 'reason'];
-  var SHORT_COLS = 16, DEM_COLS = 17;
+  var SHORT_COLS = 12, DEM_COLS = 13;
 
   function moved() {
     var p = dash.params() || {};
@@ -714,14 +713,26 @@ window.dash = (function () {
     return box;
   }
 
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; });
+  }
+  // Day and night temperature, feels-like, humidity and rain as one compact two-by-two block.
+  function weatherBlock(d) {
+    function item(iconHtml, value, label) {
+      return '<span class="tc-wx-i">' + iconHtml + (value ? '<b>' + value + '</b>' : '') + '<span class="tc-lbl">' + esc(label) + '</span></span>';
+    }
+    return '<span class="tc-wx">' +
+      item(thermo(), d.day_c + '° / ' + d.night_c + '°', 'day / night') +
+      item(thermo('#b42318'), d.feels_c + '°', 'feels like') +
+      item(humid(), d.humidity_pct + '%', 'humidity') +
+      item(iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), '', d.rain + ' rain') +
+      '</span>';
+  }
+
   // Each rating as [label, icons, text, text class]; the table and the phone cards list them in different orders.
   function ratings(d) {
     return {
-      day: ['Day', thermo(), d.day_c + '°C', 'tc-num'],
-      feels: ['Feels like', thermo('#b42318'), d.feels_c + '°C', 'tc-num'],
-      night: ['Night', thermo(), d.night_c + '°C', 'tc-num'],
-      humidity: ['Humidity', humid(), d.humidity_pct + '%', 'tc-num'],
-      rain: ['Rain', iconRow('drop', d.rain_level, ramp((5 - d.rain_level) / 4)), d.rain],
+      weather: ['Weather', weatherBlock(d), null],
       insects: ['Insects', iconRow('bug', d.insects_level, ramp((5 - d.insects_level) / 4)), d.insects],
       monkeys: ['Monkeys', iconRow('monkey', d.monkeys_level, ramp((5 - d.monkeys_level) / 5)) + '<span class="tc-num">' + d.monkeys_level + '</span>', d.monkeys],
       popularity: ['Tourist popularity', iconRow('people', d.popularity_level, ramp(d.popularity_level / 5)), d.popularity],
@@ -731,8 +742,8 @@ window.dash = (function () {
       shopping: ['Shopping', iconRow('star', d.shopping, ramp(d.shopping / 5)), String(d.shopping), 'tc-num']
     };
   }
-  var TABLE_ORDER = ['day', 'feels', 'night', 'humidity', 'rain', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
-  var CARD_ORDER = ['insects', 'monkeys', 'rain', 'popularity', 'day', 'night', 'feels', 'humidity', 'romantic', 'active', 'shopping', 'visa'];
+  var TABLE_ORDER = ['weather', 'insects', 'monkeys', 'popularity', 'visa', 'romantic', 'active', 'shopping'];
+  var CARD_ORDER = ['insects', 'monkeys', 'weather', 'popularity', 'romantic', 'active', 'shopping', 'visa'];
 
   function ratingCells(tr, d) {
     var r = ratings(d);
@@ -747,7 +758,7 @@ window.dash = (function () {
     grid.className = 'tc-rates';
     CARD_ORDER.forEach(function (k) {
       var item = document.createElement('div');
-      item.className = 'tc-rate';
+      item.className = 'tc-rate' + (k === 'weather' ? ' tc-rate-wide' : '');
       var label = document.createElement('span');
       label.className = 'tc-rate-k';
       label.textContent = r[k][0];
