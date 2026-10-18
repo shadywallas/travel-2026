@@ -10,8 +10,8 @@
   "rain_level": 1,
   "insects": "Medium",
   "insects_level": 3,
-  "monkeys": "High",
-  "monkeys_level": 4,
+  "monkeys": "Medium",
+  "monkeys_level": 3,
   "popularity": "Very high",
   "popularity_level": 5,
   "visa": "E-visa needed",
@@ -20,8 +20,8 @@
   "active": 5,
   "shopping": 5,
   "reason": "",
-  "split_why": "Krabi gets five days because its island trips are the highlight; three days in Bangkok are enough for the temples, shopping and New Year’s Eve on the river.",
-  "monkeys_note": "Long-tailed macaques on Railay’s viewpoint trail and beaches, and at Monkey Beach on many Phi Phi boat tours (ask to skip that stop). Bangkok’s temples and malls have none."
+  "split_why": "The split stays at five and three because it already matches the flights (in through Krabi, home from Bangkok after the countdown), and Krabi now needs only two outings off Railay.",
+  "monkeys_note": "You stay on Railay, where shy dusky leaf monkeys and some long-tailed macaques use Phra Nang beach and the path beside Rayavadee, so keep villa doors shut and never leave food or bags on the sand. The plan skips the Princess Lagoon trail, Phi Phi’s Monkey Beach, Tiger Cave Temple and the monkey cave that rafting tours often add; Bangkok has none."
  },
  {
   "country": "Vietnam (south)",
@@ -34,8 +34,8 @@
   "rain_level": 1,
   "insects": "Medium",
   "insects_level": 3,
-  "monkeys": "Very low",
-  "monkeys_level": 1,
+  "monkeys": "None",
+  "monkeys_level": 0,
   "popularity": "High",
   "popularity_level": 4,
   "visa": "Easy e-visa",
@@ -44,8 +44,8 @@
   "active": 4,
   "shopping": 3,
   "reason": "",
-  "split_why": "Three days cover Mui Ne’s dunes and kitesurfing. Ho Chi Minh City gets five days because it is also the base for the Cu Chi Tunnels and the Mekong Delta.",
-  "monkeys_note": "Rare on this route: Mui Ne, Ho Chi Minh City, the Cu Chi Tunnels and the Mekong Delta are not monkey areas. Avoid Can Gio’s Monkey Island, which is not in the plan."
+  "split_why": "The split stays the same because the two drives are needed either way, and Ho Chi Minh City holds New Year’s Eve, New Year’s Day and the flight home, so moving days would only cut beach time.",
+  "monkeys_note": "None of the places in this plan are known for monkeys. Ta Cu Mountain and Can Gio’s Monkey Island have them, so both are left out."
  },
  {
   "country": "Malaysia",
@@ -58,18 +58,18 @@
   "rain_level": 3,
   "insects": "Medium",
   "insects_level": 3,
-  "monkeys": "Very high",
-  "monkeys_level": 5,
+  "monkeys": "Medium",
+  "monkeys_level": 3,
   "popularity": "Medium to high",
   "popularity_level": 4,
   "visa": "Visa-free",
   "visa_ease": 5,
   "romantic": 4,
-  "active": 4,
+  "active": 5,
   "shopping": 5,
   "reason": "",
-  "split_why": "Kept even on purpose: Langkawi’s outdoor activities fill four days, and Kuala Lumpur needs four for Batu Caves, shopping and New Year’s Eve.",
-  "monkeys_note": "Batu Caves has many bold macaques on the stairs that grab food and bags. In Langkawi, macaques are common at Tanjung Rhu, the Seven Wells waterfall, the Kilim mangroves and in rainforest resort grounds, so keep balcony doors closed."
+  "split_why": "Kept at four and four because every split needs the same two domestic flights, Day 1 is mostly travel so Langkawi needs four days to give three usable ones, and Kuala Lumpur has to hold New Year’s Eve and the flight home.",
+  "monkeys_note": "No monkey hotspot is visited, but the Ritz-Carlton itself has frequent long-tailed macaques and dusky leaf monkeys, sometimes on balconies, so keep doors shut and leave no food outside. A few macaques also visit the SkyCab top-station café, so keep snacks packed away and take the SkyGlide lift."
  },
  {
   "country": "Philippines (Palawan)",
@@ -82,24 +82,24 @@
   "rain_level": 2,
   "insects": "Medium",
   "insects_level": 3,
-  "monkeys": "Low",
-  "monkeys_level": 2,
+  "monkeys": "Very low",
+  "monkeys_level": 1,
   "popularity": "Medium to high",
   "popularity_level": 4,
   "visa": "Embassy visa (hardest)",
   "visa_ease": 1,
   "romantic": 5,
-  "active": 5,
+  "active": 4,
   "shopping": 1,
   "reason": "",
-  "split_why": "Reversed and rebalanced: Coron first, where three days cover its lakes and shipwrecks, then five days in El Nido, which has more island tours and a livelier New Year’s Eve.",
-  "monkeys_note": "Long-tailed macaques live in Palawan’s forests and are sometimes seen on island tours and the Taraw Cliff climb, but beaches and resorts in Coron and El Nido rarely have them."
+  "split_why": "Kept at three and five days: the Coron resort covers the beach day without extra travel, a 40-minute flight replaces the long ferry, and El Nido’s land activities are all short drives from Seda Lio.",
+  "monkeys_note": "Long-tailed macaques are sometimes seen on Miniloc Island, where the Big and Small Lagoons are, so stay in the kayak and keep food sealed on the boat. The plan drops Tour C, whose Matinloc Shrine stop has monkeys; no monkeys are reported at the Coron resort, Mount Tapyas, Taraw Cliff, Las Cabanas or Nacpan."
  },
  {
   "country": "Maldives",
   "flag": "🇲🇻",
   "status": "shortlist",
-  "route": "Maafushi 5 days, Resort island 3 days",
+  "route": "Maafushi 4 days, Resort island 4 days",
   "day_c": 30,
   "night_c": 26,
   "rain": "Low",
@@ -113,11 +113,11 @@
   "visa": "Free on arrival",
   "visa_ease": 5,
   "romantic": 5,
-  "active": 3,
+  "active": 2,
   "shopping": 1,
   "reason": "",
-  "split_why": "Five active days on Maafushi, where excursions are close and good value, then three romantic days at a resort for New Year’s Eve.",
-  "monkeys_note": "No monkeys anywhere in the Maldives. The only close animal contact is by choice: turtles, nurse sharks and stingrays on the snorkel trips."
+  "split_why": "Without snorkelling, diving and repeated boat trips, Maafushi has about four distinct days, so one night moves to the resort, which also cuts mosquito exposure on the local island and adds the resort’s free festive events, at a higher cost.",
+  "monkeys_note": "There are no monkeys anywhere in the Maldives; the only wildlife in this plan is dolphins seen from a boat."
  },
  {
   "country": "Zanzibar, Tanzania",

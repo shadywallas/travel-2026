@@ -4,664 +4,720 @@
   "day": 1,
   "kind": "activity",
   "name": "Railay West beach",
-  "query": "Railay beach Krabi"
+  "query": "Railay West beach Krabi"
  },
  {
   "country": "Thailand",
   "day": 1,
   "kind": "romantic",
-  "name": "Railay sunset",
-  "query": "Railay sunset Krabi"
+  "name": "Railay West sunset",
+  "query": "Railay West sunset Krabi"
  },
  {
   "country": "Thailand",
   "day": 2,
   "kind": "activity",
-  "name": "Four Islands tour",
-  "query": "Krabi four islands tour"
+  "name": "Hong Island lagoon",
+  "query": "Hong Island lagoon Krabi kayak"
  },
  {
   "country": "Thailand",
   "day": 2,
   "kind": "activity",
-  "name": "Tup Island sandbar",
-  "query": "Tup Island sandbar Krabi"
+  "name": "Hong Island viewpoint",
+  "query": "Koh Hong viewpoint Krabi"
+ },
+ {
+  "country": "Thailand",
+  "day": 2,
+  "kind": "romantic",
+  "name": "Hong Island beach picnic",
+  "query": "Koh Hong beach Krabi"
  },
  {
   "country": "Thailand",
   "day": 3,
+  "kind": "activity",
+  "name": "Song Phraek rafting",
+  "query": "Song Phraek river rafting Phang Nga"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "kind": "activity",
+  "name": "Rafting camp ATV ride",
+  "query": "Phang Nga rafting ATV ride Krabi"
+ },
+ {
+  "country": "Thailand",
+  "day": 3,
+  "kind": "romantic",
+  "name": "Rayavadee Spa",
+  "query": "Rayavadee Spa Krabi"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "kind": "activity",
+  "name": "Rayavadee Thai cooking class",
+  "query": "Rayavadee Thai cooking class Krabi"
+ },
+ {
+  "country": "Thailand",
+  "day": 4,
+  "kind": "romantic",
+  "name": "The Grotto, Phra Nang",
+  "query": "The Grotto restaurant Phra Nang beach Rayavadee"
+ },
+ {
+  "country": "Thailand",
+  "day": 5,
   "kind": "activity",
   "name": "Railay rock climbing",
-  "query": "Railay rock climbing beginner"
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "kind": "activity",
-  "name": "Railay viewpoint and lagoon",
-  "query": "Railay viewpoint lagoon hike"
- },
- {
-  "country": "Thailand",
-  "day": 3,
-  "kind": "romantic",
-  "name": "Couples Thai massage",
-  "query": "Krabi couples massage"
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "kind": "activity",
-  "name": "Maya Bay",
-  "query": "Maya Bay Phi Phi"
- },
- {
-  "country": "Thailand",
-  "day": 4,
-  "kind": "activity",
-  "name": "Pileh Lagoon",
-  "query": "Pileh Lagoon Phi Phi"
+  "query": "Railay beginner rock climbing Phra Nang"
  },
  {
   "country": "Thailand",
   "day": 5,
   "kind": "activity",
-  "name": "Hong Islands kayak",
-  "query": "Hong Islands Krabi kayak"
- },
- {
-  "country": "Thailand",
-  "day": 5,
-  "kind": "activity",
-  "name": "Emerald Pool",
-  "query": "Emerald Pool Krabi"
+  "name": "Phra Nang Cave Beach",
+  "query": "Phra Nang Cave Beach Railay"
  },
  {
   "country": "Thailand",
   "day": 5,
   "kind": "romantic",
-  "name": "Sunset longtail boat",
-  "query": "Krabi private longtail sunset"
+  "name": "Private beach dinner",
+  "query": "Rayavadee private beach dinner Krabi"
  },
  {
   "country": "Thailand",
   "day": 6,
   "kind": "activity",
-  "name": "Wat Arun",
-  "query": "Wat Arun Bangkok"
- },
- {
-  "country": "Thailand",
-  "day": 6,
-  "kind": "activity",
-  "name": "Wat Pho",
-  "query": "Wat Pho reclining Buddha"
- },
- {
-  "country": "Thailand",
-  "day": 6,
-  "kind": "activity",
-  "name": "Jodd Fairs night market",
-  "query": "Jodd Fairs night market Bangkok"
+  "name": "Topkart Bangkok",
+  "query": "Topkart Bangkok go kart"
  },
  {
   "country": "Thailand",
   "day": 6,
   "kind": "romantic",
-  "name": "Rooftop sky bar",
-  "query": "Bangkok rooftop bar"
+  "name": "Mahanakhon SkyWalk",
+  "query": "Mahanakhon SkyWalk glass floor Bangkok"
  },
  {
   "country": "Thailand",
   "day": 7,
   "kind": "activity",
   "name": "Grand Palace",
-  "query": "Grand Palace Bangkok"
+  "query": "Grand Palace Emerald Buddha Bangkok"
  },
  {
   "country": "Thailand",
   "day": 7,
   "kind": "activity",
-  "name": "ICONSIAM",
-  "query": "ICONSIAM Bangkok"
+  "name": "Wat Pho",
+  "query": "Wat Pho reclining Buddha Bangkok"
  },
  {
   "country": "Thailand",
   "day": 7,
   "kind": "romantic",
-  "name": "River countdown fireworks",
-  "query": "ICONSIAM countdown fireworks"
+  "name": "ICONSIAM countdown fireworks",
+  "query": "ICONSIAM countdown fireworks Chao Phraya"
  },
  {
   "country": "Thailand",
   "day": 8,
   "kind": "activity",
-  "name": "Siam Paragon",
-  "query": "Siam Paragon Bangkok"
+  "name": "ICONSIAM and SookSiam",
+  "query": "ICONSIAM SookSiam Bangkok"
  },
  {
   "country": "Thailand",
   "day": 8,
   "kind": "activity",
   "name": "Yaowarat street food",
-  "query": "Yaowarat Chinatown street food"
+  "query": "Yaowarat Chinatown street food Bangkok night"
+ },
+ {
+  "country": "Thailand",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Yaowarat Road by tuk-tuk",
+  "query": "Yaowarat Road neon night tuk tuk"
  },
  {
   "country": "Vietnam (south)",
   "day": 1,
   "kind": "activity",
-  "name": "Mui Ne beach",
-  "query": "Mui Ne beach Vietnam"
+  "name": "Anantara Mui Ne beach",
+  "query": "Anantara Mui Ne Resort beach"
  },
  {
   "country": "Vietnam (south)",
   "day": 1,
   "kind": "romantic",
-  "name": "Mui Ne seafood",
-  "query": "Mui Ne seafood street"
+  "name": "Dining by Design beach dinner",
+  "query": "Anantara Mui Ne dining by design beach dinner"
  },
  {
   "country": "Vietnam (south)",
   "day": 2,
   "kind": "activity",
   "name": "White Sand Dunes quad bike",
-  "query": "Mui Ne white sand dunes ATV"
+  "query": "Bau Trang white sand dunes quad bike Mui Ne"
  },
  {
   "country": "Vietnam (south)",
   "day": 2,
   "kind": "activity",
-  "name": "Fairy Stream",
-  "query": "Fairy Stream Mui Ne"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 2,
-  "kind": "activity",
-  "name": "Fishing village",
-  "query": "Mui Ne fishing village"
+  "name": "Fairy Stream walk",
+  "query": "Fairy Stream Suoi Tien Mui Ne"
  },
  {
   "country": "Vietnam (south)",
   "day": 2,
   "kind": "romantic",
   "name": "Red Sand Dunes sunset",
-  "query": "Red sand dunes Mui Ne sunset"
+  "query": "Red sand dunes Mui Ne sunset sandboarding"
  },
  {
   "country": "Vietnam (south)",
   "day": 3,
   "kind": "activity",
-  "name": "Kitesurfing lesson",
-  "query": "Mui Ne kitesurfing"
+  "name": "Po Sah Inu Cham Towers",
+  "query": "Po Sah Inu Cham towers Phan Thiet"
  },
  {
   "country": "Vietnam (south)",
   "day": 3,
   "kind": "activity",
-  "name": "Ta Cu cable car",
-  "query": "Ta Cu mountain cable car"
+  "name": "Spice Spoons cooking class",
+  "query": "Anantara Mui Ne Spice Spoons cooking class"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 3,
+  "kind": "romantic",
+  "name": "Anantara Spa",
+  "query": "Anantara Mui Ne spa"
  },
  {
   "country": "Vietnam (south)",
   "day": 4,
   "kind": "activity",
-  "name": "Ben Thanh market",
-  "query": "Ben Thanh market Saigon"
- },
- {
-  "country": "Vietnam (south)",
-  "day": 4,
-  "kind": "activity",
-  "name": "District 1 walk",
-  "query": "Saigon District 1 night"
+  "name": "XO Foodie Tour",
+  "query": "XO Tours Saigon foodie tour motorbike"
  },
  {
   "country": "Vietnam (south)",
   "day": 4,
   "kind": "romantic",
-  "name": "Saigon rooftop bar",
-  "query": "Saigon rooftop bar"
+  "name": "Saigon Saigon Rooftop Bar",
+  "query": "Saigon Saigon Rooftop Bar Caravelle"
  },
  {
   "country": "Vietnam (south)",
   "day": 5,
   "kind": "activity",
-  "name": "Cu Chi Tunnels",
-  "query": "Cu Chi tunnels"
+  "name": "Independence Palace",
+  "query": "Independence Palace Ho Chi Minh City"
  },
  {
   "country": "Vietnam (south)",
   "day": 5,
   "kind": "activity",
-  "name": "Central Post Office",
-  "query": "Saigon Central Post Office"
+  "name": "TGC Speedway go-karting",
+  "query": "City Park The Global City go kart Saigon"
  },
  {
   "country": "Vietnam (south)",
   "day": 5,
   "kind": "romantic",
-  "name": "Saigon River dinner cruise",
-  "query": "Saigon river dinner cruise"
+  "name": "The Deck Saigon",
+  "query": "The Deck Saigon Thao Dien riverside"
  },
  {
   "country": "Vietnam (south)",
   "day": 6,
   "kind": "activity",
-  "name": "Mekong Delta boats",
-  "query": "Mekong Delta tour from Saigon"
+  "name": "Tan Dinh Church",
+  "query": "Tan Dinh pink church Saigon"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 6,
+  "kind": "activity",
+  "name": "Landmark 81 SkyView",
+  "query": "Landmark 81 SkyView Saigon"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 6,
+  "kind": "romantic",
+  "name": "Saigon Princess dinner cruise",
+  "query": "Saigon Princess dinner cruise"
  },
  {
   "country": "Vietnam (south)",
   "day": 7,
   "kind": "activity",
-  "name": "Motorbike food tour",
-  "query": "Saigon motorbike food tour"
+  "name": "AO Show",
+  "query": "AO Show Saigon Opera House"
  },
  {
   "country": "Vietnam (south)",
   "day": 7,
   "kind": "romantic",
-  "name": "Saigon New Year fireworks",
-  "query": "Saigon new year fireworks"
+  "name": "Nguyen Hue countdown",
+  "query": "Nguyen Hue walking street New Year countdown fireworks"
  },
  {
   "country": "Vietnam (south)",
   "day": 8,
   "kind": "activity",
   "name": "Saigon Centre and Takashimaya",
-  "query": "Saigon Centre Takashimaya"
+  "query": "Takashimaya Saigon Centre"
  },
  {
   "country": "Vietnam (south)",
   "day": 8,
   "kind": "activity",
-  "name": "Thao Dien",
-  "query": "Thao Dien Saigon"
+  "name": "Central Post Office",
+  "query": "Saigon Central Post Office"
+ },
+ {
+  "country": "Vietnam (south)",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Book Street",
+  "query": "Nguyen Van Binh book street Saigon"
  },
  {
   "country": "Malaysia",
   "day": 1,
   "kind": "activity",
-  "name": "Pantai Cenang",
-  "query": "Pantai Cenang Langkawi"
+  "name": "Ritz-Carlton Langkawi",
+  "query": "The Ritz-Carlton Langkawi villas rainforest beach"
  },
  {
   "country": "Malaysia",
   "day": 1,
   "kind": "romantic",
-  "name": "Cenang sunset",
-  "query": "Pantai Cenang sunset"
+  "name": "Hai Yan",
+  "query": "Hai Yan restaurant Ritz-Carlton Langkawi"
  },
  {
   "country": "Malaysia",
   "day": 2,
   "kind": "activity",
-  "name": "SkyCab cable car",
-  "query": "Langkawi SkyCab"
+  "name": "SkyCab and Sky Bridge",
+  "query": "Langkawi SkyCab Sky Bridge SkyGlide"
  },
  {
   "country": "Malaysia",
   "day": 2,
   "kind": "activity",
-  "name": "Sky Bridge",
-  "query": "Langkawi Sky Bridge"
- },
- {
-  "country": "Malaysia",
-  "day": 2,
-  "kind": "activity",
-  "name": "Seven Wells waterfall",
-  "query": "Seven Wells waterfall Langkawi"
+  "name": "Morac go-karting",
+  "query": "Morac Adventure Park go kart Langkawi"
  },
  {
   "country": "Malaysia",
   "day": 2,
   "kind": "romantic",
-  "name": "Tanjung Rhu",
-  "query": "Tanjung Rhu Langkawi"
+  "name": "Pantai Cenang fire show",
+  "query": "Pantai Cenang fire show Kalut Langkawi"
  },
  {
   "country": "Malaysia",
   "day": 3,
   "kind": "activity",
-  "name": "Jet-ski island tour",
-  "query": "Langkawi jet ski tour"
- },
- {
-  "country": "Malaysia",
-  "day": 3,
-  "kind": "activity",
-  "name": "Pregnant Maiden Lake",
-  "query": "Pregnant Maiden Lake Langkawi"
+  "name": "Atma Alam batik painting",
+  "query": "Atma Alam Batik Art Village Langkawi"
  },
  {
   "country": "Malaysia",
   "day": 3,
   "kind": "romantic",
   "name": "Sunset dinner cruise",
-  "query": "Langkawi sunset dinner cruise"
+  "query": "Tropical Charters sunset cruise Langkawi"
  },
  {
   "country": "Malaysia",
   "day": 4,
   "kind": "activity",
-  "name": "Kilim mangrove kayak",
-  "query": "Kilim mangrove kayak Langkawi"
+  "name": "Ritz-Carlton private beach",
+  "query": "Ritz-Carlton Langkawi private beach"
  },
  {
   "country": "Malaysia",
   "day": 4,
+  "kind": "romantic",
+  "name": "Overwater spa pavilions",
+  "query": "Ritz-Carlton Spa Langkawi overwater pavilion"
+ },
+ {
+  "country": "Malaysia",
+  "day": 5,
   "kind": "activity",
-  "name": "Kuah duty-free shopping",
-  "query": "Kuah duty free Langkawi"
+  "name": "MaTiC cultural show",
+  "query": "MaTiC cultural dance show Kuala Lumpur"
  },
  {
   "country": "Malaysia",
   "day": 5,
   "kind": "activity",
   "name": "Jalan Alor",
-  "query": "Jalan Alor food street"
+  "query": "Jalan Alor food street Kuala Lumpur"
  },
  {
   "country": "Malaysia",
   "day": 5,
   "kind": "romantic",
-  "name": "Rooftop with tower view",
-  "query": "KL rooftop bar Petronas view"
+  "name": "Marini’s on 57",
+  "query": "Marini's on 57 Kuala Lumpur rooftop Petronas"
  },
  {
   "country": "Malaysia",
   "day": 6,
   "kind": "activity",
-  "name": "Batu Caves",
-  "query": "Batu Caves"
- },
- {
-  "country": "Malaysia",
-  "day": 6,
-  "kind": "activity",
-  "name": "Petronas skybridge",
-  "query": "Petronas Twin Towers skybridge"
- },
- {
-  "country": "Malaysia",
-  "day": 6,
-  "kind": "activity",
-  "name": "Pavilion KL",
-  "query": "Pavilion Kuala Lumpur"
+  "name": "Selangor River rafting",
+  "query": "white water rafting Kuala Kubu Bharu Selangor River"
  },
  {
   "country": "Malaysia",
   "day": 6,
   "kind": "romantic",
-  "name": "KLCC fountain show",
-  "query": "KLCC lake symphony fountain"
+  "name": "KLCC Lake Symphony",
+  "query": "KLCC Lake Symphony fountain show"
  },
  {
   "country": "Malaysia",
   "day": 7,
   "kind": "activity",
-  "name": "Sunway Lagoon",
-  "query": "Sunway Lagoon"
+  "name": "LaZat cooking class",
+  "query": "LaZat Malaysian cooking class Kuala Lumpur"
  },
  {
   "country": "Malaysia",
   "day": 7,
   "kind": "romantic",
-  "name": "KLCC fireworks",
-  "query": "KLCC new year fireworks"
+  "name": "KLCC countdown fireworks",
+  "query": "KLCC New Year countdown fireworks Petronas Towers"
  },
  {
   "country": "Malaysia",
   "day": 8,
   "kind": "activity",
   "name": "Merdeka Square",
-  "query": "Merdeka Square Kuala Lumpur"
+  "query": "Merdeka Square Sultan Abdul Samad Building Kuala Lumpur"
  },
  {
   "country": "Malaysia",
   "day": 8,
   "kind": "activity",
-  "name": "Mid Valley Megamall",
-  "query": "Mid Valley Megamall"
+  "name": "Aquaria KLCC",
+  "query": "Aquaria KLCC Kuala Lumpur"
+ },
+ {
+  "country": "Malaysia",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Four Seasons afternoon tea",
+  "query": "Four Seasons Kuala Lumpur afternoon tea lounge"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 1,
   "kind": "activity",
-  "name": "Coron arrival",
-  "query": "Coron Palawan"
+  "name": "Two Seasons Coron Island",
+  "query": "Two Seasons Coron Island Resort"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 1,
+  "kind": "romantic",
+  "name": "Christmas beach dinner",
+  "query": "Two Seasons Coron Island Resort beach dinner"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 2,
   "kind": "activity",
-  "name": "Kayangan Lake",
-  "query": "Kayangan Lake Coron"
+  "name": "Resort beach and sandbar",
+  "query": "Two Seasons Coron Island Resort beach sandbar"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 2,
   "kind": "activity",
-  "name": "Twin Lagoon",
-  "query": "Twin Lagoon Coron"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 2,
-  "kind": "activity",
-  "name": "Barracuda Lake",
-  "query": "Barracuda Lake Coron"
+  "name": "Resort pool",
+  "query": "Two Seasons Coron Island Resort pool"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 2,
   "kind": "romantic",
-  "name": "Maquinit hot springs",
-  "query": "Maquinit hot springs Coron"
+  "name": "Couples massage",
+  "query": "Two Seasons Coron Island Resort spa"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 3,
   "kind": "activity",
-  "name": "Shipwreck snorkeling",
-  "query": "Coron shipwreck snorkeling"
+  "name": "Mount Tapyas climb",
+  "query": "Mount Tapyas Coron"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 3,
   "kind": "activity",
-  "name": "Siete Pecados",
-  "query": "Siete Pecados Coron"
+  "name": "Coron public market",
+  "query": "Coron public market Palawan"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 3,
-  "kind": "activity",
-  "name": "Mount Tapyas",
-  "query": "Mount Tapyas Coron sunset"
+  "kind": "romantic",
+  "name": "Tapyas view",
+  "query": "Mount Tapyas view Coron Bay"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 4,
   "kind": "activity",
-  "name": "Coron to El Nido ferry",
-  "query": "Coron to El Nido ferry"
+  "name": "AirSWIFT to El Nido",
+  "query": "AirSWIFT Busuanga to El Nido flight"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 4,
   "kind": "activity",
-  "name": "Las Cabanas beach",
-  "query": "Las Cabanas beach El Nido"
+  "name": "Lio Beach",
+  "query": "Lio Beach El Nido"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 4,
   "kind": "romantic",
-  "name": "Las Cabanas sunset",
-  "query": "Las Cabanas sunset El Nido"
+  "name": "Kalye Artisano",
+  "query": "Kalye Artisano Lio El Nido"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 5,
   "kind": "activity",
   "name": "Big Lagoon kayak",
-  "query": "El Nido Big Lagoon kayak"
+  "query": "Big Lagoon El Nido kayak"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 5,
   "kind": "activity",
-  "name": "Secret Lagoon",
-  "query": "Secret Lagoon El Nido"
+  "name": "Seven Commandos Beach",
+  "query": "Seven Commandos Beach El Nido"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 5,
+  "kind": "romantic",
+  "name": "Lunch on the boat",
+  "query": "El Nido private boat tour lunch"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 6,
   "kind": "activity",
-  "name": "Island Tour C",
-  "query": "El Nido Tour C"
+  "name": "Filipino cooking class",
+  "query": "El Nido Filipino cooking class"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 6,
   "kind": "activity",
-  "name": "Hidden Beach",
-  "query": "Hidden Beach El Nido"
+  "name": "Las Cabanas zipline",
+  "query": "Las Cabanas zipline El Nido Depeldet Island"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 6,
   "kind": "romantic",
-  "name": "Private boat tour",
-  "query": "El Nido private boat tour"
+  "name": "Lio Beach stargazing",
+  "query": "Lio Beach El Nido night"
  },
  {
   "country": "Philippines (Palawan)",
   "day": 7,
+  "kind": "activity",
+  "name": "Taraw Cliff via ferrata",
+  "query": "Taraw Cliff canopy walk El Nido"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 7,
+  "kind": "romantic",
+  "name": "Rooftop countdown",
+  "query": "El Nido New Year fireworks Bacuit Bay"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 8,
+  "kind": "activity",
+  "name": "Scooter to Nacpan",
+  "query": "El Nido scooter ride to Nacpan Beach"
+ },
+ {
+  "country": "Philippines (Palawan)",
+  "day": 8,
   "kind": "activity",
   "name": "Nacpan Beach",
   "query": "Nacpan Beach El Nido"
  },
  {
   "country": "Philippines (Palawan)",
-  "day": 7,
-  "kind": "activity",
-  "name": "Las Cabanas zipline",
-  "query": "Las Cabanas zipline El Nido"
- },
- {
-  "country": "Philippines (Palawan)",
-  "day": 8,
-  "kind": "activity",
-  "name": "Taraw Cliff climb",
-  "query": "Taraw Cliff El Nido"
- },
- {
-  "country": "Philippines (Palawan)",
   "day": 8,
   "kind": "romantic",
-  "name": "Marimegmeg sunset",
-  "query": "Marimegmeg beach sunset"
+  "name": "Nacpan hammock",
+  "query": "Nacpan Beach hammock coconut"
  },
  {
   "country": "Maldives",
   "day": 1,
   "kind": "activity",
-  "name": "Maafushi island",
-  "query": "Maafushi Maldives"
+  "name": "Maafushi village walk",
+  "query": "Maafushi local island village walk"
+ },
+ {
+  "country": "Maldives",
+  "day": 1,
+  "kind": "romantic",
+  "name": "Bikini Beach sunset",
+  "query": "Maafushi bikini beach sunset"
  },
  {
   "country": "Maldives",
   "day": 2,
   "kind": "activity",
-  "name": "Turtle snorkeling",
-  "query": "Maafushi snorkeling turtles"
+  "name": "Bikini Beach swim",
+  "query": "Maafushi bikini beach swimming"
  },
  {
   "country": "Maldives",
   "day": 2,
-  "kind": "activity",
-  "name": "Sandbank picnic",
-  "query": "Maldives sandbank picnic"
+  "kind": "romantic",
+  "name": "Beach stargazing",
+  "query": "Maldives night sky stars beach"
  },
  {
   "country": "Maldives",
   "day": 3,
   "kind": "activity",
-  "name": "Nurse sharks and stingrays",
-  "query": "Maldives nurse sharks stingrays snorkel"
- },
- {
-  "country": "Maldives",
-  "day": 3,
-  "kind": "activity",
-  "name": "Intro scuba dive",
-  "query": "Maldives discover scuba dive"
+  "name": "Jet ski and jet car",
+  "query": "Maafushi jet ski jet car"
  },
  {
   "country": "Maldives",
   "day": 3,
   "kind": "romantic",
-  "name": "Dolphin cruise",
-  "query": "Maldives sunset dolphin cruise"
+  "name": "Tandem parasailing",
+  "query": "Maafushi tandem parasailing"
  },
  {
   "country": "Maldives",
   "day": 4,
   "kind": "activity",
-  "name": "Parasailing",
-  "query": "Maldives parasailing"
+  "name": "Souvenir shopping",
+  "query": "Maafushi souvenir shops village"
  },
  {
   "country": "Maldives",
   "day": 4,
   "kind": "activity",
-  "name": "Night fishing",
-  "query": "Maldives night fishing"
+  "name": "Dolphin-watching cruise",
+  "query": "Maafushi dolphin watching cruise"
  },
  {
   "country": "Maldives",
   "day": 5,
   "kind": "activity",
-  "name": "Resort day pass",
-  "query": "Maldives resort day trip"
+  "name": "Malé city walk",
+  "query": "Male Maldives city walking tour fish market"
+ },
+ {
+  "country": "Maldives",
+  "day": 5,
+  "kind": "activity",
+  "name": "Old Friday Mosque",
+  "query": "Hukuru Miskiy Old Friday Mosque Male"
+ },
+ {
+  "country": "Maldives",
+  "day": 5,
+  "kind": "romantic",
+  "name": "Champagne and oysters on the beach",
+  "query": "Niva Velassaru Maldives beach"
  },
  {
   "country": "Maldives",
   "day": 6,
   "kind": "activity",
-  "name": "Overwater villa",
-  "query": "Velassaru Maldives overwater villa"
+  "name": "LIME overwater spa",
+  "query": "Velassaru Maldives overwater spa"
  },
  {
   "country": "Maldives",
   "day": 6,
   "kind": "activity",
-  "name": "House-reef snorkeling",
-  "query": "Maldives house reef snorkeling"
+  "name": "Japanese brunch at Sora",
+  "query": "Niva Velassaru Sora overwater restaurant"
  },
  {
   "country": "Maldives",
   "day": 6,
   "kind": "romantic",
-  "name": "Beach dinner",
-  "query": "Maldives private beach dinner"
+  "name": "Cinema Under the Stars",
+  "query": "Maldives resort cinema under the stars beach"
  },
  {
   "country": "Maldives",
   "day": 7,
   "kind": "activity",
-  "name": "Paddle-boarding",
-  "query": "Maldives paddle board lagoon"
+  "name": "Tennis session",
+  "query": "Velassaru Maldives tennis court"
+ },
+ {
+  "country": "Maldives",
+  "day": 7,
+  "kind": "activity",
+  "name": "New Year’s Eve dinner",
+  "query": "Velassaru Maldives New Year's Eve dinner"
+ },
+ {
+  "country": "Maldives",
+  "day": 7,
+  "kind": "romantic",
+  "name": "Pure Celestial beach party",
+  "query": "Maldives resort New Year's Eve beach party"
  },
  {
   "country": "Maldives",
   "day": 8,
   "kind": "activity",
-  "name": "Overwater spa",
-  "query": "Maldives overwater spa"
+  "name": "Coral adoption",
+  "query": "Velassaru coral frame adoption"
+ },
+ {
+  "country": "Maldives",
+  "day": 8,
+  "kind": "activity",
+  "name": "Final beach swim",
+  "query": "Velassaru Maldives beach lagoon"
+ },
+ {
+  "country": "Maldives",
+  "day": 8,
+  "kind": "romantic",
+  "name": "Private beach cabana dinner",
+  "query": "Niva Velassaru private beach dinner"
  }
 ]
