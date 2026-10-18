@@ -1,0 +1,4 @@
+# The global gitignore excludes .claude/**; project skills are shared through the repo.
+!.claude/skills/
+!.claude/skills/**
+__pycache__/

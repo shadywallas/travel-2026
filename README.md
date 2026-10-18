@@ -10,6 +10,7 @@ A small static website comparing warm two-stop routes for 24 Dec to 2 Jan, with 
 - `data/activities.json` - activity names and the search words used for video and photo links
 - `data/hotels.json` - recommended hotel per stop, with its Booking.com listing (`booking_url`) and photo (`image`)
 - `data/prices.json` - estimated costs for two people in US dollars, one row per cost line (see below)
+- `data/climate.json` - late-December climate averages per city, used to work out the weather in `trips.json` (see Weather)
 
 To change the trip, edit the JSON files and commit; the page reads them on load.
 
@@ -28,6 +29,24 @@ Each row in `data/prices.json` is one cost line:
 - `source` is the page the price came from, or an empty string for an estimate.
 
 The page adds the rows up into a total per day, per city and per destination, shown in the table, on the phone cards and inside each plan. To change a price, edit its row; to add a cost, add a row.
+
+## Weather
+
+The weather skill (below) works out `day_c`, `night_c`, `feels_c`, `humidity_pct`, `rain` and `rain_level` in `trips.json` from `data/climate.json`, which has one row per city with its December averages and the page they came from. Each city counts for its number of days in the day plan. Feels like is the heat index at the day temperature, using the afternoon humidity. Until the skill has been run for a destination, its weather values are earlier estimates and `data/climate.json` may not exist yet.
+
+## Updating prices and weather with Claude Code
+
+Two project skills in `.claude/skills/` keep these up to date after you add a destination or city, change day plans, activities or hotels, or change a route's days:
+
+- `/update-prices` finds the days whose plan changed since the prices were last updated, re-prices them and checks `prices.json` against the plans.
+- `/update-weather` researches climate averages for any new city and recalculates the weather fields.
+
+They run only when you ask, with the slash command or in words, such as "update the prices for the Maldives". Their scripts can also be run on their own from the repository root:
+
+```bash
+python3 .claude/skills/update-prices/scripts/check_prices.py --country Maldives
+python3 .claude/skills/update-weather/scripts/weather.py          # add --write to save
+```
 
 ## Publish with GitHub Pages
 
